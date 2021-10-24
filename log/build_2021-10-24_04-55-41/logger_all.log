@@ -1,0 +1,336 @@
+[1.051s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.051s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9ea9df9fd0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=3, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9ea9df9fd0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f9ea9e04520>)
+[1.067s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.067s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.069s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rsa2021/py_pub_sub'
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_publisher) by extensions ['ignore', 'ignore_ament_install']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_publisher) by extension 'ignore'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_publisher) by extension 'ignore_ament_install'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_publisher) by extensions ['colcon_pkg']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_publisher) by extension 'colcon_pkg'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_publisher) by extensions ['colcon_meta']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_publisher) by extension 'colcon_meta'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_publisher) by extensions ['ros']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_publisher) by extension 'ros'
+[1.143s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_publisher' with type 'ros.ament_cmake' and name 'image_publisher'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher3431) by extensions ['ignore', 'ignore_ament_install']
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher3431) by extension 'ignore'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher3431) by extension 'ignore_ament_install'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher3431) by extensions ['colcon_pkg']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher3431) by extension 'colcon_pkg'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher3431) by extensions ['colcon_meta']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher3431) by extension 'colcon_meta'
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher3431) by extensions ['ros']
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher3431) by extension 'ros'
+[1.149s] DEBUG:colcon.colcon_core.package_identification:Package 'src/publisher3431' with type 'ros.ament_python' and name 'publisher3431'
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/zbar_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/zbar_ros) by extension 'ignore'
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/zbar_ros) by extension 'ignore_ament_install'
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/zbar_ros) by extensions ['colcon_pkg']
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/zbar_ros) by extension 'colcon_pkg'
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/zbar_ros) by extensions ['colcon_meta']
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/zbar_ros) by extension 'colcon_meta'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/zbar_ros) by extensions ['ros']
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/zbar_ros) by extension 'ros'
+[1.154s] DEBUG:colcon.colcon_core.package_identification:Package 'src/zbar_ros' with type 'ros.ament_cmake' and name 'zbar_ros'
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/zbar_ros_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/zbar_ros_interfaces) by extension 'ignore'
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/zbar_ros_interfaces) by extension 'ignore_ament_install'
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/zbar_ros_interfaces) by extensions ['colcon_pkg']
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/zbar_ros_interfaces) by extension 'colcon_pkg'
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/zbar_ros_interfaces) by extensions ['colcon_meta']
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/zbar_ros_interfaces) by extension 'colcon_meta'
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/zbar_ros_interfaces) by extensions ['ros']
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/zbar_ros_interfaces) by extension 'ros'
+[1.158s] DEBUG:colcon.colcon_core.package_identification:Package 'src/zbar_ros_interfaces' with type 'ros.ament_cmake' and name 'zbar_ros_interfaces'
+[1.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.222s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_args' from command line to 'None'
+[1.222s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_target' from command line to 'None'
+[1.222s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.223s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[1.223s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[1.223s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[1.223s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[1.223s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[1.223s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.223s] DEBUG:colcon.colcon_core.verb:Building package 'image_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rsa2021/py_pub_sub/build/image_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rsa2021/py_pub_sub/install/image_publisher', 'merge_install': False, 'path': '/home/rsa2021/py_pub_sub/src/image_publisher', 'symlink_install': False, 'test_result_base': None}
+[1.234s] Level 5:colcon.colcon_core.verb:set package 'publisher3431' build argument 'cmake_args' from command line to 'None'
+[1.234s] Level 5:colcon.colcon_core.verb:set package 'publisher3431' build argument 'cmake_target' from command line to 'None'
+[1.234s] Level 5:colcon.colcon_core.verb:set package 'publisher3431' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.234s] Level 5:colcon.colcon_core.verb:set package 'publisher3431' build argument 'cmake_clean_cache' from command line to 'False'
+[1.234s] Level 5:colcon.colcon_core.verb:set package 'publisher3431' build argument 'cmake_clean_first' from command line to 'False'
+[1.234s] Level 5:colcon.colcon_core.verb:set package 'publisher3431' build argument 'cmake_force_configure' from command line to 'False'
+[1.234s] Level 5:colcon.colcon_core.verb:set package 'publisher3431' build argument 'ament_cmake_args' from command line to 'None'
+[1.234s] Level 5:colcon.colcon_core.verb:set package 'publisher3431' build argument 'catkin_cmake_args' from command line to 'None'
+[1.234s] Level 5:colcon.colcon_core.verb:set package 'publisher3431' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.234s] DEBUG:colcon.colcon_core.verb:Building package 'publisher3431' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rsa2021/py_pub_sub/build/publisher3431', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rsa2021/py_pub_sub/install/publisher3431', 'merge_install': False, 'path': '/home/rsa2021/py_pub_sub/src/publisher3431', 'symlink_install': False, 'test_result_base': None}
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'zbar_ros_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'zbar_ros_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'zbar_ros_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'zbar_ros_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'zbar_ros_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'zbar_ros_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'zbar_ros_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.242s] Level 5:colcon.colcon_core.verb:set package 'zbar_ros_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.242s] Level 5:colcon.colcon_core.verb:set package 'zbar_ros_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.242s] DEBUG:colcon.colcon_core.verb:Building package 'zbar_ros_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rsa2021/py_pub_sub/build/zbar_ros_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces', 'merge_install': False, 'path': '/home/rsa2021/py_pub_sub/src/zbar_ros_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.249s] Level 5:colcon.colcon_core.verb:set package 'zbar_ros' build argument 'cmake_args' from command line to 'None'
+[1.249s] Level 5:colcon.colcon_core.verb:set package 'zbar_ros' build argument 'cmake_target' from command line to 'None'
+[1.249s] Level 5:colcon.colcon_core.verb:set package 'zbar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.249s] Level 5:colcon.colcon_core.verb:set package 'zbar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.249s] Level 5:colcon.colcon_core.verb:set package 'zbar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.250s] Level 5:colcon.colcon_core.verb:set package 'zbar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.250s] Level 5:colcon.colcon_core.verb:set package 'zbar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.250s] Level 5:colcon.colcon_core.verb:set package 'zbar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.250s] Level 5:colcon.colcon_core.verb:set package 'zbar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.250s] DEBUG:colcon.colcon_core.verb:Building package 'zbar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rsa2021/py_pub_sub/build/zbar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rsa2021/py_pub_sub/install/zbar_ros', 'merge_install': False, 'path': '/home/rsa2021/py_pub_sub/src/zbar_ros', 'symlink_install': False, 'test_result_base': None}
+[1.252s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.257s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.258s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rsa2021/py_pub_sub/src/zbar_ros_interfaces' with build type 'ament_cmake'
+[1.258s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rsa2021/py_pub_sub/src/zbar_ros_interfaces'
+[1.271s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.271s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.272s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.284s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.295s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rsa2021/py_pub_sub/src/image_publisher' with build type 'ament_cmake'
+[1.296s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rsa2021/py_pub_sub/src/image_publisher'
+[1.298s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.298s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.305s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.319s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rsa2021/py_pub_sub/src/publisher3431' with build type 'ament_python'
+[1.320s] Level 1:colcon.colcon_core.shell:create_environment_hook('publisher3431', 'ament_prefix_path')
+[1.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsa2021/py_pub_sub/install/publisher3431/share/publisher3431/hook/ament_prefix_path.ps1'
+[1.334s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsa2021/py_pub_sub/install/publisher3431/share/publisher3431/hook/ament_prefix_path.dsv'
+[1.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsa2021/py_pub_sub/install/publisher3431/share/publisher3431/hook/ament_prefix_path.sh'
+[1.342s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.342s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.348s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rsa2021/py_pub_sub/build/zbar_ros_interfaces': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher /usr/bin/cmake --build /home/rsa2021/py_pub_sub/build/zbar_ros_interfaces -- -j3 -l3
+[1.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rsa2021/py_pub_sub/build/image_publisher': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher /usr/bin/cmake --build /home/rsa2021/py_pub_sub/build/image_publisher -- -j3 -l3
+[3.127s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rsa2021/py_pub_sub/src/publisher3431'
+[3.135s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.135s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.161s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[3.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rsa2021/py_pub_sub/src/publisher3431': PYTHONPATH=/home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/publisher3431 build --build-base /home/rsa2021/py_pub_sub/build/publisher3431/build install --prefix /home/rsa2021/py_pub_sub/install/publisher3431 --record /home/rsa2021/py_pub_sub/build/publisher3431/install.log --single-version-externally-managed
+[3.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rsa2021/py_pub_sub/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher /usr/bin/cmake --build /home/rsa2021/py_pub_sub/build/image_publisher -- -j3 -l3
+[3.663s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rsa2021/py_pub_sub/build/image_publisher': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher /usr/bin/cmake --install /home/rsa2021/py_pub_sub/build/image_publisher
+[3.809s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_publisher)
+[3.818s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rsa2021/py_pub_sub/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher /usr/bin/cmake --install /home/rsa2021/py_pub_sub/build/image_publisher
+[3.848s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/image_publisher' for CMake module files
+[3.850s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/image_publisher' for CMake config files
+[3.867s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_publisher', 'cmake_prefix_path')
+[3.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/hook/cmake_prefix_path.ps1'
+[3.879s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/hook/cmake_prefix_path.dsv'
+[3.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/hook/cmake_prefix_path.sh'
+[3.884s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/image_publisher/lib'
+[3.885s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/image_publisher/bin'
+[3.885s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_publisher', 'path')
+[3.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/hook/path.ps1'
+[3.888s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/hook/path.dsv'
+[3.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/hook/path.sh'
+[3.898s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/image_publisher/lib/pkgconfig/image_publisher.pc'
+[3.899s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/image_publisher/lib/python3.8/site-packages'
+[3.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/package.ps1'
+[3.903s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/package.dsv'
+[3.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/package.sh'
+[3.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/package.bash'
+[3.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/package.zsh'
+[3.941s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rsa2021/py_pub_sub/install/image_publisher/share/colcon-core/packages/image_publisher)
+[4.289s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_publisher)
+[4.298s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/image_publisher' for CMake module files
+[4.300s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/image_publisher' for CMake config files
+[4.313s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_publisher', 'cmake_prefix_path')
+[4.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/hook/cmake_prefix_path.ps1'
+[4.343s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/hook/cmake_prefix_path.dsv'
+[4.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/hook/cmake_prefix_path.sh'
+[4.352s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/image_publisher/lib'
+[4.352s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/image_publisher/bin'
+[4.357s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_publisher', 'path')
+[4.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/hook/path.ps1'
+[4.366s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/hook/path.dsv'
+[4.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/hook/path.sh'
+[4.375s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/image_publisher/lib/pkgconfig/image_publisher.pc'
+[4.379s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/image_publisher/lib/python3.8/site-packages'
+[4.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/package.ps1'
+[4.390s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/package.dsv'
+[4.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/package.sh'
+[4.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/package.bash'
+[4.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/package.zsh'
+[4.415s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rsa2021/py_pub_sub/install/image_publisher/share/colcon-core/packages/image_publisher)
+[4.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rsa2021/py_pub_sub/build/zbar_ros_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher /usr/bin/cmake --build /home/rsa2021/py_pub_sub/build/zbar_ros_interfaces -- -j3 -l3
+[5.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rsa2021/py_pub_sub/build/zbar_ros_interfaces': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher /usr/bin/cmake --install /home/rsa2021/py_pub_sub/build/zbar_ros_interfaces
+[5.713s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/publisher3431' for CMake module files
+[5.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rsa2021/py_pub_sub/src/publisher3431' returned '0': PYTHONPATH=/home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/publisher3431 build --build-base /home/rsa2021/py_pub_sub/build/publisher3431/build install --prefix /home/rsa2021/py_pub_sub/install/publisher3431 --record /home/rsa2021/py_pub_sub/build/publisher3431/install.log --single-version-externally-managed
+[5.721s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/publisher3431' for CMake config files
+[5.730s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/publisher3431/lib'
+[5.731s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/publisher3431/bin'
+[5.731s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/publisher3431/lib/pkgconfig/publisher3431.pc'
+[5.731s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages'
+[5.732s] Level 1:colcon.colcon_core.shell:create_environment_hook('publisher3431', 'pythonpath')
+[5.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsa2021/py_pub_sub/install/publisher3431/share/publisher3431/hook/pythonpath.ps1'
+[5.741s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsa2021/py_pub_sub/install/publisher3431/share/publisher3431/hook/pythonpath.dsv'
+[5.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsa2021/py_pub_sub/install/publisher3431/share/publisher3431/hook/pythonpath.sh'
+[5.768s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(publisher3431)
+[5.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsa2021/py_pub_sub/install/publisher3431/share/publisher3431/package.ps1'
+[5.779s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rsa2021/py_pub_sub/install/publisher3431/share/publisher3431/package.dsv'
+[5.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsa2021/py_pub_sub/install/publisher3431/share/publisher3431/package.sh'
+[5.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsa2021/py_pub_sub/install/publisher3431/share/publisher3431/package.bash'
+[5.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsa2021/py_pub_sub/install/publisher3431/share/publisher3431/package.zsh'
+[5.794s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rsa2021/py_pub_sub/install/publisher3431/share/colcon-core/packages/publisher3431)
+[5.803s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zbar_ros_interfaces)
+[5.807s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces' for CMake module files
+[5.812s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces' for CMake config files
+[5.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rsa2021/py_pub_sub/build/zbar_ros_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher /usr/bin/cmake --install /home/rsa2021/py_pub_sub/build/zbar_ros_interfaces
+[5.816s] Level 1:colcon.colcon_core.shell:create_environment_hook('zbar_ros_interfaces', 'cmake_prefix_path')
+[5.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/hook/cmake_prefix_path.ps1'
+[5.821s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/hook/cmake_prefix_path.dsv'
+[5.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/hook/cmake_prefix_path.sh'
+[5.828s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib'
+[5.829s] Level 1:colcon.colcon_core.shell:create_environment_hook('zbar_ros_interfaces', 'ld_library_path_lib')
+[5.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/hook/ld_library_path_lib.ps1'
+[5.835s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/hook/ld_library_path_lib.dsv'
+[5.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/hook/ld_library_path_lib.sh'
+[5.839s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/bin'
+[5.839s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/pkgconfig/zbar_ros_interfaces.pc'
+[5.840s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages'
+[5.840s] Level 1:colcon.colcon_core.shell:create_environment_hook('zbar_ros_interfaces', 'pythonpath')
+[5.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/hook/pythonpath.ps1'
+[5.844s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/hook/pythonpath.dsv'
+[5.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/hook/pythonpath.sh'
+[5.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/package.ps1'
+[5.859s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/package.dsv'
+[5.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/package.sh'
+[5.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/package.bash'
+[5.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/package.zsh'
+[5.874s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/colcon-core/packages/zbar_ros_interfaces)
+[6.129s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zbar_ros_interfaces)
+[6.137s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces' for CMake module files
+[6.140s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces' for CMake config files
+[6.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('zbar_ros_interfaces', 'cmake_prefix_path')
+[6.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/hook/cmake_prefix_path.ps1'
+[6.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/hook/cmake_prefix_path.dsv'
+[6.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/hook/cmake_prefix_path.sh'
+[6.155s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib'
+[6.155s] Level 1:colcon.colcon_core.shell:create_environment_hook('zbar_ros_interfaces', 'ld_library_path_lib')
+[6.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/hook/ld_library_path_lib.ps1'
+[6.164s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/hook/ld_library_path_lib.dsv'
+[6.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/hook/ld_library_path_lib.sh'
+[6.167s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/bin'
+[6.168s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/pkgconfig/zbar_ros_interfaces.pc'
+[6.168s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages'
+[6.168s] Level 1:colcon.colcon_core.shell:create_environment_hook('zbar_ros_interfaces', 'pythonpath')
+[6.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/hook/pythonpath.ps1'
+[6.174s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/hook/pythonpath.dsv'
+[6.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/hook/pythonpath.sh'
+[6.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/package.ps1'
+[6.188s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/package.dsv'
+[6.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/package.sh'
+[6.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/package.bash'
+[6.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/package.zsh'
+[6.203s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/colcon-core/packages/zbar_ros_interfaces)
+[6.205s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rsa2021/py_pub_sub/src/zbar_ros' with build type 'ament_cmake'
+[6.206s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rsa2021/py_pub_sub/src/zbar_ros'
+[6.208s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.209s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.224s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[6.287s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rsa2021/py_pub_sub/build/zbar_ros': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher /usr/bin/cmake --build /home/rsa2021/py_pub_sub/build/zbar_ros -- -j3 -l3
+[6.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rsa2021/py_pub_sub/build/zbar_ros' returned '0': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher /usr/bin/cmake --build /home/rsa2021/py_pub_sub/build/zbar_ros -- -j3 -l3
+[6.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rsa2021/py_pub_sub/build/zbar_ros': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher /usr/bin/cmake --install /home/rsa2021/py_pub_sub/build/zbar_ros
+[7.068s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zbar_ros)
+[7.069s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rsa2021/py_pub_sub/build/zbar_ros' returned '0': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher /usr/bin/cmake --install /home/rsa2021/py_pub_sub/build/zbar_ros
+[7.076s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/zbar_ros' for CMake module files
+[7.079s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/zbar_ros' for CMake config files
+[7.083s] Level 1:colcon.colcon_core.shell:create_environment_hook('zbar_ros', 'cmake_prefix_path')
+[7.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/hook/cmake_prefix_path.ps1'
+[7.088s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/hook/cmake_prefix_path.dsv'
+[7.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/hook/cmake_prefix_path.sh'
+[7.096s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/zbar_ros/lib'
+[7.098s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/zbar_ros/bin'
+[7.099s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/zbar_ros/lib/pkgconfig/zbar_ros.pc'
+[7.099s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/zbar_ros/lib/python3.8/site-packages'
+[7.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/package.ps1'
+[7.107s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/package.dsv'
+[7.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/package.sh'
+[7.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/package.bash'
+[7.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/package.zsh'
+[7.121s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rsa2021/py_pub_sub/install/zbar_ros/share/colcon-core/packages/zbar_ros)
+[7.287s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zbar_ros)
+[7.291s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/zbar_ros' for CMake module files
+[7.296s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/zbar_ros' for CMake config files
+[7.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('zbar_ros', 'cmake_prefix_path')
+[7.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/hook/cmake_prefix_path.ps1'
+[7.303s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/hook/cmake_prefix_path.dsv'
+[7.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/hook/cmake_prefix_path.sh'
+[7.309s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/zbar_ros/lib'
+[7.309s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/zbar_ros/bin'
+[7.310s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/zbar_ros/lib/pkgconfig/zbar_ros.pc'
+[7.310s] Level 1:colcon.colcon_core.environment:checking '/home/rsa2021/py_pub_sub/install/zbar_ros/lib/python3.8/site-packages'
+[7.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/package.ps1'
+[7.313s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/package.dsv'
+[7.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/package.sh'
+[7.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/package.bash'
+[7.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/package.zsh'
+[7.324s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rsa2021/py_pub_sub/install/zbar_ros/share/colcon-core/packages/zbar_ros)
+[7.326s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.329s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.330s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.330s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.377s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.378s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.378s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.449s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.452s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rsa2021/py_pub_sub/install/local_setup.ps1'
+[7.459s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rsa2021/py_pub_sub/install/_local_setup_util_ps1.py'
+[7.473s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rsa2021/py_pub_sub/install/setup.ps1'
+[7.486s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rsa2021/py_pub_sub/install/local_setup.sh'
+[7.493s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rsa2021/py_pub_sub/install/_local_setup_util_sh.py'
+[7.497s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rsa2021/py_pub_sub/install/setup.sh'
+[7.527s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rsa2021/py_pub_sub/install/local_setup.bash'
+[7.529s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rsa2021/py_pub_sub/install/setup.bash'
+[7.538s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rsa2021/py_pub_sub/install/local_setup.zsh'
+[7.540s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rsa2021/py_pub_sub/install/setup.zsh'

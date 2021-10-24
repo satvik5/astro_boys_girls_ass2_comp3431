@@ -1,0 +1,12 @@
+[0.096s] Invoking command in '/home/rsa2021/py_pub_sub/build/zbar_ros': AMENT_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy LD_LIBRARY_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rsa2021/py_pub_sub/build/zbar_ros -- -j3 -l3
+[0.478s] [35m[1mScanning dependencies of target barcode_reader_node[0m
+[0.653s] [ 25%] [32mBuilding CXX object CMakeFiles/barcode_reader_node.dir/src/barcode_reader_node.cpp.o[0m
+[2.125s] In file included from [01m[K/home/rsa2021/py_pub_sub/src/zbar_ros/src/barcode_reader_node.cpp:33[m[K:
+[2.128s] [01m[K/home/rsa2021/py_pub_sub/src/zbar_ros/include/zbar_ros/barcode_reader_node.hpp:35:10:[m[K [01;31m[Kfatal error: [m[K./zbar.h: No such file or directory
+[2.130s]    35 | #include [01;31m[K"./zbar.h"[m[K
+[2.132s]       |          [01;31m[K^~~~~~~~~~[m[K
+[2.132s] compilation terminated.
+[2.142s] make[2]: *** [CMakeFiles/barcode_reader_node.dir/build.make:63: CMakeFiles/barcode_reader_node.dir/src/barcode_reader_node.cpp.o] Error 1
+[2.142s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/barcode_reader_node.dir/all] Error 2
+[2.143s] make: *** [Makefile:141: all] Error 2
+[2.171s] Invoked command in '/home/rsa2021/py_pub_sub/build/zbar_ros' returned '2': AMENT_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy LD_LIBRARY_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rsa2021/py_pub_sub/build/zbar_ros -- -j3 -l3

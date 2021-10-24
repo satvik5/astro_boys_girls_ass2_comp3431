@@ -1,0 +1,203 @@
+[0.000000] (-) TimerEvent: {}
+[0.001485] (-) JobUnselected: {'identifier': 'publisher3431'}
+[0.001682] (-) JobUnselected: {'identifier': 'zbar_ros_interfaces'}
+[0.001926] (zbar_ros) JobQueued: {'identifier': 'zbar_ros', 'dependencies': OrderedDict([('zbar_ros_interfaces', '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces')])}
+[0.002135] (zbar_ros) JobStarted: {'identifier': 'zbar_ros'}
+[0.049253] (zbar_ros) JobProgress: {'identifier': 'zbar_ros', 'progress': 'cmake'}
+[0.051552] (zbar_ros) JobProgress: {'identifier': 'zbar_ros', 'progress': 'build'}
+[0.055011] (zbar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rsa2021/py_pub_sub/build/zbar_ros', '--', '-j3', '-l3'], 'cwd': '/home/rsa2021/py_pub_sub/build/zbar_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('USER', 'rsa2021'), ('SSH_AGENT_PID', '1838'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rsa2021'), ('OLDPWD', '/home/rsa2021/py_pub_sub/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1666'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rsa2021/py_pub_sub/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rsa2021'), ('JOURNAL_STREAM', '8:55897'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rsa2021'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1873,unix/ubuntu:/tmp/.ICE-unix/1873'), ('INVOCATION_ID', 'f7d49d7902824afe95d0c6f73a523eff'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e86a6970_46f9_417f_8113_a9e800aca686'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rsa2021/py_pub_sub/build/zbar_ros'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages:/home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy')]), 'shell': False}
+[0.097837] (-) TimerEvent: {}
+[0.198927] (-) TimerEvent: {}
+[0.219073] (zbar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target barcode_reader_node\x1b[0m\n'}
+[0.299518] (-) TimerEvent: {}
+[0.324961] (zbar_ros) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/barcode_reader_node.dir/src/barcode_reader_node.cpp.o\x1b[0m\n'}
+[0.400316] (-) TimerEvent: {}
+[0.501509] (-) TimerEvent: {}
+[0.602666] (-) TimerEvent: {}
+[0.703863] (-) TimerEvent: {}
+[0.805000] (-) TimerEvent: {}
+[0.906182] (-) TimerEvent: {}
+[1.007333] (-) TimerEvent: {}
+[1.108625] (-) TimerEvent: {}
+[1.209725] (-) TimerEvent: {}
+[1.310944] (-) TimerEvent: {}
+[1.412406] (-) TimerEvent: {}
+[1.513906] (-) TimerEvent: {}
+[1.615286] (-) TimerEvent: {}
+[1.716921] (-) TimerEvent: {}
+[1.817830] (-) TimerEvent: {}
+[1.919390] (-) TimerEvent: {}
+[2.021165] (-) TimerEvent: {}
+[2.122304] (-) TimerEvent: {}
+[2.223524] (-) TimerEvent: {}
+[2.324708] (-) TimerEvent: {}
+[2.425511] (-) TimerEvent: {}
+[2.527735] (-) TimerEvent: {}
+[2.628894] (-) TimerEvent: {}
+[2.730228] (-) TimerEvent: {}
+[2.832526] (-) TimerEvent: {}
+[2.934251] (-) TimerEvent: {}
+[3.035283] (-) TimerEvent: {}
+[3.137025] (-) TimerEvent: {}
+[3.238705] (-) TimerEvent: {}
+[3.339796] (-) TimerEvent: {}
+[3.440951] (-) TimerEvent: {}
+[3.542528] (-) TimerEvent: {}
+[3.643738] (-) TimerEvent: {}
+[3.745185] (-) TimerEvent: {}
+[3.846769] (-) TimerEvent: {}
+[3.947986] (-) TimerEvent: {}
+[4.049351] (-) TimerEvent: {}
+[4.150199] (-) TimerEvent: {}
+[4.251152] (-) TimerEvent: {}
+[4.352572] (-) TimerEvent: {}
+[4.454672] (-) TimerEvent: {}
+[4.556869] (-) TimerEvent: {}
+[4.658145] (-) TimerEvent: {}
+[4.759517] (-) TimerEvent: {}
+[4.861269] (-) TimerEvent: {}
+[4.963429] (-) TimerEvent: {}
+[5.064646] (-) TimerEvent: {}
+[5.166570] (-) TimerEvent: {}
+[5.267905] (-) TimerEvent: {}
+[5.369731] (-) TimerEvent: {}
+[5.471198] (-) TimerEvent: {}
+[5.572760] (-) TimerEvent: {}
+[5.673686] (-) TimerEvent: {}
+[5.775248] (-) TimerEvent: {}
+[5.876484] (-) TimerEvent: {}
+[5.977350] (-) TimerEvent: {}
+[6.079154] (-) TimerEvent: {}
+[6.180499] (-) TimerEvent: {}
+[6.282634] (-) TimerEvent: {}
+[6.385060] (-) TimerEvent: {}
+[6.486708] (-) TimerEvent: {}
+[6.588158] (-) TimerEvent: {}
+[6.689350] (-) TimerEvent: {}
+[6.790308] (-) TimerEvent: {}
+[6.891519] (-) TimerEvent: {}
+[6.905340] (zbar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rsa2021/py_pub_sub/src/zbar_ros/src/barcode_reader_node.cpp:33\x1b[m\x1b[K:\n'}
+[6.905788] (zbar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rsa2021/py_pub_sub/src/zbar_ros/include/zbar_ros/barcode_reader_node.hpp:49:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kzbar\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[6.905999] (zbar_ros) StderrLine: {'line': b'   49 |   \x1b[01;31m\x1b[Kzbar\x1b[m\x1b[K::ImageScanner scanner_;\n'}
+[6.906171] (zbar_ros) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.992052] (-) TimerEvent: {}
+[7.093358] (-) TimerEvent: {}
+[7.194840] (-) TimerEvent: {}
+[7.296347] (-) TimerEvent: {}
+[7.398088] (-) TimerEvent: {}
+[7.499429] (-) TimerEvent: {}
+[7.600703] (-) TimerEvent: {}
+[7.702114] (-) TimerEvent: {}
+[7.803531] (-) TimerEvent: {}
+[7.905024] (-) TimerEvent: {}
+[8.006892] (-) TimerEvent: {}
+[8.108611] (-) TimerEvent: {}
+[8.209978] (-) TimerEvent: {}
+[8.311835] (-) TimerEvent: {}
+[8.374951] (zbar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rsa2021/py_pub_sub/src/zbar_ros/src/barcode_reader_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KBarcodeReaderNode::BarcodeReaderNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.375865] (zbar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rsa2021/py_pub_sub/src/zbar_ros/src/barcode_reader_node.cpp:39:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kscanner_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.376637] (zbar_ros) StderrLine: {'line': b'   39 |   \x1b[01;31m\x1b[Kscanner_\x1b[m\x1b[K.set_config(zbar::ZBAR_NONE, zbar::ZBAR_CFG_ENABLE, 1);\n'}
+[8.377430] (zbar_ros) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.378037] (zbar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rsa2021/py_pub_sub/src/zbar_ros/src/barcode_reader_node.cpp:39:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kzbar\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[8.378634] (zbar_ros) StderrLine: {'line': b'   39 |   scanner_.set_config(\x1b[01;31m\x1b[Kzbar\x1b[m\x1b[K::ZBAR_NONE, zbar::ZBAR_CFG_ENABLE, 1);\n'}
+[8.378954] (zbar_ros) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.379389] (zbar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rsa2021/py_pub_sub/src/zbar_ros/src/barcode_reader_node.cpp:39:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kzbar\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[8.379673] (zbar_ros) StderrLine: {'line': b'   39 |   scanner_.set_config(zbar::ZBAR_NONE, \x1b[01;31m\x1b[Kzbar\x1b[m\x1b[K::ZBAR_CFG_ENABLE, 1);\n'}
+[8.379929] (zbar_ros) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.412659] (-) TimerEvent: {}
+[8.490390] (zbar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rsa2021/py_pub_sub/src/zbar_ros/src/barcode_reader_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid BarcodeReaderNode::imageCb(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.491199] (zbar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rsa2021/py_pub_sub/src/zbar_ros/src/barcode_reader_node.cpp:56:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kzbar\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[8.491558] (zbar_ros) StderrLine: {'line': b'   56 |   \x1b[01;31m\x1b[Kzbar\x1b[m\x1b[K::Image zbar_image(cv_image->image.cols, cv_image->image.rows, "Y800", cv_image->image.data,\n'}
+[8.492260] (zbar_ros) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.505101] (zbar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rsa2021/py_pub_sub/src/zbar_ros/src/barcode_reader_node.cpp:58:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kscanner_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.505852] (zbar_ros) StderrLine: {'line': b'   58 |   \x1b[01;31m\x1b[Kscanner_\x1b[m\x1b[K.scan(zbar_image);\n'}
+[8.506248] (zbar_ros) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.513905] (-) TimerEvent: {}
+[8.522057] (zbar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rsa2021/py_pub_sub/src/zbar_ros/src/barcode_reader_node.cpp:58:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kzbar_image\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcv_image\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.522866] (zbar_ros) StderrLine: {'line': b'   58 |   scanner_.scan(\x1b[01;31m\x1b[Kzbar_image\x1b[m\x1b[K);\n'}
+[8.523427] (zbar_ros) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.524116] (zbar_ros) StderrLine: {'line': b'      |                 \x1b[32m\x1b[Kcv_image\x1b[m\x1b[K\n'}
+[8.524453] (zbar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rsa2021/py_pub_sub/src/zbar_ros/src/barcode_reader_node.cpp:64:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kzbar\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[8.525118] (zbar_ros) StderrLine: {'line': b'   64 |     for (\x1b[01;31m\x1b[Kzbar\x1b[m\x1b[K::Image::SymbolIterator symbol_it = it_start; symbol_it != it_end; ++symbol_it) {\n'}
+[8.525455] (zbar_ros) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.538383] (zbar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rsa2021/py_pub_sub/src/zbar_ros/src/barcode_reader_node.cpp:64:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksymbol_it\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.539396] (zbar_ros) StderrLine: {'line': b'   64 |     for (zbar::Image::SymbolIterator symbol_it = it_start; \x1b[01;31m\x1b[Ksymbol_it\x1b[m\x1b[K != it_end; ++symbol_it) {\n'}
+[8.540097] (zbar_ros) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.543972] (zbar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rsa2021/py_pub_sub/src/zbar_ros/src/barcode_reader_node.cpp:72:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kzbar\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[8.544735] (zbar_ros) StderrLine: {'line': b'   72 |       for (\x1b[01;31m\x1b[Kzbar\x1b[m\x1b[K::Symbol::PointIterator point_it = symbol_it->point_begin();\n'}
+[8.545103] (zbar_ros) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.558273] (zbar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rsa2021/py_pub_sub/src/zbar_ros/src/barcode_reader_node.cpp:73:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpoint_it\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kwint_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.559128] (zbar_ros) StderrLine: {'line': b'   73 |         \x1b[01;31m\x1b[Kpoint_it\x1b[m\x1b[K != symbol_it->point_end();\n'}
+[8.559850] (zbar_ros) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.560234] (zbar_ros) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kwint_t\x1b[m\x1b[K\n'}
+[8.614345] (-) TimerEvent: {}
+[8.716416] (-) TimerEvent: {}
+[8.817563] (-) TimerEvent: {}
+[8.918368] (-) TimerEvent: {}
+[9.019897] (-) TimerEvent: {}
+[9.121431] (-) TimerEvent: {}
+[9.223336] (-) TimerEvent: {}
+[9.325615] (-) TimerEvent: {}
+[9.426751] (-) TimerEvent: {}
+[9.527586] (-) TimerEvent: {}
+[9.629184] (-) TimerEvent: {}
+[9.731369] (-) TimerEvent: {}
+[9.833104] (-) TimerEvent: {}
+[9.934460] (-) TimerEvent: {}
+[10.035784] (-) TimerEvent: {}
+[10.137201] (-) TimerEvent: {}
+[10.238413] (-) TimerEvent: {}
+[10.339791] (-) TimerEvent: {}
+[10.441133] (-) TimerEvent: {}
+[10.542514] (-) TimerEvent: {}
+[10.643906] (-) TimerEvent: {}
+[10.745271] (-) TimerEvent: {}
+[10.846628] (-) TimerEvent: {}
+[10.947998] (-) TimerEvent: {}
+[11.049453] (-) TimerEvent: {}
+[11.151014] (-) TimerEvent: {}
+[11.252535] (-) TimerEvent: {}
+[11.353680] (-) TimerEvent: {}
+[11.455091] (-) TimerEvent: {}
+[11.556395] (-) TimerEvent: {}
+[11.657731] (-) TimerEvent: {}
+[11.758532] (-) TimerEvent: {}
+[11.860001] (-) TimerEvent: {}
+[11.961379] (-) TimerEvent: {}
+[12.062561] (-) TimerEvent: {}
+[12.164019] (-) TimerEvent: {}
+[12.265399] (-) TimerEvent: {}
+[12.366225] (-) TimerEvent: {}
+[12.468145] (-) TimerEvent: {}
+[12.569760] (-) TimerEvent: {}
+[12.671183] (-) TimerEvent: {}
+[12.772589] (-) TimerEvent: {}
+[12.873790] (-) TimerEvent: {}
+[12.975556] (-) TimerEvent: {}
+[13.076840] (-) TimerEvent: {}
+[13.178004] (-) TimerEvent: {}
+[13.279065] (-) TimerEvent: {}
+[13.380741] (-) TimerEvent: {}
+[13.481660] (-) TimerEvent: {}
+[13.583146] (-) TimerEvent: {}
+[13.685301] (-) TimerEvent: {}
+[13.786132] (-) TimerEvent: {}
+[13.887326] (-) TimerEvent: {}
+[13.988384] (-) TimerEvent: {}
+[14.089643] (-) TimerEvent: {}
+[14.191478] (-) TimerEvent: {}
+[14.292536] (-) TimerEvent: {}
+[14.394317] (-) TimerEvent: {}
+[14.495951] (-) TimerEvent: {}
+[14.598081] (-) TimerEvent: {}
+[14.699570] (-) TimerEvent: {}
+[14.801194] (-) TimerEvent: {}
+[14.902366] (-) TimerEvent: {}
+[14.909352] (zbar_ros) StderrLine: {'line': b'make[2]: *** [CMakeFiles/barcode_reader_node.dir/build.make:63: CMakeFiles/barcode_reader_node.dir/src/barcode_reader_node.cpp.o] Error 1\n'}
+[14.909965] (zbar_ros) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/barcode_reader_node.dir/all] Error 2\n'}
+[14.910430] (zbar_ros) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[14.928712] (zbar_ros) CommandEnded: {'returncode': 2}
+[15.002955] (-) TimerEvent: {}
+[15.103558] (zbar_ros) JobEnded: {'identifier': 'zbar_ros', 'rc': 2}
+[15.106516] (-) TimerEvent: {}
+[15.115718] (-) EventReactorShutdown: {}

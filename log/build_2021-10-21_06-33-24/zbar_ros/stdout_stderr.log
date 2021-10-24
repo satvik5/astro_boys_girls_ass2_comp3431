@@ -1,0 +1,43 @@
+[35m[1mScanning dependencies of target barcode_reader_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/barcode_reader_node.dir/src/barcode_reader_node.cpp.o[0m
+In file included from [01m[K/home/rsa2021/py_pub_sub/src/zbar_ros/src/barcode_reader_node.cpp:33[m[K:
+[01m[K/home/rsa2021/py_pub_sub/src/zbar_ros/include/zbar_ros/barcode_reader_node.hpp:49:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kzbar[m[K’ does not name a type
+   49 |   [01;31m[Kzbar[m[K::ImageScanner scanner_;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/rsa2021/py_pub_sub/src/zbar_ros/src/barcode_reader_node.cpp:[m[K In constructor ‘[01m[KBarcodeReaderNode::BarcodeReaderNode()[m[K’:
+[01m[K/home/rsa2021/py_pub_sub/src/zbar_ros/src/barcode_reader_node.cpp:39:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kscanner_[m[K’ was not declared in this scope
+   39 |   [01;31m[Kscanner_[m[K.set_config(zbar::ZBAR_NONE, zbar::ZBAR_CFG_ENABLE, 1);
+      |   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rsa2021/py_pub_sub/src/zbar_ros/src/barcode_reader_node.cpp:39:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kzbar[m[K’ has not been declared
+   39 |   scanner_.set_config([01;31m[Kzbar[m[K::ZBAR_NONE, zbar::ZBAR_CFG_ENABLE, 1);
+      |                       [01;31m[K^~~~[m[K
+[01m[K/home/rsa2021/py_pub_sub/src/zbar_ros/src/barcode_reader_node.cpp:39:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kzbar[m[K’ has not been declared
+   39 |   scanner_.set_config(zbar::ZBAR_NONE, [01;31m[Kzbar[m[K::ZBAR_CFG_ENABLE, 1);
+      |                                        [01;31m[K^~~~[m[K
+[01m[K/home/rsa2021/py_pub_sub/src/zbar_ros/src/barcode_reader_node.cpp:[m[K In member function ‘[01m[Kvoid BarcodeReaderNode::imageCb(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/rsa2021/py_pub_sub/src/zbar_ros/src/barcode_reader_node.cpp:56:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kzbar[m[K’ has not been declared
+   56 |   [01;31m[Kzbar[m[K::Image zbar_image(cv_image->image.cols, cv_image->image.rows, "Y800", cv_image->image.data,
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/rsa2021/py_pub_sub/src/zbar_ros/src/barcode_reader_node.cpp:58:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kscanner_[m[K’ was not declared in this scope
+   58 |   [01;31m[Kscanner_[m[K.scan(zbar_image);
+      |   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rsa2021/py_pub_sub/src/zbar_ros/src/barcode_reader_node.cpp:58:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kzbar_image[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv_image[m[K’?
+   58 |   scanner_.scan([01;31m[Kzbar_image[m[K);
+      |                 [01;31m[K^~~~~~~~~~[m[K
+      |                 [32m[Kcv_image[m[K
+[01m[K/home/rsa2021/py_pub_sub/src/zbar_ros/src/barcode_reader_node.cpp:64:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kzbar[m[K’ has not been declared
+   64 |     for ([01;31m[Kzbar[m[K::Image::SymbolIterator symbol_it = it_start; symbol_it != it_end; ++symbol_it) {
+      |          [01;31m[K^~~~[m[K
+[01m[K/home/rsa2021/py_pub_sub/src/zbar_ros/src/barcode_reader_node.cpp:64:60:[m[K [01;31m[Kerror: [m[K‘[01m[Ksymbol_it[m[K’ was not declared in this scope
+   64 |     for (zbar::Image::SymbolIterator symbol_it = it_start; [01;31m[Ksymbol_it[m[K != it_end; ++symbol_it) {
+      |                                                            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/rsa2021/py_pub_sub/src/zbar_ros/src/barcode_reader_node.cpp:72:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kzbar[m[K’ has not been declared
+   72 |       for ([01;31m[Kzbar[m[K::Symbol::PointIterator point_it = symbol_it->point_begin();
+      |            [01;31m[K^~~~[m[K
+[01m[K/home/rsa2021/py_pub_sub/src/zbar_ros/src/barcode_reader_node.cpp:73:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint_it[m[K’ was not declared in this scope; did you mean ‘[01m[Kwint_t[m[K’?
+   73 |         [01;31m[Kpoint_it[m[K != symbol_it->point_end();
+      |         [01;31m[K^~~~~~~~[m[K
+      |         [32m[Kwint_t[m[K
+make[2]: *** [CMakeFiles/barcode_reader_node.dir/build.make:63: CMakeFiles/barcode_reader_node.dir/src/barcode_reader_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/barcode_reader_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

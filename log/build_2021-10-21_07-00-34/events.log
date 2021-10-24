@@ -1,0 +1,161 @@
+[0.000000] (-) TimerEvent: {}
+[0.000851] (camera_calibration) JobQueued: {'identifier': 'camera_calibration', 'dependencies': OrderedDict()}
+[0.001031] (depth_image_proc) JobQueued: {'identifier': 'depth_image_proc', 'dependencies': OrderedDict()}
+[0.001180] (image_proc) JobQueued: {'identifier': 'image_proc', 'dependencies': OrderedDict()}
+[0.001229] (image_publisher) JobQueued: {'identifier': 'image_publisher', 'dependencies': OrderedDict()}
+[0.001267] (image_rotate) JobQueued: {'identifier': 'image_rotate', 'dependencies': OrderedDict()}
+[0.001404] (image_view) JobQueued: {'identifier': 'image_view', 'dependencies': OrderedDict()}
+[0.001550] (publisher3431) JobQueued: {'identifier': 'publisher3431', 'dependencies': OrderedDict()}
+[0.001696] (zbar_ros_interfaces) JobQueued: {'identifier': 'zbar_ros_interfaces', 'dependencies': OrderedDict()}
+[0.001864] (stereo_image_proc) JobQueued: {'identifier': 'stereo_image_proc', 'dependencies': OrderedDict([('image_proc', '/home/rsa2021/py_pub_sub/install/image_proc')])}
+[0.002014] (zbar_ros) JobQueued: {'identifier': 'zbar_ros', 'dependencies': OrderedDict([('zbar_ros_interfaces', '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces')])}
+[0.002161] (image_pipeline) JobQueued: {'identifier': 'image_pipeline', 'dependencies': OrderedDict([('camera_calibration', '/home/rsa2021/py_pub_sub/install/camera_calibration'), ('depth_image_proc', '/home/rsa2021/py_pub_sub/install/depth_image_proc'), ('image_proc', '/home/rsa2021/py_pub_sub/install/image_proc'), ('image_publisher', '/home/rsa2021/py_pub_sub/install/image_publisher'), ('image_rotate', '/home/rsa2021/py_pub_sub/install/image_rotate'), ('image_view', '/home/rsa2021/py_pub_sub/install/image_view'), ('stereo_image_proc', '/home/rsa2021/py_pub_sub/install/stereo_image_proc')])}
+[0.004893] (image_proc) JobStarted: {'identifier': 'image_proc'}
+[0.045183] (camera_calibration) JobStarted: {'identifier': 'camera_calibration'}
+[0.074513] (depth_image_proc) JobStarted: {'identifier': 'depth_image_proc'}
+[0.108277] (-) TimerEvent: {}
+[0.110086] (image_proc) JobProgress: {'identifier': 'image_proc', 'progress': 'cmake'}
+[0.111245] (image_proc) Command: {'cmd': ['/usr/bin/cmake', '/home/rsa2021/py_pub_sub/src/image_proc', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/rsa2021/py_pub_sub/install/image_proc'], 'cwd': '/home/rsa2021/py_pub_sub/build/image_proc', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('USER', 'rsa2021'), ('SSH_AGENT_PID', '1591'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rsa2021'), ('OLDPWD', '/home/rsa2021'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1415'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rsa2021/py_pub_sub/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rsa2021'), ('JOURNAL_STREAM', '8:51183'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rsa2021'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1626,unix/ubuntu:/tmp/.ICE-unix/1626'), ('INVOCATION_ID', '8dcd97e7f4134d1c972ea853aa471e79'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f494cb88_8a5d_409a_9a18_6c140585c6a6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.83'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rsa2021/py_pub_sub/build/image_proc'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages:/home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces')]), 'shell': False}
+[0.137977] (camera_calibration) JobProgress: {'identifier': 'camera_calibration', 'progress': 'cmake'}
+[0.139410] (camera_calibration) Command: {'cmd': ['/usr/bin/cmake', '/home/rsa2021/py_pub_sub/src/camera_calibration', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/rsa2021/py_pub_sub/install/camera_calibration'], 'cwd': '/home/rsa2021/py_pub_sub/build/camera_calibration', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('USER', 'rsa2021'), ('SSH_AGENT_PID', '1591'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rsa2021'), ('OLDPWD', '/home/rsa2021'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1415'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rsa2021/py_pub_sub/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rsa2021'), ('JOURNAL_STREAM', '8:51183'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rsa2021'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1626,unix/ubuntu:/tmp/.ICE-unix/1626'), ('INVOCATION_ID', '8dcd97e7f4134d1c972ea853aa471e79'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f494cb88_8a5d_409a_9a18_6c140585c6a6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.83'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rsa2021/py_pub_sub/build/camera_calibration'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages:/home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces')]), 'shell': False}
+[0.175356] (depth_image_proc) JobProgress: {'identifier': 'depth_image_proc', 'progress': 'cmake'}
+[0.182251] (depth_image_proc) Command: {'cmd': ['/usr/bin/cmake', '/home/rsa2021/py_pub_sub/src/depth_image_proc', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/rsa2021/py_pub_sub/install/depth_image_proc'], 'cwd': '/home/rsa2021/py_pub_sub/build/depth_image_proc', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('USER', 'rsa2021'), ('SSH_AGENT_PID', '1591'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rsa2021'), ('OLDPWD', '/home/rsa2021'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1415'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rsa2021/py_pub_sub/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rsa2021'), ('JOURNAL_STREAM', '8:51183'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rsa2021'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1626,unix/ubuntu:/tmp/.ICE-unix/1626'), ('INVOCATION_ID', '8dcd97e7f4134d1c972ea853aa471e79'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f494cb88_8a5d_409a_9a18_6c140585c6a6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.83'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rsa2021/py_pub_sub/build/depth_image_proc'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages:/home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces')]), 'shell': False}
+[0.210136] (-) TimerEvent: {}
+[0.311431] (-) TimerEvent: {}
+[0.413353] (-) TimerEvent: {}
+[0.514510] (-) TimerEvent: {}
+[0.616092] (-) TimerEvent: {}
+[0.717401] (-) TimerEvent: {}
+[0.818870] (-) TimerEvent: {}
+[0.920112] (-) TimerEvent: {}
+[1.016772] (camera_calibration) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[1.020622] (-) TimerEvent: {}
+[1.026286] (image_proc) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[1.038119] (depth_image_proc) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[1.120989] (-) TimerEvent: {}
+[1.222224] (-) TimerEvent: {}
+[1.284041] (camera_calibration) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[1.300052] (depth_image_proc) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[1.317713] (image_proc) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[1.322465] (-) TimerEvent: {}
+[1.328413] (depth_image_proc) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.328990] (camera_calibration) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.339847] (image_proc) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.422798] (-) TimerEvent: {}
+[1.524103] (-) TimerEvent: {}
+[1.548163] (image_proc) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.555558] (image_proc) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.590921] (depth_image_proc) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.594251] (depth_image_proc) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.603897] (camera_calibration) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.606655] (camera_calibration) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.624434] (-) TimerEvent: {}
+[1.725594] (-) TimerEvent: {}
+[1.788249] (image_proc) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.825919] (-) TimerEvent: {}
+[1.844186] (image_proc) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.846478] (camera_calibration) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.848680] (image_proc) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.872918] (image_proc) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.882598] (depth_image_proc) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.906667] (camera_calibration) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.907871] (camera_calibration) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.917277] (camera_calibration) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.926180] (-) TimerEvent: {}
+[1.955362] (depth_image_proc) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.957920] (depth_image_proc) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.978312] (depth_image_proc) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.026449] (-) TimerEvent: {}
+[2.127786] (-) TimerEvent: {}
+[2.207737] (image_proc) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.212652] (image_proc) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.218688] (camera_calibration) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.222234] (camera_calibration) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.228031] (-) TimerEvent: {}
+[2.322532] (depth_image_proc) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.327609] (depth_image_proc) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.328098] (-) TimerEvent: {}
+[2.429661] (-) TimerEvent: {}
+[2.497322] (camera_calibration) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.529985] (-) TimerEvent: {}
+[2.536594] (image_proc) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.569219] (camera_calibration) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.572196] (camera_calibration) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.583175] (image_proc) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.587964] (image_proc) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.617388] (camera_calibration) StderrLine: {'line': b'CMake Error at CMakeLists.txt:4 (find_package):\n'}
+[2.618172] (camera_calibration) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[2.618521] (camera_calibration) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[2.618808] (camera_calibration) StderrLine: {'line': b'  CMake did not find one.\n'}
+[2.619086] (camera_calibration) StderrLine: {'line': b'\n'}
+[2.619448] (camera_calibration) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[2.619775] (camera_calibration) StderrLine: {'line': b'  of the following names:\n'}
+[2.620077] (camera_calibration) StderrLine: {'line': b'\n'}
+[2.620513] (camera_calibration) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[2.620816] (camera_calibration) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[2.621144] (camera_calibration) StderrLine: {'line': b'\n'}
+[2.621532] (camera_calibration) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[2.621822] (camera_calibration) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[2.622135] (camera_calibration) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[2.622460] (camera_calibration) StderrLine: {'line': b'  installed.\n'}
+[2.622769] (camera_calibration) StderrLine: {'line': b'\n'}
+[2.623044] (camera_calibration) StderrLine: {'line': b'\n'}
+[2.623404] (camera_calibration) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.623702] (camera_calibration) StdoutLine: {'line': b'See also "/home/rsa2021/py_pub_sub/build/camera_calibration/CMakeFiles/CMakeOutput.log".\n'}
+[2.632842] (-) TimerEvent: {}
+[2.648148] (image_proc) StderrLine: {'line': b'CMake Error at CMakeLists.txt:4 (find_package):\n'}
+[2.650668] (image_proc) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[2.651177] (image_proc) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[2.651512] (image_proc) StderrLine: {'line': b'  CMake did not find one.\n'}
+[2.651804] (image_proc) StderrLine: {'line': b'\n'}
+[2.652174] (image_proc) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[2.652478] (image_proc) StderrLine: {'line': b'  of the following names:\n'}
+[2.652962] (image_proc) StderrLine: {'line': b'\n'}
+[2.653628] (image_proc) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[2.653981] (image_proc) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[2.654295] (image_proc) StderrLine: {'line': b'\n'}
+[2.654590] (image_proc) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[2.654927] (image_proc) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[2.655317] (image_proc) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[2.655620] (image_proc) StderrLine: {'line': b'  installed.\n'}
+[2.655962] (image_proc) StderrLine: {'line': b'\n'}
+[2.656277] (image_proc) StderrLine: {'line': b'\n'}
+[2.656644] (camera_calibration) CommandEnded: {'returncode': 1}
+[2.658523] (image_proc) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.658993] (image_proc) StdoutLine: {'line': b'See also "/home/rsa2021/py_pub_sub/build/image_proc/CMakeFiles/CMakeOutput.log".\n'}
+[2.659341] (depth_image_proc) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.673977] (image_proc) CommandEnded: {'returncode': 1}
+[2.705838] (depth_image_proc) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.709474] (depth_image_proc) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.734245] (-) TimerEvent: {}
+[2.737485] (depth_image_proc) StderrLine: {'line': b'CMake Error at CMakeLists.txt:4 (find_package):\n'}
+[2.738378] (depth_image_proc) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[2.739111] (depth_image_proc) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[2.739464] (depth_image_proc) StderrLine: {'line': b'  CMake did not find one.\n'}
+[2.740220] (depth_image_proc) StderrLine: {'line': b'\n'}
+[2.740754] (depth_image_proc) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[2.741905] (depth_image_proc) StderrLine: {'line': b'  of the following names:\n'}
+[2.742151] (depth_image_proc) StderrLine: {'line': b'\n'}
+[2.742393] (depth_image_proc) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[2.742607] (depth_image_proc) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[2.744643] (depth_image_proc) StderrLine: {'line': b'\n'}
+[2.746140] (depth_image_proc) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[2.746859] (depth_image_proc) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[2.747599] (depth_image_proc) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[2.748330] (depth_image_proc) StderrLine: {'line': b'  installed.\n'}
+[2.749034] (depth_image_proc) StderrLine: {'line': b'\n'}
+[2.749758] (depth_image_proc) StderrLine: {'line': b'\n'}
+[2.750498] (depth_image_proc) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.751263] (depth_image_proc) StdoutLine: {'line': b'See also "/home/rsa2021/py_pub_sub/build/depth_image_proc/CMakeFiles/CMakeOutput.log".\n'}
+[2.754380] (camera_calibration) JobEnded: {'identifier': 'camera_calibration', 'rc': 1}
+[2.761388] (image_proc) JobEnded: {'identifier': 'image_proc', 'rc': 'SIGINT'}
+[2.765289] (depth_image_proc) JobEnded: {'identifier': 'depth_image_proc', 'rc': 'SIGINT'}
+[2.773322] (image_publisher) JobSkipped: {'identifier': 'image_publisher'}
+[2.773795] (image_rotate) JobSkipped: {'identifier': 'image_rotate'}
+[2.774034] (image_view) JobSkipped: {'identifier': 'image_view'}
+[2.774227] (publisher3431) JobSkipped: {'identifier': 'publisher3431'}
+[2.774419] (zbar_ros_interfaces) JobSkipped: {'identifier': 'zbar_ros_interfaces'}
+[2.774612] (stereo_image_proc) JobSkipped: {'identifier': 'stereo_image_proc'}
+[2.774802] (zbar_ros) JobSkipped: {'identifier': 'zbar_ros'}
+[2.774992] (image_pipeline) JobSkipped: {'identifier': 'image_pipeline'}
+[2.775181] (-) EventReactorShutdown: {}

@@ -1,0 +1,32 @@
+[0.055s] Invoking command in '/home/rsa2021/py_pub_sub/build/zbar_ros': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher /usr/bin/cmake --build /home/rsa2021/py_pub_sub/build/zbar_ros -- -j3 -l3
+[0.168s] [35m[1mScanning dependencies of target barcode_reader_node[0m
+[0.266s] [ 25%] [32mBuilding CXX object CMakeFiles/barcode_reader_node.dir/src/barcode_reader_node.cpp.o[0m
+[16.978s] [ 50%] [32m[1mLinking CXX static library libbarcode_reader_node.a[0m
+[17.223s] [ 50%] Built target barcode_reader_node
+[17.321s] [ 75%] [32m[1mLinking CXX executable barcode_reader[0m
+[19.449s] [100%] Built target barcode_reader
+[19.475s] Invoked command in '/home/rsa2021/py_pub_sub/build/zbar_ros' returned '0': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher /usr/bin/cmake --build /home/rsa2021/py_pub_sub/build/zbar_ros -- -j3 -l3
+[19.572s] Invoking command in '/home/rsa2021/py_pub_sub/build/zbar_ros': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher /usr/bin/cmake --install /home/rsa2021/py_pub_sub/build/zbar_ros
+[19.595s] -- Install configuration: ""
+[19.596s] -- Installing: /home/rsa2021/py_pub_sub/install/zbar_ros/lib/zbar_ros/barcode_reader
+[19.602s] -- Set runtime path of "/home/rsa2021/py_pub_sub/install/zbar_ros/lib/zbar_ros/barcode_reader" to ""
+[19.603s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/include/
+[19.604s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/include//zbar_ros
+[19.606s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/include//zbar_ros/barcode_reader_node.hpp
+[19.606s] -- Installing: /home/rsa2021/py_pub_sub/install/zbar_ros/lib/libbarcode_reader_node.a
+[19.621s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/ament_index/resource_index/package_run_dependencies/zbar_ros
+[19.622s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/ament_index/resource_index/parent_prefix_path/zbar_ros
+[19.625s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/environment/ament_prefix_path.sh
+[19.626s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/environment/ament_prefix_path.dsv
+[19.627s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/environment/path.sh
+[19.628s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/environment/path.dsv
+[19.629s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/local_setup.bash
+[19.629s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/local_setup.sh
+[19.630s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/local_setup.zsh
+[19.630s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/local_setup.dsv
+[19.630s] -- Installing: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/package.dsv
+[19.631s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/ament_index/resource_index/packages/zbar_ros
+[19.632s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/cmake/zbar_rosConfig.cmake
+[19.632s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/cmake/zbar_rosConfig-version.cmake
+[19.633s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/package.xml
+[19.639s] Invoked command in '/home/rsa2021/py_pub_sub/build/zbar_ros' returned '0': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher /usr/bin/cmake --install /home/rsa2021/py_pub_sub/build/zbar_ros

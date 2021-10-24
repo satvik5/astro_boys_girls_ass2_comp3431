@@ -1,0 +1,11 @@
+[0.069s] Invoking command in '/home/rsa2021/py_pub_sub/build/zbar_ros': AMENT_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy LD_LIBRARY_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rsa2021/py_pub_sub/build/zbar_ros -- -j3 -l3
+[0.255s] [ 25%] [32mBuilding CXX object CMakeFiles/barcode_reader_node.dir/src/barcode_reader_node.cpp.o[0m
+[0.569s] In file included from [01m[K/home/rsa2021/py_pub_sub/src/zbar_ros/src/barcode_reader_node.cpp:33[m[K:
+[0.570s] [01m[K/home/rsa2021/py_pub_sub/src/zbar_ros/include/zbar_ros/barcode_reader_node.hpp:35:10:[m[K [01;31m[Kfatal error: [m[K./zbar.h: No such file or directory
+[0.570s]    35 | #include [01;31m[K"./zbar.h"[m[K
+[0.570s]       |          [01;31m[K^~~~~~~~~~[m[K
+[0.570s] compilation terminated.
+[0.574s] make[2]: *** [CMakeFiles/barcode_reader_node.dir/build.make:63: CMakeFiles/barcode_reader_node.dir/src/barcode_reader_node.cpp.o] Error 1
+[0.574s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/barcode_reader_node.dir/all] Error 2
+[0.575s] make: *** [Makefile:141: all] Error 2
+[0.581s] Invoked command in '/home/rsa2021/py_pub_sub/build/zbar_ros' returned '2': AMENT_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy LD_LIBRARY_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rsa2021/py_pub_sub/build/zbar_ros -- -j3 -l3

@@ -1,0 +1,26 @@
+[2.319s] Invoking command in '/home/rsa2021/py_pub_sub/src/publisher3431': PYTHONPATH=/home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/publisher3431 build --build-base /home/rsa2021/py_pub_sub/build/publisher3431/build install --prefix /home/rsa2021/py_pub_sub/install/publisher3431 --record /home/rsa2021/py_pub_sub/build/publisher3431/install.log --single-version-externally-managed
+[4.296s] running egg_info
+[4.308s] writing ../../build/publisher3431/publisher3431.egg-info/PKG-INFO
+[4.310s] writing dependency_links to ../../build/publisher3431/publisher3431.egg-info/dependency_links.txt
+[4.310s] writing entry points to ../../build/publisher3431/publisher3431.egg-info/entry_points.txt
+[4.310s] writing requirements to ../../build/publisher3431/publisher3431.egg-info/requires.txt
+[4.311s] writing top-level names to ../../build/publisher3431/publisher3431.egg-info/top_level.txt
+[4.561s] reading manifest file '../../build/publisher3431/publisher3431.egg-info/SOURCES.txt'
+[4.563s] writing manifest file '../../build/publisher3431/publisher3431.egg-info/SOURCES.txt'
+[4.563s] running build
+[4.565s] running build_py
+[4.568s] copying publisher3431/subscriber_ass2.py -> /home/rsa2021/py_pub_sub/build/publisher3431/build/lib/publisher3431
+[4.568s] running install
+[4.570s] running install_lib
+[4.582s] copying /home/rsa2021/py_pub_sub/build/publisher3431/build/lib/publisher3431/subscriber_ass2.py -> /home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages/publisher3431
+[4.587s] byte-compiling /home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages/publisher3431/subscriber_ass2.py to subscriber_ass2.cpython-38.pyc
+[4.596s] running install_data
+[4.597s] running install_egg_info
+[4.603s] removing '/home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages/publisher3431-0.0.0-py3.8.egg-info' (and everything under it)
+[4.606s] Copying ../../build/publisher3431/publisher3431.egg-info to /home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages/publisher3431-0.0.0-py3.8.egg-info
+[4.609s] running install_scripts
+[4.687s] Installing listener script to /home/rsa2021/py_pub_sub/install/publisher3431/lib/publisher3431
+[4.690s] Installing listener_ass2 script to /home/rsa2021/py_pub_sub/install/publisher3431/lib/publisher3431
+[4.690s] Installing talker script to /home/rsa2021/py_pub_sub/install/publisher3431/lib/publisher3431
+[4.691s] writing list of installed files to '/home/rsa2021/py_pub_sub/build/publisher3431/install.log'
+[4.803s] Invoked command in '/home/rsa2021/py_pub_sub/src/publisher3431' returned '0': PYTHONPATH=/home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/publisher3431 build --build-base /home/rsa2021/py_pub_sub/build/publisher3431/build install --prefix /home/rsa2021/py_pub_sub/install/publisher3431 --record /home/rsa2021/py_pub_sub/build/publisher3431/install.log --single-version-externally-managed

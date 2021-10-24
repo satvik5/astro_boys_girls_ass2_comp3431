@@ -1,0 +1,56 @@
+[0.000000] (-) TimerEvent: {}
+[0.000569] (-) JobUnselected: {'identifier': 'image_publisher'}
+[0.000782] (-) JobUnselected: {'identifier': 'zbar_ros'}
+[0.000969] (-) JobUnselected: {'identifier': 'zbar_ros_interfaces'}
+[0.001159] (publisher3431) JobQueued: {'identifier': 'publisher3431', 'dependencies': OrderedDict()}
+[0.001380] (publisher3431) JobStarted: {'identifier': 'publisher3431'}
+[0.100315] (-) TimerEvent: {}
+[0.201757] (-) TimerEvent: {}
+[0.302427] (-) TimerEvent: {}
+[0.402996] (-) TimerEvent: {}
+[0.504101] (-) TimerEvent: {}
+[0.604577] (-) TimerEvent: {}
+[0.705166] (-) TimerEvent: {}
+[0.806074] (-) TimerEvent: {}
+[0.906773] (-) TimerEvent: {}
+[1.008371] (-) TimerEvent: {}
+[1.019581] (publisher3431) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/publisher3431', 'build', '--build-base', '/home/rsa2021/py_pub_sub/build/publisher3431/build', 'install', '--prefix', '/home/rsa2021/py_pub_sub/install/publisher3431', '--record', '/home/rsa2021/py_pub_sub/build/publisher3431/install.log', '--single-version-externally-managed'], 'cwd': '/home/rsa2021/py_pub_sub/src/publisher3431', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SVGA_VGPU10': '0', 'USER': 'rsa2021', 'SSH_AGENT_PID': '1570', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/rsa2021', 'OLDPWD': '/home/rsa2021', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1400', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/rsa2021/py_pub_sub/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'rsa2021', 'JOURNAL_STREAM': '8:52443', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rsa2021', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/rsa2021/py_pub_sub/install/image_publisher/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1611,unix/ubuntu:/tmp/.ICE-unix/1611', 'INVOCATION_ID': 'e7aa6f4d75344df0a347f2c5bdc80ff6', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/557867c7_9dd0_4e82_88bc_b64b2c42c128', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.86', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/home/rsa2021/py_pub_sub/install/image_publisher:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rsa2021/py_pub_sub/build/publisher3431', 'TURTLEBOT3_MODEL': 'waffle_pi', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages:/home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/image_publisher'}, 'shell': False}
+[1.108549] (-) TimerEvent: {}
+[1.209619] (-) TimerEvent: {}
+[1.311071] (-) TimerEvent: {}
+[1.412690] (-) TimerEvent: {}
+[1.513326] (-) TimerEvent: {}
+[1.614157] (-) TimerEvent: {}
+[1.714841] (-) TimerEvent: {}
+[1.815906] (-) TimerEvent: {}
+[1.889608] (publisher3431) StdoutLine: {'line': b'running egg_info\n'}
+[1.892730] (publisher3431) StdoutLine: {'line': b'writing ../../build/publisher3431/publisher3431.egg-info/PKG-INFO\n'}
+[1.894524] (publisher3431) StdoutLine: {'line': b'writing dependency_links to ../../build/publisher3431/publisher3431.egg-info/dependency_links.txt\n'}
+[1.896241] (publisher3431) StdoutLine: {'line': b'writing entry points to ../../build/publisher3431/publisher3431.egg-info/entry_points.txt\n'}
+[1.897833] (publisher3431) StdoutLine: {'line': b'writing requirements to ../../build/publisher3431/publisher3431.egg-info/requires.txt\n'}
+[1.899433] (publisher3431) StdoutLine: {'line': b'writing top-level names to ../../build/publisher3431/publisher3431.egg-info/top_level.txt\n'}
+[1.916245] (-) TimerEvent: {}
+[2.017237] (-) TimerEvent: {}
+[2.052723] (publisher3431) StdoutLine: {'line': b"reading manifest file '../../build/publisher3431/publisher3431.egg-info/SOURCES.txt'\n"}
+[2.056920] (publisher3431) StdoutLine: {'line': b"writing manifest file '../../build/publisher3431/publisher3431.egg-info/SOURCES.txt'\n"}
+[2.058371] (publisher3431) StdoutLine: {'line': b'running build\n'}
+[2.059073] (publisher3431) StdoutLine: {'line': b'running build_py\n'}
+[2.060371] (publisher3431) StdoutLine: {'line': b'copying publisher3431/subscriber_ass2.py -> /home/rsa2021/py_pub_sub/build/publisher3431/build/lib/publisher3431\n'}
+[2.062592] (publisher3431) StdoutLine: {'line': b'running install\n'}
+[2.066377] (publisher3431) StdoutLine: {'line': b'running install_lib\n'}
+[2.070987] (publisher3431) StdoutLine: {'line': b'copying /home/rsa2021/py_pub_sub/build/publisher3431/build/lib/publisher3431/subscriber_ass2.py -> /home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages/publisher3431\n'}
+[2.074057] (publisher3431) StdoutLine: {'line': b'byte-compiling /home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages/publisher3431/subscriber_ass2.py to subscriber_ass2.cpython-38.pyc\n'}
+[2.082442] (publisher3431) StdoutLine: {'line': b'running install_data\n'}
+[2.085391] (publisher3431) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.092152] (publisher3431) StdoutLine: {'line': b"removing '/home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages/publisher3431-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.093574] (publisher3431) StdoutLine: {'line': b'Copying ../../build/publisher3431/publisher3431.egg-info to /home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages/publisher3431-0.0.0-py3.8.egg-info\n'}
+[2.096620] (publisher3431) StdoutLine: {'line': b'running install_scripts\n'}
+[2.118001] (-) TimerEvent: {}
+[2.145945] (publisher3431) StdoutLine: {'line': b'Installing listener script to /home/rsa2021/py_pub_sub/install/publisher3431/lib/publisher3431\n'}
+[2.148022] (publisher3431) StdoutLine: {'line': b'Installing listener_ass2 script to /home/rsa2021/py_pub_sub/install/publisher3431/lib/publisher3431\n'}
+[2.148364] (publisher3431) StdoutLine: {'line': b'Installing talker script to /home/rsa2021/py_pub_sub/install/publisher3431/lib/publisher3431\n'}
+[2.150348] (publisher3431) StdoutLine: {'line': b"writing list of installed files to '/home/rsa2021/py_pub_sub/build/publisher3431/install.log'\n"}
+[2.222949] (publisher3431) CommandEnded: {'returncode': 0}
+[2.225026] (-) TimerEvent: {}
+[2.280606] (publisher3431) JobEnded: {'identifier': 'publisher3431', 'rc': 0}
+[2.284264] (-) EventReactorShutdown: {}

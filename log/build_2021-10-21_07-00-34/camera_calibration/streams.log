@@ -1,0 +1,35 @@
+[0.114s] Invoking command in '/home/rsa2021/py_pub_sub/build/camera_calibration': /usr/bin/cmake /home/rsa2021/py_pub_sub/src/camera_calibration -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/rsa2021/py_pub_sub/install/camera_calibration
+[0.972s] -- The C compiler identification is GNU 9.3.0
+[1.239s] -- The CXX compiler identification is GNU 9.3.0
+[1.284s] -- Check for working C compiler: /usr/bin/cc
+[1.559s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.562s] -- Detecting C compiler ABI info
+[1.801s] -- Detecting C compiler ABI info - done
+[1.862s] -- Detecting C compile features
+[1.863s] -- Detecting C compile features - done
+[1.872s] -- Check for working CXX compiler: /usr/bin/c++
+[2.174s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.177s] -- Detecting CXX compiler ABI info
+[2.452s] -- Detecting CXX compiler ABI info - done
+[2.524s] -- Detecting CXX compile features
+[2.527s] -- Detecting CXX compile features - done
+[2.573s] CMake Error at CMakeLists.txt:4 (find_package):
+[2.573s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[2.573s]   asked CMake to find a package configuration file provided by "catkin", but
+[2.574s]   CMake did not find one.
+[2.574s] 
+[2.574s]   Could not find a package configuration file provided by "catkin" with any
+[2.575s]   of the following names:
+[2.575s] 
+[2.575s]     catkinConfig.cmake
+[2.576s]     catkin-config.cmake
+[2.576s] 
+[2.576s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[2.577s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[2.577s]   provides a separate development package or SDK, be sure it has been
+[2.577s]   installed.
+[2.578s] 
+[2.578s] 
+[2.578s] -- Configuring incomplete, errors occurred!
+[2.587s] See also "/home/rsa2021/py_pub_sub/build/camera_calibration/CMakeFiles/CMakeOutput.log".
+[2.612s] Invoked command in '/home/rsa2021/py_pub_sub/build/camera_calibration' returned '1': /usr/bin/cmake /home/rsa2021/py_pub_sub/src/camera_calibration -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/rsa2021/py_pub_sub/install/camera_calibration

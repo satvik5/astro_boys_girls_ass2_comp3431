@@ -1,0 +1,2 @@
+Invoking command in '/home/rsa2021/py_pub_sub/build/image_publisher': /usr/bin/cmake /home/rsa2021/py_pub_sub/src/image_publisher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/rsa2021/py_pub_sub/install/image_publisher
+Invoked command in '/home/rsa2021/py_pub_sub/build/image_publisher' returned '1': /usr/bin/cmake /home/rsa2021/py_pub_sub/src/image_publisher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/rsa2021/py_pub_sub/install/image_publisher
