@@ -1,0 +1,776 @@
+[0.000000] (-) TimerEvent: {}
+[0.003129] (image_publisher) JobQueued: {'identifier': 'image_publisher', 'dependencies': OrderedDict()}
+[0.003401] (publisher3431) JobQueued: {'identifier': 'publisher3431', 'dependencies': OrderedDict()}
+[0.003668] (zbar_ros_interfaces) JobQueued: {'identifier': 'zbar_ros_interfaces', 'dependencies': OrderedDict()}
+[0.003887] (zbar_ros) JobQueued: {'identifier': 'zbar_ros', 'dependencies': OrderedDict([('zbar_ros_interfaces', '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces')])}
+[0.004095] (zbar_ros_interfaces) JobStarted: {'identifier': 'zbar_ros_interfaces'}
+[0.049534] (image_publisher) JobStarted: {'identifier': 'image_publisher'}
+[0.067034] (publisher3431) JobStarted: {'identifier': 'publisher3431'}
+[0.096013] (-) TimerEvent: {}
+[0.117254] (zbar_ros_interfaces) JobProgress: {'identifier': 'zbar_ros_interfaces', 'progress': 'cmake'}
+[0.120469] (zbar_ros_interfaces) JobProgress: {'identifier': 'zbar_ros_interfaces', 'progress': 'build'}
+[0.134686] (zbar_ros_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rsa2021/py_pub_sub/build/zbar_ros_interfaces', '--', '-j3', '-l3'], 'cwd': '/home/rsa2021/py_pub_sub/build/zbar_ros_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('USER', 'rsa2021'), ('SSH_AGENT_PID', '1747'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rsa2021'), ('OLDPWD', '/home/rsa2021'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1577'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rsa2021/py_pub_sub/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rsa2021'), ('JOURNAL_STREAM', '8:53507'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rsa2021'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/rsa2021/py_pub_sub/install/image_publisher/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1782,unix/ubuntu:/tmp/.ICE-unix/1782'), ('INVOCATION_ID', 'c84b866e5e2c4c39a524e02fbcb47a29'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0f9c64c7_afbc_4bf0_bf2f_f2647c6a1d9a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/home/rsa2021/py_pub_sub/install/image_publisher:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rsa2021/py_pub_sub/build/zbar_ros_interfaces'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages:/home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher')]), 'shell': False}
+[0.147630] (image_publisher) JobProgress: {'identifier': 'image_publisher', 'progress': 'cmake'}
+[0.163783] (image_publisher) JobProgress: {'identifier': 'image_publisher', 'progress': 'build'}
+[0.164610] (image_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rsa2021/py_pub_sub/build/image_publisher', '--', '-j3', '-l3'], 'cwd': '/home/rsa2021/py_pub_sub/build/image_publisher', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('USER', 'rsa2021'), ('SSH_AGENT_PID', '1747'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rsa2021'), ('OLDPWD', '/home/rsa2021'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1577'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rsa2021/py_pub_sub/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rsa2021'), ('JOURNAL_STREAM', '8:53507'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rsa2021'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/rsa2021/py_pub_sub/install/image_publisher/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1782,unix/ubuntu:/tmp/.ICE-unix/1782'), ('INVOCATION_ID', 'c84b866e5e2c4c39a524e02fbcb47a29'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0f9c64c7_afbc_4bf0_bf2f_f2647c6a1d9a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/home/rsa2021/py_pub_sub/install/image_publisher:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rsa2021/py_pub_sub/build/image_publisher'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages:/home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher')]), 'shell': False}
+[0.196466] (-) TimerEvent: {}
+[0.297981] (-) TimerEvent: {}
+[0.399010] (-) TimerEvent: {}
+[0.500492] (-) TimerEvent: {}
+[0.601582] (-) TimerEvent: {}
+[0.702672] (-) TimerEvent: {}
+[0.803681] (-) TimerEvent: {}
+[0.905296] (-) TimerEvent: {}
+[1.007820] (-) TimerEvent: {}
+[1.110274] (-) TimerEvent: {}
+[1.212677] (-) TimerEvent: {}
+[1.314561] (-) TimerEvent: {}
+[1.417167] (-) TimerEvent: {}
+[1.519472] (-) TimerEvent: {}
+[1.621854] (-) TimerEvent: {}
+[1.724348] (-) TimerEvent: {}
+[1.808320] (zbar_ros_interfaces) StdoutLine: {'line': b'[  3%] Built target zbar_ros_interfaces__cpp\n'}
+[1.814026] (zbar_ros_interfaces) StdoutLine: {'line': b'[ 12%] Built target zbar_ros_interfaces__rosidl_generator_c\n'}
+[1.815741] (zbar_ros_interfaces) StdoutLine: {'line': b'[ 22%] Built target zbar_ros_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.819572] (zbar_ros_interfaces) StdoutLine: {'line': b'[ 32%] Built target zbar_ros_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[1.821058] (zbar_ros_interfaces) StdoutLine: {'line': b'[ 41%] Built target zbar_ros_interfaces__rosidl_typesupport_introspection_c\n'}
+[1.822532] (zbar_ros_interfaces) StdoutLine: {'line': b'[ 51%] Built target zbar_ros_interfaces__rosidl_typesupport_c\n'}
+[1.823826] (zbar_ros_interfaces) StdoutLine: {'line': b'[ 61%] Built target zbar_ros_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.825989] (-) TimerEvent: {}
+[1.828101] (zbar_ros_interfaces) StdoutLine: {'line': b'[ 70%] Built target zbar_ros_interfaces__rosidl_typesupport_cpp\n'}
+[1.829223] (zbar_ros_interfaces) StdoutLine: {'line': b'[ 70%] Built target zbar_ros_interfaces\n'}
+[1.830118] (image_publisher) StdoutLine: {'line': b'[ 50%] Built target image_publisher\n'}
+[1.831289] (image_publisher) StdoutLine: {'line': b'[100%] Built target image_publisher_node\n'}
+[1.842150] (image_publisher) CommandEnded: {'returncode': 0}
+[1.892667] (publisher3431) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/publisher3431', 'build', '--build-base', '/home/rsa2021/py_pub_sub/build/publisher3431/build', 'install', '--prefix', '/home/rsa2021/py_pub_sub/install/publisher3431', '--record', '/home/rsa2021/py_pub_sub/build/publisher3431/install.log', '--single-version-externally-managed'], 'cwd': '/home/rsa2021/py_pub_sub/src/publisher3431', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SVGA_VGPU10': '0', 'USER': 'rsa2021', 'SSH_AGENT_PID': '1747', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/rsa2021', 'OLDPWD': '/home/rsa2021', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1577', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/rsa2021/py_pub_sub/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'rsa2021', 'JOURNAL_STREAM': '8:53507', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rsa2021', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/rsa2021/py_pub_sub/install/image_publisher/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1782,unix/ubuntu:/tmp/.ICE-unix/1782', 'INVOCATION_ID': 'c84b866e5e2c4c39a524e02fbcb47a29', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0f9c64c7_afbc_4bf0_bf2f_f2647c6a1d9a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.119', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/home/rsa2021/py_pub_sub/install/image_publisher:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rsa2021/py_pub_sub/build/publisher3431', 'TURTLEBOT3_MODEL': 'waffle_pi', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages:/home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/image_publisher'}, 'shell': False}
+[1.936892] (-) TimerEvent: {}
+[2.020570] (zbar_ros_interfaces) StdoutLine: {'line': b'[ 74%] Built target zbar_ros_interfaces__py\n'}
+[2.037418] (-) TimerEvent: {}
+[2.098278] (image_publisher) JobProgress: {'identifier': 'image_publisher', 'progress': 'install'}
+[2.138930] (-) TimerEvent: {}
+[2.211763] (image_publisher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rsa2021/py_pub_sub/build/image_publisher'], 'cwd': '/home/rsa2021/py_pub_sub/build/image_publisher', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('USER', 'rsa2021'), ('SSH_AGENT_PID', '1747'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rsa2021'), ('OLDPWD', '/home/rsa2021'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1577'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rsa2021/py_pub_sub/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rsa2021'), ('JOURNAL_STREAM', '8:53507'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rsa2021'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/rsa2021/py_pub_sub/install/image_publisher/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1782,unix/ubuntu:/tmp/.ICE-unix/1782'), ('INVOCATION_ID', 'c84b866e5e2c4c39a524e02fbcb47a29'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0f9c64c7_afbc_4bf0_bf2f_f2647c6a1d9a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/home/rsa2021/py_pub_sub/install/image_publisher:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rsa2021/py_pub_sub/build/image_publisher'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages:/home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher')]), 'shell': False}
+[2.239471] (-) TimerEvent: {}
+[2.272528] (zbar_ros_interfaces) StdoutLine: {'line': b'[ 80%] Built target zbar_ros_interfaces__python\n'}
+[2.330784] (image_publisher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.331241] (image_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/image_publisher/include/image_publisher\n'}
+[2.331527] (image_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/image_publisher/include/image_publisher/visibility.h\n'}
+[2.334668] (image_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/image_publisher/lib/image_publisher/image_publisher_node\n'}
+[2.335070] (image_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/image_publisher/lib/image_publisher/libimage_publisher.so\n'}
+[2.338763] (image_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/image_publisher/bin/libimage_publisher.so\n'}
+[2.339085] (image_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher//launch\n'}
+[2.339337] (-) TimerEvent: {}
+[2.339992] (image_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher//launch/image_publisher_file.launch.py\n'}
+[2.340332] (image_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher//launch/image_publisher_mono.launch.py\n'}
+[2.340573] (image_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher//launch/image_publisher_stereo.launch.py\n'}
+[2.340820] (image_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher//launch/splash.png\n'}
+[2.340995] (image_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/image_publisher/share/ament_index/resource_index/package_run_dependencies/image_publisher\n'}
+[2.341274] (image_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/image_publisher/share/ament_index/resource_index/parent_prefix_path/image_publisher\n'}
+[2.341481] (image_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/environment/ament_prefix_path.sh\n'}
+[2.341777] (image_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/environment/ament_prefix_path.dsv\n'}
+[2.342333] (image_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/environment/path.sh\n'}
+[2.342521] (image_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/environment/path.dsv\n'}
+[2.347786] (image_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/local_setup.bash\n'}
+[2.348724] (image_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/local_setup.sh\n'}
+[2.349031] (image_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/local_setup.zsh\n'}
+[2.349333] (image_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/local_setup.dsv\n'}
+[2.349550] (image_publisher) StdoutLine: {'line': b'-- Installing: /home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/package.dsv\n'}
+[2.349853] (image_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/image_publisher/share/ament_index/resource_index/packages/image_publisher\n'}
+[2.350726] (image_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/image_publisher/share/ament_index/resource_index/rclcpp_components/image_publisher\n'}
+[2.350960] (image_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.351220] (image_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/cmake/image_publisherConfig.cmake\n'}
+[2.351406] (image_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/cmake/image_publisherConfig-version.cmake\n'}
+[2.351569] (image_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/image_publisher/share/image_publisher/package.xml\n'}
+[2.360895] (image_publisher) CommandEnded: {'returncode': 0}
+[2.440993] (-) TimerEvent: {}
+[2.444380] (zbar_ros_interfaces) StdoutLine: {'line': b'[ 87%] Built target zbar_ros_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[2.540999] (zbar_ros_interfaces) StdoutLine: {'line': b'[ 93%] Built target zbar_ros_interfaces__rosidl_typesupport_c__pyext\n'}
+[2.541886] (-) TimerEvent: {}
+[2.582756] (image_publisher) JobEnded: {'identifier': 'image_publisher', 'rc': 0}
+[2.642348] (-) TimerEvent: {}
+[2.683462] (zbar_ros_interfaces) StdoutLine: {'line': b'[100%] Built target zbar_ros_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.742761] (-) TimerEvent: {}
+[2.753288] (zbar_ros_interfaces) CommandEnded: {'returncode': 0}
+[2.843940] (-) TimerEvent: {}
+[2.947937] (-) TimerEvent: {}
+[3.050281] (-) TimerEvent: {}
+[3.152441] (-) TimerEvent: {}
+[3.254402] (-) TimerEvent: {}
+[3.310467] (zbar_ros_interfaces) JobProgress: {'identifier': 'zbar_ros_interfaces', 'progress': 'install'}
+[3.334107] (zbar_ros_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rsa2021/py_pub_sub/build/zbar_ros_interfaces'], 'cwd': '/home/rsa2021/py_pub_sub/build/zbar_ros_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('USER', 'rsa2021'), ('SSH_AGENT_PID', '1747'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rsa2021'), ('OLDPWD', '/home/rsa2021'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1577'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rsa2021/py_pub_sub/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rsa2021'), ('JOURNAL_STREAM', '8:53507'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rsa2021'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/rsa2021/py_pub_sub/install/image_publisher/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1782,unix/ubuntu:/tmp/.ICE-unix/1782'), ('INVOCATION_ID', 'c84b866e5e2c4c39a524e02fbcb47a29'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0f9c64c7_afbc_4bf0_bf2f_f2647c6a1d9a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/home/rsa2021/py_pub_sub/install/image_publisher:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rsa2021/py_pub_sub/build/zbar_ros_interfaces'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages:/home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher')]), 'shell': False}
+[3.354946] (-) TimerEvent: {}
+[3.434702] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.435866] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/ament_index/resource_index/rosidl_interfaces/zbar_ros_interfaces\n'}
+[3.436710] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces\n'}
+[3.437520] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg\n'}
+[3.437994] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/symbol.h\n'}
+[3.438463] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail\n'}
+[3.438741] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail/symbol__struct.h\n'}
+[3.439007] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail/symbol__functions.c\n'}
+[3.439239] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail/symbol__type_support.h\n'}
+[3.439598] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail/symbol__functions.h\n'}
+[3.440089] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.440303] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/environment/library_path.sh\n'}
+[3.440583] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/environment/library_path.dsv\n'}
+[3.440750] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/libzbar_ros_interfaces__rosidl_generator_c.so\n'}
+[3.441193] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces\n'}
+[3.441870] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg\n'}
+[3.442309] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail\n'}
+[3.442650] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail/symbol__rosidl_typesupport_fastrtps_c.h\n'}
+[3.442865] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.443609] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/libzbar_ros_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[3.444661] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces\n'}
+[3.445547] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg\n'}
+[3.446178] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.446744] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail\n'}
+[3.447302] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail/dds_fastrtps\n'}
+[3.449010] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail/symbol__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.450275] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/libzbar_ros_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.451460] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces\n'}
+[3.452093] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg\n'}
+[3.452716] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail\n'}
+[3.453267] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail/symbol__rosidl_typesupport_introspection_c.h\n'}
+[3.453662] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail/symbol__type_support.c\n'}
+[3.454823] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.455581] (-) TimerEvent: {}
+[3.456449] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/libzbar_ros_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[3.457035] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/libzbar_ros_interfaces__rosidl_typesupport_c.so\n'}
+[3.457479] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces\n'}
+[3.458031] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg\n'}
+[3.458503] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/symbol.hpp\n'}
+[3.458926] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail\n'}
+[3.459309] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail/symbol__traits.hpp\n'}
+[3.459717] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail/symbol__builder.hpp\n'}
+[3.460295] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail/symbol__struct.hpp\n'}
+[3.460663] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces\n'}
+[3.461394] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg\n'}
+[3.462035] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail\n'}
+[3.462302] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail/symbol__type_support.cpp\n'}
+[3.462532] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail/symbol__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.462766] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/libzbar_ros_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[3.463342] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/libzbar_ros_interfaces__rosidl_typesupport_cpp.so\n'}
+[3.463705] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/environment/pythonpath.sh\n'}
+[3.464113] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/environment/pythonpath.dsv\n'}
+[3.464569] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages/zbar_ros_interfaces/__init__.py\n'}
+[3.556231] (-) TimerEvent: {}
+[3.608171] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages/zbar_ros_interfaces/msg\n'}
+[3.608984] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages/zbar_ros_interfaces/msg/__init__.py\n'}
+[3.609374] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages/zbar_ros_interfaces/msg/_symbol.py\n'}
+[3.609726] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages/zbar_ros_interfaces/msg/_symbol_s.c\n'}
+[3.610414] (publisher3431) StdoutLine: {'line': b'running egg_info\n'}
+[3.610916] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages/zbar_ros_interfaces/zbar_ros_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.613035] (publisher3431) StdoutLine: {'line': b'writing ../../build/publisher3431/publisher3431.egg-info/PKG-INFO\n'}
+[3.615055] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages/zbar_ros_interfaces/zbar_ros_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.615726] (publisher3431) StdoutLine: {'line': b'writing dependency_links to ../../build/publisher3431/publisher3431.egg-info/dependency_links.txt\n'}
+[3.616461] (publisher3431) StdoutLine: {'line': b'writing entry points to ../../build/publisher3431/publisher3431.egg-info/entry_points.txt\n'}
+[3.617281] (publisher3431) StdoutLine: {'line': b'writing requirements to ../../build/publisher3431/publisher3431.egg-info/requires.txt\n'}
+[3.618382] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages/zbar_ros_interfaces/zbar_ros_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.618867] (publisher3431) StdoutLine: {'line': b'writing top-level names to ../../build/publisher3431/publisher3431.egg-info/top_level.txt\n'}
+[3.619872] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/libzbar_ros_interfaces__python.so\n'}
+[3.620974] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/msg/Symbol.idl\n'}
+[3.621861] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/msg/Symbol.msg\n'}
+[3.622700] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/ament_index/resource_index/package_run_dependencies/zbar_ros_interfaces\n'}
+[3.623471] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/ament_index/resource_index/parent_prefix_path/zbar_ros_interfaces\n'}
+[3.624399] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/environment/ament_prefix_path.sh\n'}
+[3.625454] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/environment/ament_prefix_path.dsv\n'}
+[3.626077] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/environment/path.sh\n'}
+[3.626682] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/environment/path.dsv\n'}
+[3.627076] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/local_setup.bash\n'}
+[3.627734] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/local_setup.sh\n'}
+[3.628231] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/local_setup.zsh\n'}
+[3.628698] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/local_setup.dsv\n'}
+[3.629372] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Installing: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/package.dsv\n'}
+[3.630247] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/ament_index/resource_index/packages/zbar_ros_interfaces\n'}
+[3.631081] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/zbar_ros_interfaces__rosidl_generator_cExport.cmake\n'}
+[3.631635] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/zbar_ros_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.632119] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/zbar_ros_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.632628] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/zbar_ros_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.633549] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/zbar_ros_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[3.634308] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/zbar_ros_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.635809] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/zbar_ros_interfaces__rosidl_generator_cppExport.cmake\n'}
+[3.636831] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/zbar_ros_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.637707] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/zbar_ros_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.638685] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/zbar_ros_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[3.639128] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/zbar_ros_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.639523] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[3.639897] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.640373] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.640766] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.641187] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.641531] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.641830] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.642197] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/zbar_ros_interfacesConfig.cmake\n'}
+[3.642571] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/zbar_ros_interfacesConfig-version.cmake\n'}
+[3.642861] (zbar_ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/package.xml\n'}
+[3.653741] (zbar_ros_interfaces) CommandEnded: {'returncode': 0}
+[3.656608] (-) TimerEvent: {}
+[3.765810] (-) TimerEvent: {}
+[3.875030] (-) TimerEvent: {}
+[3.878692] (publisher3431) StdoutLine: {'line': b"reading manifest file '../../build/publisher3431/publisher3431.egg-info/SOURCES.txt'\n"}
+[3.884661] (publisher3431) StdoutLine: {'line': b"writing manifest file '../../build/publisher3431/publisher3431.egg-info/SOURCES.txt'\n"}
+[3.887052] (publisher3431) StdoutLine: {'line': b'running build\n'}
+[3.889154] (publisher3431) StdoutLine: {'line': b'running build_py\n'}
+[3.891576] (publisher3431) StdoutLine: {'line': b'running install\n'}
+[3.895227] (publisher3431) StdoutLine: {'line': b'running install_lib\n'}
+[3.909479] (publisher3431) StdoutLine: {'line': b'running install_data\n'}
+[3.914039] (publisher3431) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.922092] (publisher3431) StdoutLine: {'line': b"removing '/home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages/publisher3431-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.924103] (publisher3431) StdoutLine: {'line': b'Copying ../../build/publisher3431/publisher3431.egg-info to /home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages/publisher3431-0.0.0-py3.8.egg-info\n'}
+[3.933085] (publisher3431) StdoutLine: {'line': b'running install_scripts\n'}
+[3.975706] (-) TimerEvent: {}
+[4.073677] (publisher3431) StdoutLine: {'line': b'Installing listener script to /home/rsa2021/py_pub_sub/install/publisher3431/lib/publisher3431\n'}
+[4.075893] (-) TimerEvent: {}
+[4.077096] (publisher3431) StdoutLine: {'line': b'Installing listener_ass2 script to /home/rsa2021/py_pub_sub/install/publisher3431/lib/publisher3431\n'}
+[4.078015] (publisher3431) StdoutLine: {'line': b'Installing talker script to /home/rsa2021/py_pub_sub/install/publisher3431/lib/publisher3431\n'}
+[4.079293] (publisher3431) StdoutLine: {'line': b"writing list of installed files to '/home/rsa2021/py_pub_sub/build/publisher3431/install.log'\n"}
+[4.176408] (-) TimerEvent: {}
+[4.282303] (-) TimerEvent: {}
+[4.304268] (zbar_ros_interfaces) JobEnded: {'identifier': 'zbar_ros_interfaces', 'rc': 0}
+[4.316475] (zbar_ros) JobStarted: {'identifier': 'zbar_ros'}
+[4.378004] (publisher3431) CommandEnded: {'returncode': 0}
+[4.387892] (-) TimerEvent: {}
+[4.448928] (publisher3431) JobEnded: {'identifier': 'publisher3431', 'rc': 0}
+[4.463942] (zbar_ros) JobProgress: {'identifier': 'zbar_ros', 'progress': 'cmake'}
+[4.470157] (zbar_ros) JobProgress: {'identifier': 'zbar_ros', 'progress': 'build'}
+[4.472540] (zbar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rsa2021/py_pub_sub/build/zbar_ros', '--', '-j3', '-l3'], 'cwd': '/home/rsa2021/py_pub_sub/build/zbar_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('USER', 'rsa2021'), ('SSH_AGENT_PID', '1747'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rsa2021'), ('OLDPWD', '/home/rsa2021'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1577'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rsa2021/py_pub_sub/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rsa2021'), ('JOURNAL_STREAM', '8:53507'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rsa2021'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/rsa2021/py_pub_sub/install/image_publisher/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1782,unix/ubuntu:/tmp/.ICE-unix/1782'), ('INVOCATION_ID', 'c84b866e5e2c4c39a524e02fbcb47a29'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0f9c64c7_afbc_4bf0_bf2f_f2647c6a1d9a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/home/rsa2021/py_pub_sub/install/image_publisher:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rsa2021/py_pub_sub/build/zbar_ros'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages:/home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher')]), 'shell': False}
+[4.494004] (-) TimerEvent: {}
+[4.596391] (-) TimerEvent: {}
+[4.698330] (-) TimerEvent: {}
+[4.800051] (-) TimerEvent: {}
+[4.806816] (zbar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target barcode_reader_node\x1b[0m\n'}
+[4.900645] (-) TimerEvent: {}
+[5.002694] (-) TimerEvent: {}
+[5.036173] (zbar_ros) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/barcode_reader_node.dir/src/barcode_reader_node.cpp.o\x1b[0m\n'}
+[5.103248] (-) TimerEvent: {}
+[5.204865] (-) TimerEvent: {}
+[5.305934] (-) TimerEvent: {}
+[5.407186] (-) TimerEvent: {}
+[5.508707] (-) TimerEvent: {}
+[5.610202] (-) TimerEvent: {}
+[5.711973] (-) TimerEvent: {}
+[5.813774] (-) TimerEvent: {}
+[5.915348] (-) TimerEvent: {}
+[6.016974] (-) TimerEvent: {}
+[6.118456] (-) TimerEvent: {}
+[6.220013] (-) TimerEvent: {}
+[6.321655] (-) TimerEvent: {}
+[6.423098] (-) TimerEvent: {}
+[6.524808] (-) TimerEvent: {}
+[6.626731] (-) TimerEvent: {}
+[6.728544] (-) TimerEvent: {}
+[6.830529] (-) TimerEvent: {}
+[6.933034] (-) TimerEvent: {}
+[7.034615] (-) TimerEvent: {}
+[7.136121] (-) TimerEvent: {}
+[7.237543] (-) TimerEvent: {}
+[7.339349] (-) TimerEvent: {}
+[7.440505] (-) TimerEvent: {}
+[7.542049] (-) TimerEvent: {}
+[7.643507] (-) TimerEvent: {}
+[7.744775] (-) TimerEvent: {}
+[7.846491] (-) TimerEvent: {}
+[7.948011] (-) TimerEvent: {}
+[8.049185] (-) TimerEvent: {}
+[8.150855] (-) TimerEvent: {}
+[8.252106] (-) TimerEvent: {}
+[8.354445] (-) TimerEvent: {}
+[8.456018] (-) TimerEvent: {}
+[8.557877] (-) TimerEvent: {}
+[8.659860] (-) TimerEvent: {}
+[8.761277] (-) TimerEvent: {}
+[8.862693] (-) TimerEvent: {}
+[8.964150] (-) TimerEvent: {}
+[9.065509] (-) TimerEvent: {}
+[9.167108] (-) TimerEvent: {}
+[9.268593] (-) TimerEvent: {}
+[9.369973] (-) TimerEvent: {}
+[9.471656] (-) TimerEvent: {}
+[9.573157] (-) TimerEvent: {}
+[9.675422] (-) TimerEvent: {}
+[9.777553] (-) TimerEvent: {}
+[9.879443] (-) TimerEvent: {}
+[9.981360] (-) TimerEvent: {}
+[10.083358] (-) TimerEvent: {}
+[10.184852] (-) TimerEvent: {}
+[10.286362] (-) TimerEvent: {}
+[10.387745] (-) TimerEvent: {}
+[10.489694] (-) TimerEvent: {}
+[10.591985] (-) TimerEvent: {}
+[10.694374] (-) TimerEvent: {}
+[10.795637] (-) TimerEvent: {}
+[10.897021] (-) TimerEvent: {}
+[10.998894] (-) TimerEvent: {}
+[11.100680] (-) TimerEvent: {}
+[11.203007] (-) TimerEvent: {}
+[11.304249] (-) TimerEvent: {}
+[11.405584] (-) TimerEvent: {}
+[11.506906] (-) TimerEvent: {}
+[11.610685] (-) TimerEvent: {}
+[11.712483] (-) TimerEvent: {}
+[11.814269] (-) TimerEvent: {}
+[11.916043] (-) TimerEvent: {}
+[12.024244] (-) TimerEvent: {}
+[12.126815] (-) TimerEvent: {}
+[12.228287] (-) TimerEvent: {}
+[12.330090] (-) TimerEvent: {}
+[12.431801] (-) TimerEvent: {}
+[12.533296] (-) TimerEvent: {}
+[12.634771] (-) TimerEvent: {}
+[12.736499] (-) TimerEvent: {}
+[12.837876] (-) TimerEvent: {}
+[12.939420] (-) TimerEvent: {}
+[13.041665] (-) TimerEvent: {}
+[13.144315] (-) TimerEvent: {}
+[13.245677] (-) TimerEvent: {}
+[13.347455] (-) TimerEvent: {}
+[13.449183] (-) TimerEvent: {}
+[13.550944] (-) TimerEvent: {}
+[13.652726] (-) TimerEvent: {}
+[13.754429] (-) TimerEvent: {}
+[13.856583] (-) TimerEvent: {}
+[13.958630] (-) TimerEvent: {}
+[14.060705] (-) TimerEvent: {}
+[14.162441] (-) TimerEvent: {}
+[14.264282] (-) TimerEvent: {}
+[14.365861] (-) TimerEvent: {}
+[14.467813] (-) TimerEvent: {}
+[14.570478] (-) TimerEvent: {}
+[14.672269] (-) TimerEvent: {}
+[14.773649] (-) TimerEvent: {}
+[14.875017] (-) TimerEvent: {}
+[14.977457] (-) TimerEvent: {}
+[15.078997] (-) TimerEvent: {}
+[15.182379] (-) TimerEvent: {}
+[15.284350] (-) TimerEvent: {}
+[15.386098] (-) TimerEvent: {}
+[15.487784] (-) TimerEvent: {}
+[15.589041] (-) TimerEvent: {}
+[15.690282] (-) TimerEvent: {}
+[15.792744] (-) TimerEvent: {}
+[15.894369] (-) TimerEvent: {}
+[15.996456] (-) TimerEvent: {}
+[16.099144] (-) TimerEvent: {}
+[16.200954] (-) TimerEvent: {}
+[16.303218] (-) TimerEvent: {}
+[16.404697] (-) TimerEvent: {}
+[16.506436] (-) TimerEvent: {}
+[16.608949] (-) TimerEvent: {}
+[16.710814] (-) TimerEvent: {}
+[16.812566] (-) TimerEvent: {}
+[16.914251] (-) TimerEvent: {}
+[17.016110] (-) TimerEvent: {}
+[17.118049] (-) TimerEvent: {}
+[17.219903] (-) TimerEvent: {}
+[17.321146] (-) TimerEvent: {}
+[17.422822] (-) TimerEvent: {}
+[17.525263] (-) TimerEvent: {}
+[17.627187] (-) TimerEvent: {}
+[17.728351] (-) TimerEvent: {}
+[17.829619] (-) TimerEvent: {}
+[17.931943] (-) TimerEvent: {}
+[18.037407] (-) TimerEvent: {}
+[18.139502] (-) TimerEvent: {}
+[18.241704] (-) TimerEvent: {}
+[18.342865] (-) TimerEvent: {}
+[18.444038] (-) TimerEvent: {}
+[18.545304] (-) TimerEvent: {}
+[18.646421] (-) TimerEvent: {}
+[18.748596] (-) TimerEvent: {}
+[18.849928] (-) TimerEvent: {}
+[18.951950] (-) TimerEvent: {}
+[19.053183] (-) TimerEvent: {}
+[19.154339] (-) TimerEvent: {}
+[19.255742] (-) TimerEvent: {}
+[19.357249] (-) TimerEvent: {}
+[19.460240] (-) TimerEvent: {}
+[19.562554] (-) TimerEvent: {}
+[19.665099] (-) TimerEvent: {}
+[19.766999] (-) TimerEvent: {}
+[19.868472] (-) TimerEvent: {}
+[19.971019] (-) TimerEvent: {}
+[20.073336] (-) TimerEvent: {}
+[20.175964] (-) TimerEvent: {}
+[20.280534] (-) TimerEvent: {}
+[20.382804] (-) TimerEvent: {}
+[20.484855] (-) TimerEvent: {}
+[20.586533] (-) TimerEvent: {}
+[20.689841] (-) TimerEvent: {}
+[20.792659] (-) TimerEvent: {}
+[20.895328] (-) TimerEvent: {}
+[20.996575] (-) TimerEvent: {}
+[21.097719] (-) TimerEvent: {}
+[21.198864] (-) TimerEvent: {}
+[21.300403] (-) TimerEvent: {}
+[21.402287] (-) TimerEvent: {}
+[21.504430] (-) TimerEvent: {}
+[21.606396] (-) TimerEvent: {}
+[21.707898] (-) TimerEvent: {}
+[21.809206] (-) TimerEvent: {}
+[21.911409] (-) TimerEvent: {}
+[22.012576] (-) TimerEvent: {}
+[22.115606] (-) TimerEvent: {}
+[22.219408] (-) TimerEvent: {}
+[22.327423] (-) TimerEvent: {}
+[22.429381] (-) TimerEvent: {}
+[22.530104] (-) TimerEvent: {}
+[22.631597] (-) TimerEvent: {}
+[22.733415] (-) TimerEvent: {}
+[22.835656] (-) TimerEvent: {}
+[22.936702] (-) TimerEvent: {}
+[23.038318] (-) TimerEvent: {}
+[23.139303] (-) TimerEvent: {}
+[23.240642] (-) TimerEvent: {}
+[23.342098] (-) TimerEvent: {}
+[23.444999] (-) TimerEvent: {}
+[23.547611] (-) TimerEvent: {}
+[23.650035] (-) TimerEvent: {}
+[23.751863] (-) TimerEvent: {}
+[23.857164] (-) TimerEvent: {}
+[23.960071] (-) TimerEvent: {}
+[24.061625] (-) TimerEvent: {}
+[24.164223] (-) TimerEvent: {}
+[24.265416] (-) TimerEvent: {}
+[24.367955] (-) TimerEvent: {}
+[24.470930] (-) TimerEvent: {}
+[24.573620] (-) TimerEvent: {}
+[24.675748] (-) TimerEvent: {}
+[24.776811] (-) TimerEvent: {}
+[24.877544] (-) TimerEvent: {}
+[24.978663] (-) TimerEvent: {}
+[25.080104] (-) TimerEvent: {}
+[25.181863] (-) TimerEvent: {}
+[25.284254] (-) TimerEvent: {}
+[25.390172] (-) TimerEvent: {}
+[25.494466] (-) TimerEvent: {}
+[25.597616] (-) TimerEvent: {}
+[25.700399] (-) TimerEvent: {}
+[25.802588] (-) TimerEvent: {}
+[25.904562] (-) TimerEvent: {}
+[26.006510] (-) TimerEvent: {}
+[26.108157] (-) TimerEvent: {}
+[26.210855] (-) TimerEvent: {}
+[26.312628] (-) TimerEvent: {}
+[26.415235] (-) TimerEvent: {}
+[26.516670] (-) TimerEvent: {}
+[26.618862] (-) TimerEvent: {}
+[26.721170] (-) TimerEvent: {}
+[26.822835] (-) TimerEvent: {}
+[26.924517] (-) TimerEvent: {}
+[27.026060] (-) TimerEvent: {}
+[27.127512] (-) TimerEvent: {}
+[27.231268] (-) TimerEvent: {}
+[27.333792] (-) TimerEvent: {}
+[27.435620] (-) TimerEvent: {}
+[27.538613] (-) TimerEvent: {}
+[27.647359] (-) TimerEvent: {}
+[27.750016] (-) TimerEvent: {}
+[27.851881] (-) TimerEvent: {}
+[27.953589] (-) TimerEvent: {}
+[28.056076] (-) TimerEvent: {}
+[28.160972] (-) TimerEvent: {}
+[28.263994] (-) TimerEvent: {}
+[28.365621] (-) TimerEvent: {}
+[28.467260] (-) TimerEvent: {}
+[28.568387] (-) TimerEvent: {}
+[28.669575] (-) TimerEvent: {}
+[28.770791] (-) TimerEvent: {}
+[28.871819] (-) TimerEvent: {}
+[28.973123] (-) TimerEvent: {}
+[29.074135] (-) TimerEvent: {}
+[29.175181] (-) TimerEvent: {}
+[29.276113] (-) TimerEvent: {}
+[29.376995] (-) TimerEvent: {}
+[29.477935] (-) TimerEvent: {}
+[29.579130] (-) TimerEvent: {}
+[29.680130] (-) TimerEvent: {}
+[29.781140] (-) TimerEvent: {}
+[29.882099] (-) TimerEvent: {}
+[29.982948] (-) TimerEvent: {}
+[30.084388] (-) TimerEvent: {}
+[30.185381] (-) TimerEvent: {}
+[30.287178] (-) TimerEvent: {}
+[30.388753] (-) TimerEvent: {}
+[30.490335] (-) TimerEvent: {}
+[30.592696] (-) TimerEvent: {}
+[30.694364] (-) TimerEvent: {}
+[30.795871] (-) TimerEvent: {}
+[30.898618] (-) TimerEvent: {}
+[30.999834] (-) TimerEvent: {}
+[31.101019] (-) TimerEvent: {}
+[31.202329] (-) TimerEvent: {}
+[31.304093] (-) TimerEvent: {}
+[31.406569] (-) TimerEvent: {}
+[31.507790] (-) TimerEvent: {}
+[31.609145] (-) TimerEvent: {}
+[31.710889] (-) TimerEvent: {}
+[31.812135] (-) TimerEvent: {}
+[31.913415] (-) TimerEvent: {}
+[32.015526] (-) TimerEvent: {}
+[32.117500] (-) TimerEvent: {}
+[32.219654] (-) TimerEvent: {}
+[32.321690] (-) TimerEvent: {}
+[32.424390] (-) TimerEvent: {}
+[32.526231] (-) TimerEvent: {}
+[32.628555] (-) TimerEvent: {}
+[32.729785] (-) TimerEvent: {}
+[32.832283] (-) TimerEvent: {}
+[32.934627] (-) TimerEvent: {}
+[33.036817] (-) TimerEvent: {}
+[33.139796] (-) TimerEvent: {}
+[33.242623] (-) TimerEvent: {}
+[33.345393] (-) TimerEvent: {}
+[33.447474] (-) TimerEvent: {}
+[33.549151] (-) TimerEvent: {}
+[33.652051] (-) TimerEvent: {}
+[33.754159] (-) TimerEvent: {}
+[33.857298] (-) TimerEvent: {}
+[33.959960] (-) TimerEvent: {}
+[34.061920] (-) TimerEvent: {}
+[34.163666] (-) TimerEvent: {}
+[34.265689] (-) TimerEvent: {}
+[34.367283] (-) TimerEvent: {}
+[34.469174] (-) TimerEvent: {}
+[34.571605] (-) TimerEvent: {}
+[34.673180] (-) TimerEvent: {}
+[34.776208] (-) TimerEvent: {}
+[34.877845] (-) TimerEvent: {}
+[34.981409] (-) TimerEvent: {}
+[35.082840] (-) TimerEvent: {}
+[35.184662] (-) TimerEvent: {}
+[35.285826] (-) TimerEvent: {}
+[35.387492] (-) TimerEvent: {}
+[35.489329] (-) TimerEvent: {}
+[35.593663] (-) TimerEvent: {}
+[35.695719] (-) TimerEvent: {}
+[35.797426] (-) TimerEvent: {}
+[35.899121] (-) TimerEvent: {}
+[36.000356] (-) TimerEvent: {}
+[36.101459] (-) TimerEvent: {}
+[36.203104] (-) TimerEvent: {}
+[36.304369] (-) TimerEvent: {}
+[36.405759] (-) TimerEvent: {}
+[36.507998] (-) TimerEvent: {}
+[36.609171] (-) TimerEvent: {}
+[36.710219] (-) TimerEvent: {}
+[36.811976] (-) TimerEvent: {}
+[36.913867] (-) TimerEvent: {}
+[37.015860] (-) TimerEvent: {}
+[37.116837] (-) TimerEvent: {}
+[37.218007] (-) TimerEvent: {}
+[37.319520] (-) TimerEvent: {}
+[37.421158] (-) TimerEvent: {}
+[37.522669] (-) TimerEvent: {}
+[37.624729] (-) TimerEvent: {}
+[37.726401] (-) TimerEvent: {}
+[37.827966] (-) TimerEvent: {}
+[37.930506] (-) TimerEvent: {}
+[38.034424] (-) TimerEvent: {}
+[38.135351] (-) TimerEvent: {}
+[38.236378] (-) TimerEvent: {}
+[38.337123] (-) TimerEvent: {}
+[38.438652] (-) TimerEvent: {}
+[38.543470] (-) TimerEvent: {}
+[38.645631] (-) TimerEvent: {}
+[38.746660] (-) TimerEvent: {}
+[38.848413] (-) TimerEvent: {}
+[38.949725] (-) TimerEvent: {}
+[39.051703] (-) TimerEvent: {}
+[39.153099] (-) TimerEvent: {}
+[39.254425] (-) TimerEvent: {}
+[39.356617] (-) TimerEvent: {}
+[39.457988] (-) TimerEvent: {}
+[39.559339] (-) TimerEvent: {}
+[39.660417] (-) TimerEvent: {}
+[39.761937] (-) TimerEvent: {}
+[39.863496] (-) TimerEvent: {}
+[39.964880] (-) TimerEvent: {}
+[40.066326] (-) TimerEvent: {}
+[40.167773] (-) TimerEvent: {}
+[40.269158] (-) TimerEvent: {}
+[40.373490] (-) TimerEvent: {}
+[40.475491] (-) TimerEvent: {}
+[40.577298] (-) TimerEvent: {}
+[40.679549] (-) TimerEvent: {}
+[40.781265] (-) TimerEvent: {}
+[40.884256] (-) TimerEvent: {}
+[40.986144] (-) TimerEvent: {}
+[41.088667] (-) TimerEvent: {}
+[41.189912] (-) TimerEvent: {}
+[41.291577] (-) TimerEvent: {}
+[41.393142] (-) TimerEvent: {}
+[41.494805] (-) TimerEvent: {}
+[41.597746] (-) TimerEvent: {}
+[41.700164] (-) TimerEvent: {}
+[41.801626] (-) TimerEvent: {}
+[41.902754] (-) TimerEvent: {}
+[42.003976] (-) TimerEvent: {}
+[42.105149] (-) TimerEvent: {}
+[42.206543] (-) TimerEvent: {}
+[42.308194] (-) TimerEvent: {}
+[42.409204] (-) TimerEvent: {}
+[42.510713] (-) TimerEvent: {}
+[42.612628] (-) TimerEvent: {}
+[42.715244] (-) TimerEvent: {}
+[42.816693] (-) TimerEvent: {}
+[42.917966] (-) TimerEvent: {}
+[43.019325] (-) TimerEvent: {}
+[43.120632] (-) TimerEvent: {}
+[43.221958] (-) TimerEvent: {}
+[43.323644] (-) TimerEvent: {}
+[43.426143] (-) TimerEvent: {}
+[43.528368] (-) TimerEvent: {}
+[43.629660] (-) TimerEvent: {}
+[43.731511] (-) TimerEvent: {}
+[43.832772] (-) TimerEvent: {}
+[43.934121] (-) TimerEvent: {}
+[44.035415] (-) TimerEvent: {}
+[44.136703] (-) TimerEvent: {}
+[44.239041] (-) TimerEvent: {}
+[44.341204] (-) TimerEvent: {}
+[44.443414] (-) TimerEvent: {}
+[44.544805] (-) TimerEvent: {}
+[44.646150] (-) TimerEvent: {}
+[44.748274] (-) TimerEvent: {}
+[44.849704] (-) TimerEvent: {}
+[44.951965] (-) TimerEvent: {}
+[45.054433] (-) TimerEvent: {}
+[45.156574] (-) TimerEvent: {}
+[45.258791] (-) TimerEvent: {}
+[45.360948] (-) TimerEvent: {}
+[45.462306] (-) TimerEvent: {}
+[45.565168] (-) TimerEvent: {}
+[45.669775] (-) TimerEvent: {}
+[45.771969] (-) TimerEvent: {}
+[45.874263] (-) TimerEvent: {}
+[45.975585] (-) TimerEvent: {}
+[46.077416] (-) TimerEvent: {}
+[46.178998] (-) TimerEvent: {}
+[46.281779] (-) TimerEvent: {}
+[46.383965] (-) TimerEvent: {}
+[46.486680] (-) TimerEvent: {}
+[46.589902] (-) TimerEvent: {}
+[46.692596] (-) TimerEvent: {}
+[46.795368] (-) TimerEvent: {}
+[46.897734] (-) TimerEvent: {}
+[46.999818] (-) TimerEvent: {}
+[47.101048] (-) TimerEvent: {}
+[47.203259] (-) TimerEvent: {}
+[47.305404] (-) TimerEvent: {}
+[47.407819] (-) TimerEvent: {}
+[47.510283] (-) TimerEvent: {}
+[47.613469] (-) TimerEvent: {}
+[47.715779] (-) TimerEvent: {}
+[47.817720] (-) TimerEvent: {}
+[47.918872] (-) TimerEvent: {}
+[48.021102] (-) TimerEvent: {}
+[48.123789] (-) TimerEvent: {}
+[48.226383] (-) TimerEvent: {}
+[48.328600] (-) TimerEvent: {}
+[48.430752] (-) TimerEvent: {}
+[48.533323] (-) TimerEvent: {}
+[48.638106] (-) TimerEvent: {}
+[48.739811] (-) TimerEvent: {}
+[48.841995] (-) TimerEvent: {}
+[48.943144] (-) TimerEvent: {}
+[49.044468] (-) TimerEvent: {}
+[49.146519] (-) TimerEvent: {}
+[49.248803] (-) TimerEvent: {}
+[49.351367] (-) TimerEvent: {}
+[49.453478] (-) TimerEvent: {}
+[49.555367] (-) TimerEvent: {}
+[49.656867] (-) TimerEvent: {}
+[49.758695] (-) TimerEvent: {}
+[49.860179] (-) TimerEvent: {}
+[49.961959] (-) TimerEvent: {}
+[50.064690] (-) TimerEvent: {}
+[50.166864] (-) TimerEvent: {}
+[50.269009] (-) TimerEvent: {}
+[50.370718] (-) TimerEvent: {}
+[50.472614] (-) TimerEvent: {}
+[50.574620] (-) TimerEvent: {}
+[50.677707] (-) TimerEvent: {}
+[50.779887] (-) TimerEvent: {}
+[50.892247] (-) TimerEvent: {}
+[50.993898] (-) TimerEvent: {}
+[51.094577] (-) TimerEvent: {}
+[51.195606] (-) TimerEvent: {}
+[51.297211] (-) TimerEvent: {}
+[51.400379] (-) TimerEvent: {}
+[51.504297] (-) TimerEvent: {}
+[51.605894] (-) TimerEvent: {}
+[51.670322] (zbar_ros) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libbarcode_reader_node.a\x1b[0m\n'}
+[51.706176] (-) TimerEvent: {}
+[51.807255] (-) TimerEvent: {}
+[51.908436] (-) TimerEvent: {}
+[52.009790] (-) TimerEvent: {}
+[52.052193] (zbar_ros) StdoutLine: {'line': b'[ 50%] Built target barcode_reader_node\n'}
+[52.110367] (-) TimerEvent: {}
+[52.175410] (zbar_ros) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable barcode_reader\x1b[0m\n'}
+[52.210629] (-) TimerEvent: {}
+[52.312522] (-) TimerEvent: {}
+[52.414314] (-) TimerEvent: {}
+[52.516813] (-) TimerEvent: {}
+[52.618591] (-) TimerEvent: {}
+[52.719256] (-) TimerEvent: {}
+[52.819958] (-) TimerEvent: {}
+[52.920665] (-) TimerEvent: {}
+[53.021691] (-) TimerEvent: {}
+[53.123184] (-) TimerEvent: {}
+[53.224651] (-) TimerEvent: {}
+[53.325859] (-) TimerEvent: {}
+[53.427946] (-) TimerEvent: {}
+[53.530349] (-) TimerEvent: {}
+[53.631728] (-) TimerEvent: {}
+[53.733012] (-) TimerEvent: {}
+[53.834667] (-) TimerEvent: {}
+[53.936346] (-) TimerEvent: {}
+[54.037890] (-) TimerEvent: {}
+[54.139770] (-) TimerEvent: {}
+[54.241277] (-) TimerEvent: {}
+[54.343068] (-) TimerEvent: {}
+[54.444796] (-) TimerEvent: {}
+[54.546472] (-) TimerEvent: {}
+[54.648332] (-) TimerEvent: {}
+[54.750460] (-) TimerEvent: {}
+[54.852113] (-) TimerEvent: {}
+[54.953915] (-) TimerEvent: {}
+[55.056538] (-) TimerEvent: {}
+[55.158313] (-) TimerEvent: {}
+[55.259582] (-) TimerEvent: {}
+[55.360772] (-) TimerEvent: {}
+[55.461974] (-) TimerEvent: {}
+[55.502807] (zbar_ros) StdoutLine: {'line': b'[100%] Built target barcode_reader\n'}
+[55.562374] (-) TimerEvent: {}
+[55.604257] (zbar_ros) CommandEnded: {'returncode': 0}
+[55.663343] (-) TimerEvent: {}
+[55.767160] (-) TimerEvent: {}
+[55.783673] (zbar_ros) JobProgress: {'identifier': 'zbar_ros', 'progress': 'install'}
+[55.790346] (zbar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rsa2021/py_pub_sub/build/zbar_ros'], 'cwd': '/home/rsa2021/py_pub_sub/build/zbar_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('USER', 'rsa2021'), ('SSH_AGENT_PID', '1747'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rsa2021'), ('OLDPWD', '/home/rsa2021'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1577'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rsa2021/py_pub_sub/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rsa2021'), ('JOURNAL_STREAM', '8:53507'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rsa2021'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/rsa2021/py_pub_sub/install/image_publisher/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1782,unix/ubuntu:/tmp/.ICE-unix/1782'), ('INVOCATION_ID', 'c84b866e5e2c4c39a524e02fbcb47a29'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0f9c64c7_afbc_4bf0_bf2f_f2647c6a1d9a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/home/rsa2021/py_pub_sub/install/image_publisher:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rsa2021/py_pub_sub/build/zbar_ros'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages:/home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher')]), 'shell': False}
+[55.818631] (zbar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[55.820272] (zbar_ros) StdoutLine: {'line': b'-- Installing: /home/rsa2021/py_pub_sub/install/zbar_ros/lib/zbar_ros/barcode_reader\n'}
+[55.837172] (zbar_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/rsa2021/py_pub_sub/install/zbar_ros/lib/zbar_ros/barcode_reader" to ""\n'}
+[55.838240] (zbar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/include/\n'}
+[55.839165] (zbar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/include//zbar_ros\n'}
+[55.839991] (zbar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/include//zbar_ros/barcode_reader_node.hpp\n'}
+[55.840808] (zbar_ros) StdoutLine: {'line': b'-- Installing: /home/rsa2021/py_pub_sub/install/zbar_ros/lib/libbarcode_reader_node.a\n'}
+[55.857494] (zbar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/ament_index/resource_index/package_run_dependencies/zbar_ros\n'}
+[55.858417] (zbar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/ament_index/resource_index/parent_prefix_path/zbar_ros\n'}
+[55.859366] (zbar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/environment/ament_prefix_path.sh\n'}
+[55.860190] (zbar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/environment/ament_prefix_path.dsv\n'}
+[55.860988] (zbar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/environment/path.sh\n'}
+[55.862047] (zbar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/environment/path.dsv\n'}
+[55.863667] (zbar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/local_setup.bash\n'}
+[55.864895] (zbar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/local_setup.sh\n'}
+[55.865786] (zbar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/local_setup.zsh\n'}
+[55.866195] (zbar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/local_setup.dsv\n'}
+[55.866977] (zbar_ros) StdoutLine: {'line': b'-- Installing: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/package.dsv\n'}
+[55.868100] (-) TimerEvent: {}
+[55.869127] (zbar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/ament_index/resource_index/packages/zbar_ros\n'}
+[55.869737] (zbar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/cmake/zbar_rosConfig.cmake\n'}
+[55.870117] (zbar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/cmake/zbar_rosConfig-version.cmake\n'}
+[55.870417] (zbar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/package.xml\n'}
+[55.878367] (zbar_ros) CommandEnded: {'returncode': 0}
+[55.969003] (-) TimerEvent: {}
+[56.070954] (-) TimerEvent: {}
+[56.174296] (-) TimerEvent: {}
+[56.194798] (zbar_ros) JobEnded: {'identifier': 'zbar_ros', 'rc': 0}
+[56.208640] (-) EventReactorShutdown: {}

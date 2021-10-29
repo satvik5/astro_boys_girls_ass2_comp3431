@@ -8,6 +8,8 @@ from tf2_ros import TransformException
 from tf2_ros.buffer import Buffer
 from tf2_ros.transform_listener import TransformListener
 from geometry_msgs.msg import TransformStamped
+from rosgraph_msgs.msg import Clock
+
 from rclpy.duration import Duration
 
 
@@ -17,7 +19,7 @@ class Subscriber3431(Node):
     def __init__(self):
         super().__init__('subscriber3431')
         self.subscription = self.create_subscription(
-            TransformStamped,
+            Clock,
             'topic_qr',
             self.point_listener,
             10)
@@ -27,28 +29,36 @@ class Subscriber3431(Node):
         self.tf_listener = TransformListener(self.tf_buffer, self)
 
 
-    def point_listener(self, ts):
-        now = rclpy.time.Time()
-        trans = self.tf_buffer.lookup_transform('map','qr_offset',now,timeout=Duration(seconds=10.0))
+    def point_listener(self, clock):
+        #now = rclpy.time.Time()
+        #self.get_logger().info('{0}'.format(now))
+        try:
+            trans = self.tf_buffer.lookup_transform('map','qr_offset',clock.clock) #,timeout=Duration(seconds=10.0)
+        except TransformException as ex:
+            self.get_logger().info(f'Could not transform qr_offset to map: {ex}')
+            return
+
+
+        #self.get_logger().info('I m here after catching exceptions')
         point = Point32()
         point.x = trans.transform.translation.x
         point.y = trans.transform.translation.y
         point.z = trans.transform.translation.z
 
-        self.get_logger().info("Points to be visualized are: {0},{1},{2}".format(point.x,point.y,point.z))
+        #self.get_logger().info("Points to be visualized are: {0},{1},{2}".format(point.x,point.y,point.z))
         marker = Marker()
         marker.header.frame_id = 'map' #'map'
-        marker.header.stamp = self.get_clock().now().to_msg()
+        marker.header.stamp = clock.clock
         marker.ns = "basic_shapes_ass2"
         marker.id = 0
-        marker.pose.position.x = point.x+1.0
-        marker.pose.position.y = point.y+1.0
-        marker.pose.position.z = point.z+0.5
+        marker.pose.position.x = point.x
+        marker.pose.position.y = point.y
+        marker.pose.position.z = point.z
         marker.pose.orientation.x = 0.0
         marker.pose.orientation.y = 0.0
         marker.pose.orientation.z = 0.0
         marker.pose.orientation.w = 1.0
-        marker.scale.x = 1.0
+        marker.scale.x = 0.1
         marker.scale.y = 0.1
         marker.scale.z = 0.1
         marker.color.r = 0.0
