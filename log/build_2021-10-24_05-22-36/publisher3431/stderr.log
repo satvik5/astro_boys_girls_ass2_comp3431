@@ -1,5 +1,0 @@
-  File "/home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages/publisher3431/subscriber_ass2.py", line 94
-    filt2 filter(lambda x: x != float('inf'), self.global_scan.ranges[-int(abs(theta_r))+1:])
-          ^
-SyntaxError: invalid syntax
-

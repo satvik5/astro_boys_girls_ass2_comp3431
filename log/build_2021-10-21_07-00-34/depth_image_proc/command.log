@@ -1,1 +1,0 @@
-Invoking command in '/home/rsa2021/py_pub_sub/build/depth_image_proc': /usr/bin/cmake /home/rsa2021/py_pub_sub/src/depth_image_proc -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/rsa2021/py_pub_sub/install/depth_image_proc

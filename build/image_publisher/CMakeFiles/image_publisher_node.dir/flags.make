@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wall -Wextra -Wpedantic -std=gnu++14
 
 CXX_DEFINES = -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB
 
-CXX_INCLUDES = -I/home/rsa2021/py_pub_sub/src/image_publisher/include -I/opt/ros/foxy/opt/yaml_cpp_vendor/include -isystem /opt/ros/foxy/include -isystem /usr/include/opencv4 
+CXX_INCLUDES = -I/home/rsa2021/python_ws/src/image_publisher/include -I/opt/ros/foxy/opt/yaml_cpp_vendor/include -isystem /opt/ros/foxy/include -isystem /usr/include/opencv4 
 

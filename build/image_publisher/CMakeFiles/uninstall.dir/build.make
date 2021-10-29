@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rsa2021/py_pub_sub/src/image_publisher
+CMAKE_SOURCE_DIR = /home/rsa2021/python_ws/src/image_publisher
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rsa2021/py_pub_sub/build/image_publisher
+CMAKE_BINARY_DIR = /home/rsa2021/python_ws/build/image_publisher
 
 # Utility rule file for uninstall.
 
@@ -67,6 +67,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/rsa2021/py_pub_sub/build/image_publisher && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rsa2021/py_pub_sub/src/image_publisher /home/rsa2021/py_pub_sub/src/image_publisher /home/rsa2021/py_pub_sub/build/image_publisher /home/rsa2021/py_pub_sub/build/image_publisher /home/rsa2021/py_pub_sub/build/image_publisher/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rsa2021/python_ws/build/image_publisher && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rsa2021/python_ws/src/image_publisher /home/rsa2021/python_ws/src/image_publisher /home/rsa2021/python_ws/build/image_publisher /home/rsa2021/python_ws/build/image_publisher /home/rsa2021/python_ws/build/image_publisher/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

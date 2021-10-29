@@ -16,7 +16,7 @@ set(_image_publisher_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT image_publisher_FIND_QUIETLY)
-  message(STATUS "Found image_publisher: 2.1.0 (${image_publisher_DIR})")
+  message(STATUS "Found image_publisher: 2.2.1 (${image_publisher_DIR})")
 endif()
 
 # warn when using a deprecated package
@@ -36,7 +36,7 @@ endif()
 set(image_publisher_FOUND_AMENT_PACKAGE TRUE)
 
 # include all config extra files
-set(_extras "ament_cmake_export_dependencies-extras.cmake")
+set(_extras "ament_cmake_export_dependencies-extras.cmake;ament_cmake_export_include_directories-extras.cmake;ament_cmake_export_libraries-extras.cmake")
 foreach(_extra ${_extras})
   include("${image_publisher_DIR}/${_extra}")
 endforeach()

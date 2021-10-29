@@ -6,12 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/home/rsa2021/py_pub_sub/src/image_publisher/include/image_publisher/image_publisher.hpp
+/home/rsa2021/python_ws/src/image_publisher/include/image_publisher/image_publisher.hpp
 rclcpp/rclcpp.hpp
 -
 image_publisher/visibility.h
 -
-image_transport/image_transport.h
+image_transport/image_transport.hpp
 -
 cv_bridge/cv_bridge.h
 -
@@ -20,11 +20,11 @@ opencv2/highgui/highgui.hpp
 string
 -
 
-/home/rsa2021/py_pub_sub/src/image_publisher/include/image_publisher/visibility.h
+/home/rsa2021/python_ws/src/image_publisher/include/image_publisher/visibility.h
 
-/home/rsa2021/py_pub_sub/src/image_publisher/src/image_publisher_node.cpp
+/home/rsa2021/python_ws/src/image_publisher/src/image_publisher_node.cpp
 image_publisher/image_publisher.hpp
-/home/rsa2021/py_pub_sub/src/image_publisher/src/image_publisher/image_publisher.hpp
+/home/rsa2021/python_ws/src/image_publisher/src/image_publisher/image_publisher.hpp
 memory
 -
 
@@ -171,10 +171,6 @@ stdexcept
 -
 image_transport/visibility_control.hpp
 /opt/ros/foxy/include/image_transport/image_transport/visibility_control.hpp
-
-/opt/ros/foxy/include/image_transport/image_transport.h
-image_transport.hpp
-/opt/ros/foxy/include/image_transport/image_transport.hpp
 
 /opt/ros/foxy/include/image_transport/image_transport.hpp
 functional
@@ -1602,12 +1598,6 @@ rclcpp/node_interfaces/node_base_interface.hpp
 rclcpp/node_interfaces/node_timers_interface.hpp
 /opt/ros/foxy/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp
 
-/opt/ros/foxy/include/rclcpp/detail/mutex_two_priorities.hpp
-condition_variable
--
-mutex
--
-
 /opt/ros/foxy/include/rclcpp/detail/resolve_enable_topic_statistics.hpp
 stdexcept
 -
@@ -1775,8 +1765,6 @@ thread
 -
 unordered_map
 -
-rclcpp/detail/mutex_two_priorities.hpp
-/opt/ros/foxy/include/rclcpp/executors/rclcpp/detail/mutex_two_priorities.hpp
 rclcpp/executor.hpp
 /opt/ros/foxy/include/rclcpp/executors/rclcpp/executor.hpp
 rclcpp/macros.hpp

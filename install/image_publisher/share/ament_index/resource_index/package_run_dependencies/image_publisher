@@ -1,1 +1,1 @@
-cv_bridge;camera_info_manager;image_transport;image_geometry;class_loader;rclcpp;rclcpp_components;ament_cmake_gtest;ament_lint_auto;ament_lint_common
+camera_info_manager;class_loader;cv_bridge;image_geometry;image_transport;rclcpp;rclcpp_components;ament_lint_auto;ament_lint_common
