@@ -1,0 +1,27 @@
+[0.024s] Invoking command in '/home/rsa2021/python_ws/build/zbar_ros': CMAKE_PREFIX_PATH=/home/rsa2021/python_ws/install/zbar_ros_interfaces:/home/rsa2021/python_ws/install/zbar_ros:/home/rsa2021/python_ws/install/image_publisher:/home/rsa2021/python_ws/install/publisher3431:/opt/ros/foxy /usr/bin/cmake --build /home/rsa2021/python_ws/build/zbar_ros -- -j3 -l3
+[0.098s] [ 50%] Built target barcode_reader_node
+[0.135s] [100%] Built target barcode_reader
+[0.155s] Invoked command in '/home/rsa2021/python_ws/build/zbar_ros' returned '0': CMAKE_PREFIX_PATH=/home/rsa2021/python_ws/install/zbar_ros_interfaces:/home/rsa2021/python_ws/install/zbar_ros:/home/rsa2021/python_ws/install/image_publisher:/home/rsa2021/python_ws/install/publisher3431:/opt/ros/foxy /usr/bin/cmake --build /home/rsa2021/python_ws/build/zbar_ros -- -j3 -l3
+[0.202s] Invoking command in '/home/rsa2021/python_ws/build/zbar_ros': CMAKE_PREFIX_PATH=/home/rsa2021/python_ws/install/zbar_ros_interfaces:/home/rsa2021/python_ws/install/zbar_ros:/home/rsa2021/python_ws/install/image_publisher:/home/rsa2021/python_ws/install/publisher3431:/opt/ros/foxy /usr/bin/cmake --install /home/rsa2021/python_ws/build/zbar_ros
+[0.214s] -- Install configuration: ""
+[0.214s] -- Up-to-date: /home/rsa2021/python_ws/install/zbar_ros/lib/zbar_ros/barcode_reader
+[0.214s] -- Up-to-date: /home/rsa2021/python_ws/install/zbar_ros/include/
+[0.215s] -- Up-to-date: /home/rsa2021/python_ws/install/zbar_ros/include//zbar_ros
+[0.215s] -- Up-to-date: /home/rsa2021/python_ws/install/zbar_ros/include//zbar_ros/barcode_reader_node.hpp
+[0.215s] -- Up-to-date: /home/rsa2021/python_ws/install/zbar_ros/lib/libbarcode_reader_node.a
+[0.215s] -- Up-to-date: /home/rsa2021/python_ws/install/zbar_ros/share/ament_index/resource_index/package_run_dependencies/zbar_ros
+[0.216s] -- Up-to-date: /home/rsa2021/python_ws/install/zbar_ros/share/ament_index/resource_index/parent_prefix_path/zbar_ros
+[0.216s] -- Up-to-date: /home/rsa2021/python_ws/install/zbar_ros/share/zbar_ros/environment/ament_prefix_path.sh
+[0.216s] -- Up-to-date: /home/rsa2021/python_ws/install/zbar_ros/share/zbar_ros/environment/ament_prefix_path.dsv
+[0.216s] -- Up-to-date: /home/rsa2021/python_ws/install/zbar_ros/share/zbar_ros/environment/path.sh
+[0.216s] -- Up-to-date: /home/rsa2021/python_ws/install/zbar_ros/share/zbar_ros/environment/path.dsv
+[0.216s] -- Up-to-date: /home/rsa2021/python_ws/install/zbar_ros/share/zbar_ros/local_setup.bash
+[0.216s] -- Up-to-date: /home/rsa2021/python_ws/install/zbar_ros/share/zbar_ros/local_setup.sh
+[0.216s] -- Up-to-date: /home/rsa2021/python_ws/install/zbar_ros/share/zbar_ros/local_setup.zsh
+[0.216s] -- Up-to-date: /home/rsa2021/python_ws/install/zbar_ros/share/zbar_ros/local_setup.dsv
+[0.216s] -- Installing: /home/rsa2021/python_ws/install/zbar_ros/share/zbar_ros/package.dsv
+[0.216s] -- Up-to-date: /home/rsa2021/python_ws/install/zbar_ros/share/ament_index/resource_index/packages/zbar_ros
+[0.216s] -- Up-to-date: /home/rsa2021/python_ws/install/zbar_ros/share/zbar_ros/cmake/zbar_rosConfig.cmake
+[0.216s] -- Up-to-date: /home/rsa2021/python_ws/install/zbar_ros/share/zbar_ros/cmake/zbar_rosConfig-version.cmake
+[0.217s] -- Up-to-date: /home/rsa2021/python_ws/install/zbar_ros/share/zbar_ros/package.xml
+[0.219s] Invoked command in '/home/rsa2021/python_ws/build/zbar_ros' returned '0': CMAKE_PREFIX_PATH=/home/rsa2021/python_ws/install/zbar_ros_interfaces:/home/rsa2021/python_ws/install/zbar_ros:/home/rsa2021/python_ws/install/image_publisher:/home/rsa2021/python_ws/install/publisher3431:/opt/ros/foxy /usr/bin/cmake --install /home/rsa2021/python_ws/build/zbar_ros
