@@ -23,12 +23,12 @@ class Subscriber3431_ass2(Node):
 
     def __init__(self):
         super().__init__('subscriber3431_ass2')
+        self.get_logger().info("Starting the QR mapper, waiting for a QR code to be detected...")
         self.publisher_ = self.create_publisher(Clock, 'topic_qr', 10)
         self.subscription = self.create_subscription(Symbol, 'barcode', self.barcode_listener, 10)
         self.br = TransformBroadcaster(self)
         self.subscription_laser = self.create_subscription(LaserScan, '/scan', self.publish_laser,10)
         self.subscription_timer = self.create_subscription(Clock, '/clock', self.publish_timer,10)
-        self.subscription_matrix = self.create_subscription(CameraInfo, '/camera/camera_info', self.publish_matrix,10)
 
         self.sim_time = Clock()
         self.global_scan = LaserScan()
@@ -40,11 +40,6 @@ class Subscriber3431_ass2(Node):
 	
     def publish_laser(self,scan):
     	self.global_scan = scan
-
-    def publish_matrix(self,camera_info):
-    	n = camera_info.k
-    	self.cam_info = camera_info
-    	self.global_matrix = np.array([[n[0],n[1],n[2]],[n[3],n[4],n[5]],[n[6],n[7],n[8]]])
 
     def barcode_listener(self, bar_code):
         self.get_logger().info("Detected new QR code:")

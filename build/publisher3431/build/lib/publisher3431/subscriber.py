@@ -16,6 +16,7 @@ class Subscriber3431(Node):
 
     def __init__(self):
         super().__init__('subscriber3431')
+        self.get_logger().info('Starting the point transform, waiting for QR code to be detected...')
         self.subscription = self.create_subscription(Clock, 'topic_qr', self.point_listener, 10)
         self.publisher = self.create_publisher(Marker,'vis_marker',0)
         self.tf_buffer = Buffer()
@@ -41,7 +42,7 @@ class Subscriber3431(Node):
         marker.type = 1 # Publish as a cube
         marker.pose.position.x = point.x
         marker.pose.position.y = point.y
-        marker.pose.position.z = 0.06
+        marker.pose.position.z = 0.05
         marker.pose.orientation.x = 0.0
         marker.pose.orientation.y = 0.0
         marker.pose.orientation.z = 0.0
