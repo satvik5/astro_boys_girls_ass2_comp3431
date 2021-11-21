@@ -1,0 +1,37 @@
+[1.133s] Invoking command in '/home/rsa2021/py_pub_sub/src/map_server': AMENT_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/comp3431_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/comp3431_interfaces:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/rsa2021/py_pub_sub/install/map_server/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/map_server build --build-base /home/rsa2021/py_pub_sub/build/map_server/build install --prefix /home/rsa2021/py_pub_sub/install/map_server --record /home/rsa2021/py_pub_sub/build/map_server/install.log --single-version-externally-managed
+[1.910s] running egg_info
+[1.911s] creating ../../build/map_server/map_server.egg-info
+[1.911s] writing ../../build/map_server/map_server.egg-info/PKG-INFO
+[1.912s] writing dependency_links to ../../build/map_server/map_server.egg-info/dependency_links.txt
+[1.913s] writing entry points to ../../build/map_server/map_server.egg-info/entry_points.txt
+[1.923s] writing requirements to ../../build/map_server/map_server.egg-info/requires.txt
+[1.924s] writing top-level names to ../../build/map_server/map_server.egg-info/top_level.txt
+[1.924s] writing manifest file '../../build/map_server/map_server.egg-info/SOURCES.txt'
+[2.022s] reading manifest file '../../build/map_server/map_server.egg-info/SOURCES.txt'
+[2.024s] writing manifest file '../../build/map_server/map_server.egg-info/SOURCES.txt'
+[2.025s] running build
+[2.025s] running build_py
+[2.026s] creating /home/rsa2021/py_pub_sub/build/map_server/build
+[2.027s] creating /home/rsa2021/py_pub_sub/build/map_server/build/lib
+[2.027s] creating /home/rsa2021/py_pub_sub/build/map_server/build/lib/map_server
+[2.028s] copying map_server/__init__.py -> /home/rsa2021/py_pub_sub/build/map_server/build/lib/map_server
+[2.028s] copying map_server/map_server.py -> /home/rsa2021/py_pub_sub/build/map_server/build/lib/map_server
+[2.029s] running install
+[2.031s] running install_lib
+[2.033s] creating /home/rsa2021/py_pub_sub/install/map_server/lib/python3.8/site-packages/map_server
+[2.034s] copying /home/rsa2021/py_pub_sub/build/map_server/build/lib/map_server/__init__.py -> /home/rsa2021/py_pub_sub/install/map_server/lib/python3.8/site-packages/map_server
+[2.035s] copying /home/rsa2021/py_pub_sub/build/map_server/build/lib/map_server/map_server.py -> /home/rsa2021/py_pub_sub/install/map_server/lib/python3.8/site-packages/map_server
+[2.036s] byte-compiling /home/rsa2021/py_pub_sub/install/map_server/lib/python3.8/site-packages/map_server/__init__.py to __init__.cpython-38.pyc
+[2.039s] byte-compiling /home/rsa2021/py_pub_sub/install/map_server/lib/python3.8/site-packages/map_server/map_server.py to map_server.cpython-38.pyc
+[2.040s] running install_data
+[2.043s] creating /home/rsa2021/py_pub_sub/install/map_server/share/ament_index
+[2.043s] creating /home/rsa2021/py_pub_sub/install/map_server/share/ament_index/resource_index
+[2.044s] creating /home/rsa2021/py_pub_sub/install/map_server/share/ament_index/resource_index/packages
+[2.044s] copying resource/map_server -> /home/rsa2021/py_pub_sub/install/map_server/share/ament_index/resource_index/packages
+[2.045s] copying package.xml -> /home/rsa2021/py_pub_sub/install/map_server/share/map_server
+[2.045s] running install_egg_info
+[2.050s] Copying ../../build/map_server/map_server.egg-info to /home/rsa2021/py_pub_sub/install/map_server/lib/python3.8/site-packages/map_server-0.0.0-py3.8.egg-info
+[2.053s] running install_scripts
+[2.119s] Installing service script to /home/rsa2021/py_pub_sub/install/map_server/lib/map_server
+[2.120s] writing list of installed files to '/home/rsa2021/py_pub_sub/build/map_server/install.log'
+[2.178s] Invoked command in '/home/rsa2021/py_pub_sub/src/map_server' returned '0': AMENT_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/comp3431_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/comp3431_interfaces:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/rsa2021/py_pub_sub/install/map_server/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/map_server build --build-base /home/rsa2021/py_pub_sub/build/map_server/build install --prefix /home/rsa2021/py_pub_sub/install/map_server --record /home/rsa2021/py_pub_sub/build/map_server/install.log --single-version-externally-managed

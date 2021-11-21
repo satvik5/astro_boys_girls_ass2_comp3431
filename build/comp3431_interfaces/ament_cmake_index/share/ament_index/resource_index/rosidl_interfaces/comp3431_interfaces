@@ -1,0 +1,8 @@
+action/MoveObjectToRoom.action
+action/MoveObjectToRoom.idl
+msg/QRCodeBlock.idl
+msg/QRCodeBlock.msg
+srv/MapInfo.idl
+srv/MapInfo.srv
+srv/MapInfo_Request.msg
+srv/MapInfo_Response.msg

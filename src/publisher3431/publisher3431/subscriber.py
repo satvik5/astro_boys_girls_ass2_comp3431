@@ -26,6 +26,7 @@ class Subscriber3431(Node):
         self.subscription  # prevent unused variable warning
         self.publisher = self.create_publisher(Marker,'vis_marker',0)
         self.tf_buffer = Buffer()
+        self._id = 0
         self.tf_listener = TransformListener(self.tf_buffer, self)
 
 
@@ -51,9 +52,11 @@ class Subscriber3431(Node):
         marker.header.stamp = clock.clock
         marker.ns = "basic_shapes_ass2"
         marker.id = 0
+        #self._id +=1
+        marker.type = 1
         marker.pose.position.x = point.x
         marker.pose.position.y = point.y
-        marker.pose.position.z = point.z
+        marker.pose.position.z = 0.06  ### height of scanner from ground
         marker.pose.orientation.x = 0.0
         marker.pose.orientation.y = 0.0
         marker.pose.orientation.z = 0.0

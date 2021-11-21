@@ -99,14 +99,14 @@ class Subscriber3431_ass2(Node):
         
         ## 360 points only theta_c and -theta_c
         ################  METHOD 2
-        #for i in range(-32,33):
+        #for i in range(-90,91):
         #
         #       if self.global_scan.ranges[i] == float("inf"):
         #              continue;
-        #       thetha = i*0.01749303564429283
+        #       thetha = i*self.global_scan.angle_increment
         #       constant = 1.0
         #       if (i*0.01749303564429283 > (3*math.pi)/2):
-        #              thetha = (2*math.pi)-(i*0.01749303564429283)
+        #              thetha = (2*math.pi)-(i*self.global_scan.angle_increment)
         #              constant = -1.0
         #       x_offset = self.global_scan.ranges[i]*math.cos(thetha)
         #       y_offset = constant*self.global_scan.ranges[i]*math.sin(thetha)
@@ -118,7 +118,7 @@ class Subscriber3431_ass2(Node):
         #       # res = [u v 1]
         #       if (abs(centre[0]-res[0])<min_dist):
         #              min_dist =abs(centre[0]-res[0])
-        #              angle = i*0.01749303564429283
+        #              angle = i*self.global_scan.angle_increment
         #              qr_range = self.global_scan.ranges[i]
         #              tester = res
         #              tester2 = arr

@@ -1,0 +1,5 @@
+[0.038s] Invoking command in '/home/rsa2021/py_pub_sub/build/comp3431_ass3_worlds': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher /usr/bin/cmake --build /home/rsa2021/py_pub_sub/build/comp3431_ass3_worlds -- -j3 -l3
+[0.260s] CMake Error: The source directory "/home/rsa2021/py_pub_sub/src/comp3431-ass3-worlds-master" does not exist.
+[0.260s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.262s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.266s] Invoked command in '/home/rsa2021/py_pub_sub/build/comp3431_ass3_worlds' returned '2': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher /usr/bin/cmake --build /home/rsa2021/py_pub_sub/build/comp3431_ass3_worlds -- -j3 -l3

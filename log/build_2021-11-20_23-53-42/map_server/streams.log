@@ -1,0 +1,29 @@
+[1.060s] Invoking command in '/home/rsa2021/py_pub_sub/src/map_server': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/comp3431_interfaces:/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/image_publisher:/home/rsa2021/py_pub_sub/install/comp3431_ass3_worlds LD_LIBRARY_PATH=/home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/rsa2021/py_pub_sub/install/map_server/lib/python3.8/site-packages:/home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/python3.8/site-packages:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages:/home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages:/home/rsa2021/py_pub_sub/install/map_server/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/map_server build --build-base /home/rsa2021/py_pub_sub/build/map_server/build install --prefix /home/rsa2021/py_pub_sub/install/map_server --record /home/rsa2021/py_pub_sub/build/map_server/install.log --single-version-externally-managed
+[1.782s] running egg_info
+[1.784s] writing ../../build/map_server/map_server.egg-info/PKG-INFO
+[1.786s] writing dependency_links to ../../build/map_server/map_server.egg-info/dependency_links.txt
+[1.787s] writing entry points to ../../build/map_server/map_server.egg-info/entry_points.txt
+[1.788s] writing requirements to ../../build/map_server/map_server.egg-info/requires.txt
+[1.789s] writing top-level names to ../../build/map_server/map_server.egg-info/top_level.txt
+[1.887s] reading manifest file '../../build/map_server/map_server.egg-info/SOURCES.txt'
+[1.889s] writing manifest file '../../build/map_server/map_server.egg-info/SOURCES.txt'
+[1.889s] running build
+[1.889s] running build_py
+[1.890s] copying map_server/__init__.py -> /home/rsa2021/py_pub_sub/build/map_server/build/lib/map_server
+[1.890s] copying map_server/map_server.py -> /home/rsa2021/py_pub_sub/build/map_server/build/lib/map_server
+[1.891s] running install
+[1.893s] running install_lib
+[1.896s] copying /home/rsa2021/py_pub_sub/build/map_server/build/lib/map_server/__init__.py -> /home/rsa2021/py_pub_sub/install/map_server/lib/python3.8/site-packages/map_server
+[1.896s] copying /home/rsa2021/py_pub_sub/build/map_server/build/lib/map_server/map_server.py -> /home/rsa2021/py_pub_sub/install/map_server/lib/python3.8/site-packages/map_server
+[1.898s] byte-compiling /home/rsa2021/py_pub_sub/install/map_server/lib/python3.8/site-packages/map_server/__init__.py to __init__.cpython-38.pyc
+[1.903s] byte-compiling /home/rsa2021/py_pub_sub/install/map_server/lib/python3.8/site-packages/map_server/map_server.py to map_server.cpython-38.pyc
+[1.904s] running install_data
+[1.906s] copying resource/map_server -> /home/rsa2021/py_pub_sub/install/map_server/share/ament_index/resource_index/packages
+[1.907s] copying package.xml -> /home/rsa2021/py_pub_sub/install/map_server/share/map_server
+[1.907s] running install_egg_info
+[1.911s] removing '/home/rsa2021/py_pub_sub/install/map_server/lib/python3.8/site-packages/map_server-0.0.0-py3.8.egg-info' (and everything under it)
+[1.912s] Copying ../../build/map_server/map_server.egg-info to /home/rsa2021/py_pub_sub/install/map_server/lib/python3.8/site-packages/map_server-0.0.0-py3.8.egg-info
+[1.915s] running install_scripts
+[1.961s] Installing service script to /home/rsa2021/py_pub_sub/install/map_server/lib/map_server
+[1.962s] writing list of installed files to '/home/rsa2021/py_pub_sub/build/map_server/install.log'
+[2.015s] Invoked command in '/home/rsa2021/py_pub_sub/src/map_server' returned '0': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/comp3431_interfaces:/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/image_publisher:/home/rsa2021/py_pub_sub/install/comp3431_ass3_worlds LD_LIBRARY_PATH=/home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/rsa2021/py_pub_sub/install/map_server/lib/python3.8/site-packages:/home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/python3.8/site-packages:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages:/home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages:/home/rsa2021/py_pub_sub/install/map_server/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/map_server build --build-base /home/rsa2021/py_pub_sub/build/map_server/build install --prefix /home/rsa2021/py_pub_sub/install/map_server --record /home/rsa2021/py_pub_sub/build/map_server/install.log --single-version-externally-managed

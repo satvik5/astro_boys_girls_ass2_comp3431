@@ -1,0 +1,27 @@
+[0.055s] Invoking command in '/home/rsa2021/py_pub_sub/build/zbar_ros': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/publisher3431:/home/rsa2021/py_pub_sub/install/map_server:/home/rsa2021/dev_ws/install/py_srvcli:/home/rsa2021/dev_ws/install/py_pubsub:/home/rsa2021/dev_ws/install/learning_tf2_py:/home/rsa2021/dev_ws/install/my_package:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher:/home/rsa2021/py_pub_sub/install/comp3431_interfaces:/home/rsa2021/py_pub_sub/install/comp3431_ass3_worlds:/home/rsa2021/dev_ws/install/tutorial_interfaces:/home/rsa2021/dev_ws/install/turtlesim:/home/rsa2021/dev_ws/install/comp3431_interfaces /usr/bin/cmake --build /home/rsa2021/py_pub_sub/build/zbar_ros -- -j3 -l3
+[0.356s] [ 50%] Built target barcode_reader_node
+[0.503s] [100%] Built target barcode_reader
+[1.115s] Invoked command in '/home/rsa2021/py_pub_sub/build/zbar_ros' returned '0': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/publisher3431:/home/rsa2021/py_pub_sub/install/map_server:/home/rsa2021/dev_ws/install/py_srvcli:/home/rsa2021/dev_ws/install/py_pubsub:/home/rsa2021/dev_ws/install/learning_tf2_py:/home/rsa2021/dev_ws/install/my_package:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher:/home/rsa2021/py_pub_sub/install/comp3431_interfaces:/home/rsa2021/py_pub_sub/install/comp3431_ass3_worlds:/home/rsa2021/dev_ws/install/tutorial_interfaces:/home/rsa2021/dev_ws/install/turtlesim:/home/rsa2021/dev_ws/install/comp3431_interfaces /usr/bin/cmake --build /home/rsa2021/py_pub_sub/build/zbar_ros -- -j3 -l3
+[1.264s] Invoking command in '/home/rsa2021/py_pub_sub/build/zbar_ros': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/publisher3431:/home/rsa2021/py_pub_sub/install/map_server:/home/rsa2021/dev_ws/install/py_srvcli:/home/rsa2021/dev_ws/install/py_pubsub:/home/rsa2021/dev_ws/install/learning_tf2_py:/home/rsa2021/dev_ws/install/my_package:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher:/home/rsa2021/py_pub_sub/install/comp3431_interfaces:/home/rsa2021/py_pub_sub/install/comp3431_ass3_worlds:/home/rsa2021/dev_ws/install/tutorial_interfaces:/home/rsa2021/dev_ws/install/turtlesim:/home/rsa2021/dev_ws/install/comp3431_interfaces /usr/bin/cmake --install /home/rsa2021/py_pub_sub/build/zbar_ros
+[1.288s] -- Install configuration: ""
+[1.288s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/lib/zbar_ros/barcode_reader
+[1.290s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/include/
+[1.290s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/include//zbar_ros
+[1.291s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/include//zbar_ros/barcode_reader_node.hpp
+[1.292s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/lib/libbarcode_reader_node.a
+[1.293s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/ament_index/resource_index/package_run_dependencies/zbar_ros
+[1.294s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/ament_index/resource_index/parent_prefix_path/zbar_ros
+[1.295s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/environment/ament_prefix_path.sh
+[1.296s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/environment/ament_prefix_path.dsv
+[1.296s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/environment/path.sh
+[1.297s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/environment/path.dsv
+[1.297s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/local_setup.bash
+[1.298s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/local_setup.sh
+[1.298s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/local_setup.zsh
+[1.298s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/local_setup.dsv
+[1.298s] -- Installing: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/package.dsv
+[1.298s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/ament_index/resource_index/packages/zbar_ros
+[1.299s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/cmake/zbar_rosConfig.cmake
+[1.299s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/cmake/zbar_rosConfig-version.cmake
+[1.300s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/package.xml
+[1.314s] Invoked command in '/home/rsa2021/py_pub_sub/build/zbar_ros' returned '0': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/publisher3431:/home/rsa2021/py_pub_sub/install/map_server:/home/rsa2021/dev_ws/install/py_srvcli:/home/rsa2021/dev_ws/install/py_pubsub:/home/rsa2021/dev_ws/install/learning_tf2_py:/home/rsa2021/dev_ws/install/my_package:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher:/home/rsa2021/py_pub_sub/install/comp3431_interfaces:/home/rsa2021/py_pub_sub/install/comp3431_ass3_worlds:/home/rsa2021/dev_ws/install/tutorial_interfaces:/home/rsa2021/dev_ws/install/turtlesim:/home/rsa2021/dev_ws/install/comp3431_interfaces /usr/bin/cmake --install /home/rsa2021/py_pub_sub/build/zbar_ros

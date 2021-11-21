@@ -1,0 +1,113 @@
+[0.101s] Invoking command in '/home/rsa2021/py_pub_sub/build/zbar_ros_interfaces': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/home/rsa2021/py_pub_sub/install/map_server:/home/rsa2021/dev_ws/install/py_srvcli:/home/rsa2021/dev_ws/install/py_pubsub:/home/rsa2021/dev_ws/install/learning_tf2_py:/home/rsa2021/dev_ws/install/my_package:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher:/home/rsa2021/py_pub_sub/install/comp3431_interfaces:/home/rsa2021/py_pub_sub/install/comp3431_ass3_worlds:/home/rsa2021/dev_ws/install/tutorial_interfaces:/home/rsa2021/dev_ws/install/turtlesim:/home/rsa2021/dev_ws/install/comp3431_interfaces /usr/bin/cmake --build /home/rsa2021/py_pub_sub/build/zbar_ros_interfaces -- -j3 -l3
+[0.537s] [  3%] Built target zbar_ros_interfaces__cpp
+[0.633s] [ 12%] Built target zbar_ros_interfaces__rosidl_generator_c
+[0.723s] [ 22%] Built target zbar_ros_interfaces__rosidl_typesupport_cpp
+[0.844s] [ 32%] Built target zbar_ros_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.919s] [ 41%] Built target zbar_ros_interfaces__rosidl_typesupport_introspection_cpp
+[0.955s] [ 51%] Built target zbar_ros_interfaces__rosidl_typesupport_introspection_c
+[0.992s] [ 61%] Built target zbar_ros_interfaces__rosidl_typesupport_c
+[1.103s] [ 70%] Built target zbar_ros_interfaces__rosidl_typesupport_fastrtps_c
+[1.215s] [ 70%] Built target zbar_ros_interfaces
+[1.338s] [ 74%] Built target zbar_ros_interfaces__py
+[1.522s] [ 80%] Built target zbar_ros_interfaces__python
+[1.697s] [ 87%] Built target zbar_ros_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.757s] [ 93%] Built target zbar_ros_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.786s] [100%] Built target zbar_ros_interfaces__rosidl_typesupport_c__pyext
+[1.921s] Invoked command in '/home/rsa2021/py_pub_sub/build/zbar_ros_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/home/rsa2021/py_pub_sub/install/map_server:/home/rsa2021/dev_ws/install/py_srvcli:/home/rsa2021/dev_ws/install/py_pubsub:/home/rsa2021/dev_ws/install/learning_tf2_py:/home/rsa2021/dev_ws/install/my_package:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher:/home/rsa2021/py_pub_sub/install/comp3431_interfaces:/home/rsa2021/py_pub_sub/install/comp3431_ass3_worlds:/home/rsa2021/dev_ws/install/tutorial_interfaces:/home/rsa2021/dev_ws/install/turtlesim:/home/rsa2021/dev_ws/install/comp3431_interfaces /usr/bin/cmake --build /home/rsa2021/py_pub_sub/build/zbar_ros_interfaces -- -j3 -l3
+[2.734s] Invoking command in '/home/rsa2021/py_pub_sub/build/zbar_ros_interfaces': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/home/rsa2021/py_pub_sub/install/map_server:/home/rsa2021/dev_ws/install/py_srvcli:/home/rsa2021/dev_ws/install/py_pubsub:/home/rsa2021/dev_ws/install/learning_tf2_py:/home/rsa2021/dev_ws/install/my_package:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher:/home/rsa2021/py_pub_sub/install/comp3431_interfaces:/home/rsa2021/py_pub_sub/install/comp3431_ass3_worlds:/home/rsa2021/dev_ws/install/tutorial_interfaces:/home/rsa2021/dev_ws/install/turtlesim:/home/rsa2021/dev_ws/install/comp3431_interfaces /usr/bin/cmake --install /home/rsa2021/py_pub_sub/build/zbar_ros_interfaces
+[2.853s] -- Install configuration: ""
+[2.853s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/ament_index/resource_index/rosidl_interfaces/zbar_ros_interfaces
+[2.854s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces
+[2.855s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg
+[2.856s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/symbol.h
+[2.856s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail
+[2.857s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail/symbol__struct.h
+[2.857s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail/symbol__functions.c
+[2.857s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail/symbol__type_support.h
+[2.858s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail/symbol__functions.h
+[2.858s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.859s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/environment/library_path.sh
+[2.867s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/environment/library_path.dsv
+[2.867s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/libzbar_ros_interfaces__rosidl_generator_c.so
+[2.868s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces
+[2.868s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg
+[2.868s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail
+[2.868s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail/symbol__rosidl_typesupport_fastrtps_c.h
+[2.868s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.868s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/libzbar_ros_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.869s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces
+[2.869s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg
+[2.869s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.869s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail
+[2.869s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail/dds_fastrtps
+[2.870s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail/symbol__rosidl_typesupport_fastrtps_cpp.hpp
+[2.870s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/libzbar_ros_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.870s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces
+[2.870s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg
+[2.870s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail
+[2.870s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail/symbol__rosidl_typesupport_introspection_c.h
+[2.871s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail/symbol__type_support.c
+[2.871s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.871s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/libzbar_ros_interfaces__rosidl_typesupport_introspection_c.so
+[2.871s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/libzbar_ros_interfaces__rosidl_typesupport_c.so
+[2.871s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces
+[2.872s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg
+[2.872s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/symbol.hpp
+[2.872s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail
+[2.872s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail/symbol__traits.hpp
+[2.872s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail/symbol__builder.hpp
+[2.872s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail/symbol__struct.hpp
+[2.873s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces
+[2.873s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg
+[2.873s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail
+[2.873s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail/symbol__type_support.cpp
+[2.874s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/include/zbar_ros_interfaces/msg/detail/symbol__rosidl_typesupport_introspection_cpp.hpp
+[2.874s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/libzbar_ros_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.874s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/libzbar_ros_interfaces__rosidl_typesupport_cpp.so
+[2.874s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/environment/pythonpath.sh
+[2.874s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/environment/pythonpath.dsv
+[2.875s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages/zbar_ros_interfaces/__init__.py
+[2.945s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages/zbar_ros_interfaces/msg
+[2.946s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages/zbar_ros_interfaces/msg/__init__.py
+[2.946s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages/zbar_ros_interfaces/msg/_symbol.py
+[2.947s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages/zbar_ros_interfaces/msg/_symbol_s.c
+[2.948s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages/zbar_ros_interfaces/zbar_ros_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[2.951s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages/zbar_ros_interfaces/zbar_ros_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[2.954s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/python3.8/site-packages/zbar_ros_interfaces/zbar_ros_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[2.956s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/lib/libzbar_ros_interfaces__python.so
+[2.958s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/msg/Symbol.idl
+[2.958s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/msg/Symbol.msg
+[2.959s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/ament_index/resource_index/package_run_dependencies/zbar_ros_interfaces
+[2.960s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/ament_index/resource_index/parent_prefix_path/zbar_ros_interfaces
+[2.961s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/environment/ament_prefix_path.sh
+[2.962s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/environment/ament_prefix_path.dsv
+[2.962s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/environment/path.sh
+[2.963s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/environment/path.dsv
+[2.964s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/local_setup.bash
+[2.964s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/local_setup.sh
+[2.965s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/local_setup.zsh
+[2.965s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/local_setup.dsv
+[2.966s] -- Installing: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/package.dsv
+[2.967s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/ament_index/resource_index/packages/zbar_ros_interfaces
+[2.968s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/zbar_ros_interfaces__rosidl_generator_cExport.cmake
+[2.969s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/zbar_ros_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.970s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/zbar_ros_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.970s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/zbar_ros_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.971s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/zbar_ros_interfaces__rosidl_typesupport_cExport.cmake
+[2.972s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/zbar_ros_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.973s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/zbar_ros_interfaces__rosidl_generator_cppExport.cmake
+[2.974s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/zbar_ros_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.975s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/zbar_ros_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.976s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/zbar_ros_interfaces__rosidl_typesupport_cppExport.cmake
+[2.977s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/zbar_ros_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.978s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.978s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.979s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.980s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.981s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.981s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.982s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.982s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/zbar_ros_interfacesConfig.cmake
+[2.983s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake/zbar_ros_interfacesConfig-version.cmake
+[2.988s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/package.xml
+[3.023s] Invoked command in '/home/rsa2021/py_pub_sub/build/zbar_ros_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/home/rsa2021/py_pub_sub/install/map_server:/home/rsa2021/dev_ws/install/py_srvcli:/home/rsa2021/dev_ws/install/py_pubsub:/home/rsa2021/dev_ws/install/learning_tf2_py:/home/rsa2021/dev_ws/install/my_package:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher:/home/rsa2021/py_pub_sub/install/comp3431_interfaces:/home/rsa2021/py_pub_sub/install/comp3431_ass3_worlds:/home/rsa2021/dev_ws/install/tutorial_interfaces:/home/rsa2021/dev_ws/install/turtlesim:/home/rsa2021/dev_ws/install/comp3431_interfaces /usr/bin/cmake --install /home/rsa2021/py_pub_sub/build/zbar_ros_interfaces

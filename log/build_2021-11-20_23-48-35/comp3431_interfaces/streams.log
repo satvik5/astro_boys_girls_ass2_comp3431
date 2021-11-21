@@ -1,0 +1,119 @@
+[0.106s] Invoking command in '/home/rsa2021/py_pub_sub/build/comp3431_interfaces': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/home/rsa2021/py_pub_sub/install/map_server:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher:/home/rsa2021/py_pub_sub/install/comp3431_interfaces:/home/rsa2021/py_pub_sub/install/comp3431_ass3_worlds /usr/bin/cmake --build /home/rsa2021/py_pub_sub/build/comp3431_interfaces -- -j3 -l3
+[0.385s] [  3%] Built target comp3431_interfaces__cpp
+[0.434s] [ 12%] Built target comp3431_interfaces__rosidl_generator_c
+[0.542s] [ 22%] Built target comp3431_interfaces__rosidl_typesupport_cpp
+[0.636s] [ 32%] Built target comp3431_interfaces__rosidl_typesupport_introspection_cpp
+[0.654s] [ 41%] Built target comp3431_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.748s] [ 51%] Built target comp3431_interfaces__rosidl_typesupport_introspection_c
+[0.773s] [ 61%] Built target comp3431_interfaces__rosidl_typesupport_c
+[0.816s] [ 70%] Built target comp3431_interfaces__rosidl_typesupport_fastrtps_c
+[0.878s] [ 70%] Built target comp3431_interfaces
+[0.965s] [ 74%] Built target comp3431_interfaces__py
+[1.056s] [ 80%] Built target comp3431_interfaces__python
+[1.264s] [ 87%] Built target comp3431_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.276s] [ 93%] Built target comp3431_interfaces__rosidl_typesupport_c__pyext
+[1.295s] [100%] Built target comp3431_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.341s] Invoked command in '/home/rsa2021/py_pub_sub/build/comp3431_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/home/rsa2021/py_pub_sub/install/map_server:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher:/home/rsa2021/py_pub_sub/install/comp3431_interfaces:/home/rsa2021/py_pub_sub/install/comp3431_ass3_worlds /usr/bin/cmake --build /home/rsa2021/py_pub_sub/build/comp3431_interfaces -- -j3 -l3
+[2.225s] Invoking command in '/home/rsa2021/py_pub_sub/build/comp3431_interfaces': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/home/rsa2021/py_pub_sub/install/map_server:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher:/home/rsa2021/py_pub_sub/install/comp3431_interfaces:/home/rsa2021/py_pub_sub/install/comp3431_ass3_worlds /usr/bin/cmake --install /home/rsa2021/py_pub_sub/build/comp3431_interfaces
+[2.262s] -- Install configuration: ""
+[2.263s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/ament_index/resource_index/rosidl_interfaces/comp3431_interfaces
+[2.264s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces
+[2.264s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv
+[2.265s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/map_info.h
+[2.265s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail
+[2.267s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail/map_info__functions.c
+[2.268s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail/map_info__functions.h
+[2.273s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail/map_info__struct.h
+[2.274s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail/map_info__type_support.h
+[2.274s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg
+[2.275s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.276s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/environment/library_path.sh
+[2.279s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/environment/library_path.dsv
+[2.280s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/libcomp3431_interfaces__rosidl_generator_c.so
+[2.281s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces
+[2.284s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv
+[2.284s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail
+[2.292s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail/map_info__rosidl_typesupport_fastrtps_c.h
+[2.292s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg
+[2.293s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.295s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/libcomp3431_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.296s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces
+[2.297s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv
+[2.297s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail
+[2.298s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail/dds_fastrtps
+[2.298s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail/map_info__rosidl_typesupport_fastrtps_cpp.hpp
+[2.303s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg
+[2.304s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.304s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/libcomp3431_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.305s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces
+[2.305s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv
+[2.306s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail
+[2.307s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail/map_info__type_support.c
+[2.307s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail/map_info__rosidl_typesupport_introspection_c.h
+[2.308s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg
+[2.309s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.309s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/libcomp3431_interfaces__rosidl_typesupport_introspection_c.so
+[2.310s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/libcomp3431_interfaces__rosidl_typesupport_c.so
+[2.320s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces
+[2.322s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv
+[2.322s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/map_info.hpp
+[2.323s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail
+[2.324s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail/map_info__builder.hpp
+[2.324s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail/map_info__traits.hpp
+[2.331s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail/map_info__struct.hpp
+[2.333s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces
+[2.333s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv
+[2.334s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail
+[2.335s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail/map_info__rosidl_typesupport_introspection_cpp.hpp
+[2.335s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail/map_info__type_support.cpp
+[2.336s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/libcomp3431_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.340s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/libcomp3431_interfaces__rosidl_typesupport_cpp.so
+[2.340s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/environment/pythonpath.sh
+[2.341s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/environment/pythonpath.dsv
+[2.341s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/python3.8/site-packages/comp3431_interfaces/__init__.py
+[2.456s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/python3.8/site-packages/comp3431_interfaces/srv
+[2.456s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/python3.8/site-packages/comp3431_interfaces/srv/__init__.py
+[2.456s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/python3.8/site-packages/comp3431_interfaces/srv/_map_info_s.c
+[2.457s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/python3.8/site-packages/comp3431_interfaces/srv/_map_info.py
+[2.457s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/python3.8/site-packages/comp3431_interfaces/comp3431_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[2.458s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/python3.8/site-packages/comp3431_interfaces/comp3431_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[2.458s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/python3.8/site-packages/comp3431_interfaces/comp3431_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[2.459s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/libcomp3431_interfaces__python.so
+[2.460s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/srv/MapInfo.idl
+[2.461s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/srv/MapInfo.srv
+[2.462s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/srv/MapInfo_Request.msg
+[2.463s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/srv/MapInfo_Response.msg
+[2.465s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/ament_index/resource_index/package_run_dependencies/comp3431_interfaces
+[2.466s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/ament_index/resource_index/parent_prefix_path/comp3431_interfaces
+[2.467s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/environment/ament_prefix_path.sh
+[2.471s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/environment/ament_prefix_path.dsv
+[2.472s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/environment/path.sh
+[2.473s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/environment/path.dsv
+[2.474s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/local_setup.bash
+[2.480s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/local_setup.sh
+[2.483s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/local_setup.zsh
+[2.489s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/local_setup.dsv
+[2.489s] -- Installing: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/package.dsv
+[2.489s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/ament_index/resource_index/packages/comp3431_interfaces
+[2.490s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/comp3431_interfaces__rosidl_generator_cExport.cmake
+[2.490s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/comp3431_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.491s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/comp3431_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.491s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/comp3431_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.491s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/comp3431_interfaces__rosidl_typesupport_cExport.cmake
+[2.492s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/comp3431_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.492s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/comp3431_interfaces__rosidl_generator_cppExport.cmake
+[2.492s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/comp3431_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.493s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/comp3431_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.493s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/comp3431_interfaces__rosidl_typesupport_cppExport.cmake
+[2.493s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/comp3431_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.494s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.494s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.495s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.495s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.495s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.496s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.497s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.498s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/comp3431_interfacesConfig.cmake
+[2.498s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/comp3431_interfacesConfig-version.cmake
+[2.500s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/package.xml
+[2.501s] Invoked command in '/home/rsa2021/py_pub_sub/build/comp3431_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/home/rsa2021/py_pub_sub/install/map_server:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher:/home/rsa2021/py_pub_sub/install/comp3431_interfaces:/home/rsa2021/py_pub_sub/install/comp3431_ass3_worlds /usr/bin/cmake --install /home/rsa2021/py_pub_sub/build/comp3431_interfaces
