@@ -1,0 +1,1 @@
+QRCodeBlock[] blocks

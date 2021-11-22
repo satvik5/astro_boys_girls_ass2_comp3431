@@ -1,0 +1,4 @@
+[console_scripts]
+action_service = map_server.map_action_server:main
+service = map_server.map_server:main
+
