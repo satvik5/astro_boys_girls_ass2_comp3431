@@ -1,0 +1,50 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found zbar_ros_interfaces: 0.0.0 (/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces/share/zbar_ros_interfaces/cmake)
+-- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/rsa2021/py_pub_sub/src/zbar_ros/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rsa2021/py_pub_sub/build/zbar_ros
+[ 50%] Built target barcode_reader_node
+[ 75%] [32mBuilding CXX object CMakeFiles/barcode_reader.dir/src/barcode_reader_main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable barcode_reader[0m
+[100%] Built target barcode_reader
+-- Install configuration: ""
+-- Installing: /home/rsa2021/py_pub_sub/install/zbar_ros/lib/zbar_ros/barcode_reader
+-- Set runtime path of "/home/rsa2021/py_pub_sub/install/zbar_ros/lib/zbar_ros/barcode_reader" to ""
+-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/include/
+-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/include//zbar_ros
+-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/include//zbar_ros/barcode_reader_node.hpp
+-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/lib/libbarcode_reader_node.a
+-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/ament_index/resource_index/package_run_dependencies/zbar_ros
+-- Installing: /home/rsa2021/py_pub_sub/install/zbar_ros/share/ament_index/resource_index/parent_prefix_path/zbar_ros
+-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/environment/ament_prefix_path.sh
+-- Installing: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/environment/path.sh
+-- Installing: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/environment/path.dsv
+-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/local_setup.bash
+-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/local_setup.sh
+-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/local_setup.zsh
+-- Installing: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/local_setup.dsv
+-- Installing: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/package.dsv
+-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/ament_index/resource_index/packages/zbar_ros
+-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/cmake/zbar_rosConfig.cmake
+-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/cmake/zbar_rosConfig-version.cmake
+-- Up-to-date: /home/rsa2021/py_pub_sub/install/zbar_ros/share/zbar_ros/package.xml

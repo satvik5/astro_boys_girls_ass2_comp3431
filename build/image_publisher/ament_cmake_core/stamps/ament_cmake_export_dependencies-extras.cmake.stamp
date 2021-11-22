@@ -1,6 +1,6 @@
 # generated from ament_cmake_export_dependencies/cmake/ament_cmake_export_dependencies-extras.cmake.in
 
-set(_exported_dependencies "rclcpp;rclcpp_components;image_geometry;class_loader;image_transport;camera_info_manager;cv_bridge")
+set(_exported_dependencies "camera_info_manager;class_loader;cv_bridge;image_geometry;image_transport;rclcpp;rclcpp_components")
 
 find_package(ament_cmake_libraries QUIET REQUIRED)
 
