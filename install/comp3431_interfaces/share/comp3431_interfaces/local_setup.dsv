@@ -1,4 +1,0 @@
-source;share/comp3431_interfaces/environment/ament_prefix_path.sh
-source;share/comp3431_interfaces/environment/library_path.sh
-source;share/comp3431_interfaces/environment/path.sh
-source;share/comp3431_interfaces/environment/pythonpath.sh
