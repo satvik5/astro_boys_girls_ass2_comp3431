@@ -1,0 +1,36 @@
+{
+    "blocks": [
+        {
+            "text": "living-room snickers",
+            "pose": {
+                "position": {
+                    "x": 0.0,
+                    "y": 1.0,
+                    "z": 0.0
+                },
+                "orientation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                }
+            }
+        },
+        {
+            "text": "kitchen apple",
+            "pose": {
+                "position": {
+                    "x": 8.0,
+                    "y": -0.6,
+                    "z": 0.0
+                },
+                "orientation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                }
+            }
+        }
+    ]
+}
