@@ -61,7 +61,13 @@ void WallFollower::callbackScan(const sensor_msgs::msg::LaserScan::SharedPtr sca
 	// 	turn = -1;
 	// 	drive = -1;
 	// } else 
-	if (oscilCount > 20) {
+	if (oscilCount >= 18 && oscilCount <= 20) {
+		turn = 0;
+		drive = 0;
+		oscilCount++;
+	}
+	else if (oscilCount > 20) {
+		
 		std::cout << "DETECTED STUPIDITY" << std::endl;
 		turn = 0.5;
 		drive = -0.6;
@@ -104,7 +110,7 @@ void WallFollower::callbackScan(const sensor_msgs::msg::LaserScan::SharedPtr sca
 		drive = drive1 * drive2;
 
 		std::cout << drive << " : " << turn << std::endl;
-		if (abs(drive) < 0.05 && abs(turn) < 0.05) {drive = 1; turn =0;}
+		// if (abs(drive) < 0.05 && abs(turn) < 0.05) {drive = 1; turn =0;}
 	}
 
 	if (side == RIGHT) {

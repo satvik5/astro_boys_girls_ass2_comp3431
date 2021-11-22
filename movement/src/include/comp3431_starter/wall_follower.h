@@ -18,7 +18,7 @@
 
 const std::string BASE_FRAME = std::string{"base_link"};
 const double MAX_SIDE_LIMIT = 0.85;
-const double MIN_APPROACH_DIST = 0.35;
+const double MIN_APPROACH_DIST = 0.25;
 const double MAX_APPROACH_DIST = 0.50;
 
 const double ROBOT_RADIUS = 0.22;
