@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rsa2021/py_pub_sub/src/zbar_ros
+CMAKE_SOURCE_DIR = /home/rsa2021/astro_boys_girls_ass2_comp3431/ass3/src/zbar_ros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rsa2021/py_pub_sub/build/zbar_ros
+CMAKE_BINARY_DIR = /home/rsa2021/astro_boys_girls_ass2_comp3431/build/zbar_ros
 
 # Utility rule file for uninstall.
 
@@ -67,6 +67,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/rsa2021/py_pub_sub/build/zbar_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rsa2021/py_pub_sub/src/zbar_ros /home/rsa2021/py_pub_sub/src/zbar_ros /home/rsa2021/py_pub_sub/build/zbar_ros /home/rsa2021/py_pub_sub/build/zbar_ros /home/rsa2021/py_pub_sub/build/zbar_ros/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rsa2021/astro_boys_girls_ass2_comp3431/build/zbar_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rsa2021/astro_boys_girls_ass2_comp3431/ass3/src/zbar_ros /home/rsa2021/astro_boys_girls_ass2_comp3431/ass3/src/zbar_ros /home/rsa2021/astro_boys_girls_ass2_comp3431/build/zbar_ros /home/rsa2021/astro_boys_girls_ass2_comp3431/build/zbar_ros /home/rsa2021/astro_boys_girls_ass2_comp3431/build/zbar_ros/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

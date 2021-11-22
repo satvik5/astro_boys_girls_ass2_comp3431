@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rsa2021/py_pub_sub/src/comp3431-ass3-worlds-master
+CMAKE_SOURCE_DIR = /home/rsa2021/astro_boys_girls_ass2_comp3431/turtlebot3_ws/src/comp3431-ass3-worlds
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rsa2021/py_pub_sub/build/comp3431_ass3_worlds
+CMAKE_BINARY_DIR = /home/rsa2021/astro_boys_girls_ass2_comp3431/build/comp3431_ass3_worlds
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rsa2021/py_pub_sub/build/comp3431_ass3_worlds/CMakeFiles /home/rsa2021/py_pub_sub/build/comp3431_ass3_worlds/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rsa2021/astro_boys_girls_ass2_comp3431/build/comp3431_ass3_worlds/CMakeFiles /home/rsa2021/astro_boys_girls_ass2_comp3431/build/comp3431_ass3_worlds/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rsa2021/py_pub_sub/build/comp3431_ass3_worlds/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rsa2021/astro_boys_girls_ass2_comp3431/build/comp3431_ass3_worlds/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

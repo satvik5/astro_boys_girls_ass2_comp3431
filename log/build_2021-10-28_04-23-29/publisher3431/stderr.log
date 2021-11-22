@@ -1,5 +1,0 @@
-  File "/home/rsa2021/py_pub_sub/install/publisher3431/lib/python3.8/site-packages/publisher3431/subscriber.py", line 46
-    marker.pose.position.y = point.y+
-                                    ^
-SyntaxError: invalid syntax
-

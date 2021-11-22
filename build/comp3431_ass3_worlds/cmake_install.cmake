@@ -1,8 +1,8 @@
-# Install script for directory: /home/rsa2021/py_pub_sub/src/comp3431-ass3-worlds-master
+# Install script for directory: /home/rsa2021/astro_boys_girls_ass2_comp3431/turtlebot3_ws/src/comp3431-ass3-worlds
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/rsa2021/py_pub_sub/install/comp3431_ass3_worlds")
+  set(CMAKE_INSTALL_PREFIX "/home/rsa2021/astro_boys_girls_ass2_comp3431/install/comp3431_ass3_worlds")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,18 +39,18 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp3431_ass3_worlds/" TYPE DIRECTORY FILES
-    "/home/rsa2021/py_pub_sub/src/comp3431-ass3-worlds-master/launch"
-    "/home/rsa2021/py_pub_sub/src/comp3431-ass3-worlds-master/models"
-    "/home/rsa2021/py_pub_sub/src/comp3431-ass3-worlds-master/worlds"
+    "/home/rsa2021/astro_boys_girls_ass2_comp3431/turtlebot3_ws/src/comp3431-ass3-worlds/launch"
+    "/home/rsa2021/astro_boys_girls_ass2_comp3431/turtlebot3_ws/src/comp3431-ass3-worlds/models"
+    "/home/rsa2021/astro_boys_girls_ass2_comp3431/turtlebot3_ws/src/comp3431-ass3-worlds/worlds"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/rsa2021/py_pub_sub/build/comp3431_ass3_worlds/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/comp3431_ass3_worlds")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/rsa2021/astro_boys_girls_ass2_comp3431/build/comp3431_ass3_worlds/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/comp3431_ass3_worlds")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/rsa2021/py_pub_sub/build/comp3431_ass3_worlds/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/comp3431_ass3_worlds")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/rsa2021/astro_boys_girls_ass2_comp3431/build/comp3431_ass3_worlds/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/comp3431_ass3_worlds")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -58,7 +58,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp3431_ass3_worlds/environment" TYPE FILE FILES "/home/rsa2021/py_pub_sub/build/comp3431_ass3_worlds/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp3431_ass3_worlds/environment" TYPE FILE FILES "/home/rsa2021/astro_boys_girls_ass2_comp3431/build/comp3431_ass3_worlds/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -66,42 +66,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp3431_ass3_worlds/environment" TYPE FILE FILES "/home/rsa2021/py_pub_sub/build/comp3431_ass3_worlds/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp3431_ass3_worlds/environment" TYPE FILE FILES "/home/rsa2021/astro_boys_girls_ass2_comp3431/build/comp3431_ass3_worlds/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp3431_ass3_worlds" TYPE FILE FILES "/home/rsa2021/py_pub_sub/build/comp3431_ass3_worlds/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp3431_ass3_worlds" TYPE FILE FILES "/home/rsa2021/astro_boys_girls_ass2_comp3431/build/comp3431_ass3_worlds/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp3431_ass3_worlds" TYPE FILE FILES "/home/rsa2021/py_pub_sub/build/comp3431_ass3_worlds/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp3431_ass3_worlds" TYPE FILE FILES "/home/rsa2021/astro_boys_girls_ass2_comp3431/build/comp3431_ass3_worlds/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp3431_ass3_worlds" TYPE FILE FILES "/home/rsa2021/py_pub_sub/build/comp3431_ass3_worlds/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp3431_ass3_worlds" TYPE FILE FILES "/home/rsa2021/astro_boys_girls_ass2_comp3431/build/comp3431_ass3_worlds/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp3431_ass3_worlds" TYPE FILE FILES "/home/rsa2021/py_pub_sub/build/comp3431_ass3_worlds/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp3431_ass3_worlds" TYPE FILE FILES "/home/rsa2021/astro_boys_girls_ass2_comp3431/build/comp3431_ass3_worlds/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp3431_ass3_worlds" TYPE FILE FILES "/home/rsa2021/py_pub_sub/build/comp3431_ass3_worlds/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp3431_ass3_worlds" TYPE FILE FILES "/home/rsa2021/astro_boys_girls_ass2_comp3431/build/comp3431_ass3_worlds/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/rsa2021/py_pub_sub/build/comp3431_ass3_worlds/ament_cmake_index/share/ament_index/resource_index/packages/comp3431_ass3_worlds")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/rsa2021/astro_boys_girls_ass2_comp3431/build/comp3431_ass3_worlds/ament_cmake_index/share/ament_index/resource_index/packages/comp3431_ass3_worlds")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp3431_ass3_worlds/cmake" TYPE FILE FILES
-    "/home/rsa2021/py_pub_sub/build/comp3431_ass3_worlds/ament_cmake_core/comp3431_ass3_worldsConfig.cmake"
-    "/home/rsa2021/py_pub_sub/build/comp3431_ass3_worlds/ament_cmake_core/comp3431_ass3_worldsConfig-version.cmake"
+    "/home/rsa2021/astro_boys_girls_ass2_comp3431/build/comp3431_ass3_worlds/ament_cmake_core/comp3431_ass3_worldsConfig.cmake"
+    "/home/rsa2021/astro_boys_girls_ass2_comp3431/build/comp3431_ass3_worlds/ament_cmake_core/comp3431_ass3_worldsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp3431_ass3_worlds" TYPE FILE FILES "/home/rsa2021/py_pub_sub/src/comp3431-ass3-worlds-master/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp3431_ass3_worlds" TYPE FILE FILES "/home/rsa2021/astro_boys_girls_ass2_comp3431/turtlebot3_ws/src/comp3431-ass3-worlds/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -112,5 +112,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/rsa2021/py_pub_sub/build/comp3431_ass3_worlds/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/rsa2021/astro_boys_girls_ass2_comp3431/build/comp3431_ass3_worlds/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

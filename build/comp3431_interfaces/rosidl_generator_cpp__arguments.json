@@ -1,11 +1,11 @@
 {
   "package_name": "comp3431_interfaces",
-  "output_dir": "/home/rsa2021/py_pub_sub/build/comp3431_interfaces/rosidl_generator_cpp/comp3431_interfaces",
+  "output_dir": "/home/rsa2021/astro_boys_girls_ass2_comp3431/build/comp3431_interfaces/rosidl_generator_cpp/comp3431_interfaces",
   "template_dir": "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
-    "/home/rsa2021/py_pub_sub/build/comp3431_interfaces/rosidl_adapter/comp3431_interfaces:msg/QRCodeBlock.idl",
-    "/home/rsa2021/py_pub_sub/build/comp3431_interfaces/rosidl_adapter/comp3431_interfaces:srv/MapInfo.idl",
-    "/home/rsa2021/py_pub_sub/build/comp3431_interfaces/rosidl_adapter/comp3431_interfaces:action/MoveObjectToRoom.idl"
+    "/home/rsa2021/astro_boys_girls_ass2_comp3431/build/comp3431_interfaces/rosidl_adapter/comp3431_interfaces:msg/QRCodeBlock.idl",
+    "/home/rsa2021/astro_boys_girls_ass2_comp3431/build/comp3431_interfaces/rosidl_adapter/comp3431_interfaces:srv/MapInfo.idl",
+    "/home/rsa2021/astro_boys_girls_ass2_comp3431/build/comp3431_interfaces/rosidl_adapter/comp3431_interfaces:action/MoveObjectToRoom.idl"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/foxy/share/geometry_msgs/msg/Accel.idl",
@@ -91,9 +91,9 @@
     "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
     "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
     "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
-    "/home/rsa2021/py_pub_sub/build/comp3431_interfaces/rosidl_adapter/comp3431_interfaces/msg/QRCodeBlock.idl",
-    "/home/rsa2021/py_pub_sub/build/comp3431_interfaces/rosidl_adapter/comp3431_interfaces/srv/MapInfo.idl",
-    "/home/rsa2021/py_pub_sub/build/comp3431_interfaces/rosidl_adapter/comp3431_interfaces/action/MoveObjectToRoom.idl",
+    "/home/rsa2021/astro_boys_girls_ass2_comp3431/build/comp3431_interfaces/rosidl_adapter/comp3431_interfaces/msg/QRCodeBlock.idl",
+    "/home/rsa2021/astro_boys_girls_ass2_comp3431/build/comp3431_interfaces/rosidl_adapter/comp3431_interfaces/srv/MapInfo.idl",
+    "/home/rsa2021/astro_boys_girls_ass2_comp3431/build/comp3431_interfaces/rosidl_adapter/comp3431_interfaces/action/MoveObjectToRoom.idl",
     "/opt/ros/foxy/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/foxy/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/foxy/share/geometry_msgs/msg/AccelWithCovariance.idl",

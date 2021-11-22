@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC   -Wall -std=gnu++14
 
 CXX_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"zbar_ros_interfaces\" -Dzbar_ros_interfaces__rosidl_typesupport_c_EXPORTS
 
-CXX_INCLUDES = -I/home/rsa2021/py_pub_sub/build/zbar_ros_interfaces/rosidl_generator_c -I/home/rsa2021/py_pub_sub/build/zbar_ros_interfaces/rosidl_typesupport_c -isystem /opt/ros/foxy/include 
+CXX_INCLUDES = -I/home/rsa2021/astro_boys_girls_ass2_comp3431/build/zbar_ros_interfaces/rosidl_generator_c -I/home/rsa2021/astro_boys_girls_ass2_comp3431/build/zbar_ros_interfaces/rosidl_typesupport_c -isystem /opt/ros/foxy/include 
 

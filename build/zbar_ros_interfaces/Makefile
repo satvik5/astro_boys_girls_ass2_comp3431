@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rsa2021/py_pub_sub/src/zbar_ros_interfaces
+CMAKE_SOURCE_DIR = /home/rsa2021/astro_boys_girls_ass2_comp3431/ass3/src/zbar_ros_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rsa2021/py_pub_sub/build/zbar_ros_interfaces
+CMAKE_BINARY_DIR = /home/rsa2021/astro_boys_girls_ass2_comp3431/build/zbar_ros_interfaces
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rsa2021/py_pub_sub/build/zbar_ros_interfaces/CMakeFiles /home/rsa2021/py_pub_sub/build/zbar_ros_interfaces/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rsa2021/astro_boys_girls_ass2_comp3431/build/zbar_ros_interfaces/CMakeFiles /home/rsa2021/astro_boys_girls_ass2_comp3431/build/zbar_ros_interfaces/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rsa2021/py_pub_sub/build/zbar_ros_interfaces/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rsa2021/astro_boys_girls_ass2_comp3431/build/zbar_ros_interfaces/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

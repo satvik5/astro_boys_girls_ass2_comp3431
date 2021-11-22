@@ -1,8 +1,8 @@
-# Install script for directory: /home/rsa2021/py_pub_sub/build/zbar_ros_interfaces/zbar_ros_interfaces__py
+# Install script for directory: /home/rsa2021/astro_boys_girls_ass2_comp3431/build/zbar_ros_interfaces/zbar_ros_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/rsa2021/astro_boys_girls_ass2_comp3431/install/zbar_ros_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

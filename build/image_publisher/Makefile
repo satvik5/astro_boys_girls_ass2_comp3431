@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rsa2021/py_pub_sub/src/image_publisher
+CMAKE_SOURCE_DIR = /home/rsa2021/astro_boys_girls_ass2_comp3431/ass3/src/image_publisher
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rsa2021/py_pub_sub/build/image_publisher
+CMAKE_BINARY_DIR = /home/rsa2021/astro_boys_girls_ass2_comp3431/build/image_publisher
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rsa2021/py_pub_sub/build/image_publisher/CMakeFiles /home/rsa2021/py_pub_sub/build/image_publisher/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rsa2021/astro_boys_girls_ass2_comp3431/build/image_publisher/CMakeFiles /home/rsa2021/astro_boys_girls_ass2_comp3431/build/image_publisher/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rsa2021/py_pub_sub/build/image_publisher/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rsa2021/astro_boys_girls_ass2_comp3431/build/image_publisher/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
