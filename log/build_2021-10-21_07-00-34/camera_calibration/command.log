@@ -1,2 +1,0 @@
-Invoking command in '/home/rsa2021/py_pub_sub/build/camera_calibration': /usr/bin/cmake /home/rsa2021/py_pub_sub/src/camera_calibration -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/rsa2021/py_pub_sub/install/camera_calibration
-Invoked command in '/home/rsa2021/py_pub_sub/build/camera_calibration' returned '1': /usr/bin/cmake /home/rsa2021/py_pub_sub/src/camera_calibration -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/rsa2021/py_pub_sub/install/camera_calibration

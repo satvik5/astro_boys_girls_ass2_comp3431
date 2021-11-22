@@ -1,8 +1,0 @@
-{
-  "package_name": "comp3431_interfaces",
-  "non_idl_tuples": [
-    "/home/rsa2021/py_pub_sub/src/comp3431_interfaces/comp3431_interfaces-rolling:msg/QRCodeBlock.msg",
-    "/home/rsa2021/py_pub_sub/src/comp3431_interfaces/comp3431_interfaces-rolling:srv/MapInfo.srv",
-    "/home/rsa2021/py_pub_sub/src/comp3431_interfaces/comp3431_interfaces-rolling:action/MoveObjectToRoom.action"
-  ]
-}

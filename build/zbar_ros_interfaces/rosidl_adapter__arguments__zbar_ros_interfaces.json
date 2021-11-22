@@ -1,6 +1,0 @@
-{
-  "package_name": "zbar_ros_interfaces",
-  "non_idl_tuples": [
-    "/home/rsa2021/py_pub_sub/src/zbar_ros_interfaces:msg/Symbol.msg"
-  ]
-}
