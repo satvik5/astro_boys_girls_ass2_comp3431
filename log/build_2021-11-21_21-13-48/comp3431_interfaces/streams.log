@@ -1,0 +1,183 @@
+[0.042s] Invoking command in '/home/rsa2021/py_pub_sub/build/comp3431_interfaces': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/home/rsa2021/py_pub_sub/install/map_server:/home/rsa2021/dev_ws/install/py_srvcli:/home/rsa2021/dev_ws/install/py_pubsub:/home/rsa2021/dev_ws/install/learning_tf2_py:/home/rsa2021/dev_ws/install/my_package:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher:/home/rsa2021/py_pub_sub/install/comp3431_interfaces:/home/rsa2021/py_pub_sub/install/comp3431_ass3_worlds:/home/rsa2021/dev_ws/install/tutorial_interfaces:/home/rsa2021/dev_ws/install/turtlesim:/home/rsa2021/dev_ws/install/comp3431_interfaces /usr/bin/cmake --build /home/rsa2021/py_pub_sub/build/comp3431_interfaces -- -j3 -l3
+[0.148s] [  2%] Built target comp3431_interfaces__cpp
+[0.152s] [ 12%] Built target comp3431_interfaces__rosidl_generator_c
+[0.208s] [ 23%] Built target comp3431_interfaces__rosidl_typesupport_cpp
+[0.210s] [ 34%] Built target comp3431_interfaces__rosidl_typesupport_introspection_cpp
+[0.277s] [ 44%] Built target comp3431_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.293s] [ 55%] Built target comp3431_interfaces__rosidl_typesupport_c
+[0.310s] [ 65%] Built target comp3431_interfaces__rosidl_typesupport_introspection_c
+[0.348s] [ 76%] Built target comp3431_interfaces__rosidl_typesupport_fastrtps_c
+[0.395s] [ 76%] Built target comp3431_interfaces
+[0.439s] [ 78%] Built target comp3431_interfaces__py
+[0.489s] [ 87%] Built target comp3431_interfaces__python
+[0.568s] [ 91%] Built target comp3431_interfaces__rosidl_typesupport_c__pyext
+[0.572s] [ 95%] Built target comp3431_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.576s] [100%] Built target comp3431_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.600s] Invoked command in '/home/rsa2021/py_pub_sub/build/comp3431_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/home/rsa2021/py_pub_sub/install/map_server:/home/rsa2021/dev_ws/install/py_srvcli:/home/rsa2021/dev_ws/install/py_pubsub:/home/rsa2021/dev_ws/install/learning_tf2_py:/home/rsa2021/dev_ws/install/my_package:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher:/home/rsa2021/py_pub_sub/install/comp3431_interfaces:/home/rsa2021/py_pub_sub/install/comp3431_ass3_worlds:/home/rsa2021/dev_ws/install/tutorial_interfaces:/home/rsa2021/dev_ws/install/turtlesim:/home/rsa2021/dev_ws/install/comp3431_interfaces /usr/bin/cmake --build /home/rsa2021/py_pub_sub/build/comp3431_interfaces -- -j3 -l3
+[0.978s] Invoking command in '/home/rsa2021/py_pub_sub/build/comp3431_interfaces': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/home/rsa2021/py_pub_sub/install/map_server:/home/rsa2021/dev_ws/install/py_srvcli:/home/rsa2021/dev_ws/install/py_pubsub:/home/rsa2021/dev_ws/install/learning_tf2_py:/home/rsa2021/dev_ws/install/my_package:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher:/home/rsa2021/py_pub_sub/install/comp3431_interfaces:/home/rsa2021/py_pub_sub/install/comp3431_ass3_worlds:/home/rsa2021/dev_ws/install/tutorial_interfaces:/home/rsa2021/dev_ws/install/turtlesim:/home/rsa2021/dev_ws/install/comp3431_interfaces /usr/bin/cmake --install /home/rsa2021/py_pub_sub/build/comp3431_interfaces
+[0.998s] -- Install configuration: ""
+[0.999s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/ament_index/resource_index/rosidl_interfaces/comp3431_interfaces
+[0.999s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces
+[0.999s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/action
+[0.999s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/action/move_object_to_room.h
+[0.999s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/action/detail
+[0.999s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/action/detail/move_object_to_room__struct.h
+[0.999s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/action/detail/move_object_to_room__functions.h
+[1.000s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/action/detail/move_object_to_room__type_support.h
+[1.000s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/action/detail/move_object_to_room__functions.c
+[1.000s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv
+[1.001s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/map_info.h
+[1.001s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail
+[1.001s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail/map_info__functions.c
+[1.002s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail/map_info__functions.h
+[1.002s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail/map_info__struct.h
+[1.003s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail/map_info__type_support.h
+[1.003s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg
+[1.004s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg/qr_code_block.h
+[1.007s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg/detail
+[1.007s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg/detail/qr_code_block__type_support.h
+[1.008s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg/detail/qr_code_block__struct.h
+[1.008s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg/detail/qr_code_block__functions.c
+[1.008s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg/detail/qr_code_block__functions.h
+[1.008s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.008s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/environment/library_path.sh
+[1.008s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/environment/library_path.dsv
+[1.008s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/libcomp3431_interfaces__rosidl_generator_c.so
+[1.008s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces
+[1.009s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/action
+[1.009s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/action/detail
+[1.009s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/action/detail/move_object_to_room__rosidl_typesupport_fastrtps_c.h
+[1.012s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv
+[1.012s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail
+[1.012s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail/map_info__rosidl_typesupport_fastrtps_c.h
+[1.012s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg
+[1.012s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg/detail
+[1.012s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg/detail/qr_code_block__rosidl_typesupport_fastrtps_c.h
+[1.012s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.012s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/libcomp3431_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.012s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces
+[1.012s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/action
+[1.013s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/action/detail
+[1.013s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/action/detail/dds_fastrtps
+[1.013s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/action/detail/move_object_to_room__rosidl_typesupport_fastrtps_cpp.hpp
+[1.013s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv
+[1.013s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail
+[1.013s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail/dds_fastrtps
+[1.013s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail/map_info__rosidl_typesupport_fastrtps_cpp.hpp
+[1.013s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg
+[1.013s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.013s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg/detail
+[1.013s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg/detail/dds_fastrtps
+[1.013s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg/detail/qr_code_block__rosidl_typesupport_fastrtps_cpp.hpp
+[1.013s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/libcomp3431_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.014s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces
+[1.014s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/action
+[1.014s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/action/detail
+[1.014s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/action/detail/move_object_to_room__rosidl_typesupport_introspection_c.h
+[1.014s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/action/detail/move_object_to_room__type_support.c
+[1.014s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv
+[1.014s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail
+[1.014s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail/map_info__type_support.c
+[1.014s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail/map_info__rosidl_typesupport_introspection_c.h
+[1.014s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg
+[1.014s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg/detail
+[1.014s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg/detail/qr_code_block__type_support.c
+[1.014s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg/detail/qr_code_block__rosidl_typesupport_introspection_c.h
+[1.015s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.015s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/libcomp3431_interfaces__rosidl_typesupport_introspection_c.so
+[1.023s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/libcomp3431_interfaces__rosidl_typesupport_c.so
+[1.024s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces
+[1.024s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/action
+[1.024s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/action/move_object_to_room.hpp
+[1.024s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/action/detail
+[1.024s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/action/detail/move_object_to_room__struct.hpp
+[1.024s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/action/detail/move_object_to_room__builder.hpp
+[1.025s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/action/detail/move_object_to_room__traits.hpp
+[1.025s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv
+[1.025s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/map_info.hpp
+[1.025s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail
+[1.025s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail/map_info__builder.hpp
+[1.025s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail/map_info__traits.hpp
+[1.025s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail/map_info__struct.hpp
+[1.026s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg
+[1.032s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg/qr_code_block.hpp
+[1.032s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg/detail
+[1.032s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg/detail/qr_code_block__traits.hpp
+[1.032s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg/detail/qr_code_block__struct.hpp
+[1.032s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg/detail/qr_code_block__builder.hpp
+[1.032s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces
+[1.032s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/action
+[1.033s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/action/detail
+[1.033s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/action/detail/move_object_to_room__type_support.cpp
+[1.033s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/action/detail/move_object_to_room__rosidl_typesupport_introspection_cpp.hpp
+[1.033s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv
+[1.033s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail
+[1.033s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail/map_info__rosidl_typesupport_introspection_cpp.hpp
+[1.034s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/srv/detail/map_info__type_support.cpp
+[1.034s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg
+[1.034s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg/detail
+[1.034s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg/detail/qr_code_block__rosidl_typesupport_introspection_cpp.hpp
+[1.034s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/include/comp3431_interfaces/msg/detail/qr_code_block__type_support.cpp
+[1.034s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/libcomp3431_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.034s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/libcomp3431_interfaces__rosidl_typesupport_cpp.so
+[1.034s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/environment/pythonpath.sh
+[1.034s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/environment/pythonpath.dsv
+[1.034s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/python3.8/site-packages/comp3431_interfaces/__init__.py
+[1.076s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/python3.8/site-packages/comp3431_interfaces/msg
+[1.076s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/python3.8/site-packages/comp3431_interfaces/msg/__init__.py
+[1.077s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/python3.8/site-packages/comp3431_interfaces/msg/_qr_code_block.py
+[1.077s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/python3.8/site-packages/comp3431_interfaces/msg/_qr_code_block_s.c
+[1.077s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/python3.8/site-packages/comp3431_interfaces/srv
+[1.077s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/python3.8/site-packages/comp3431_interfaces/srv/__init__.py
+[1.078s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/python3.8/site-packages/comp3431_interfaces/srv/_map_info_s.c
+[1.081s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/python3.8/site-packages/comp3431_interfaces/srv/_map_info.py
+[1.081s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/python3.8/site-packages/comp3431_interfaces/action
+[1.081s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/python3.8/site-packages/comp3431_interfaces/action/__init__.py
+[1.081s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/python3.8/site-packages/comp3431_interfaces/action/_move_object_to_room.py
+[1.082s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/python3.8/site-packages/comp3431_interfaces/action/_move_object_to_room_s.c
+[1.083s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/python3.8/site-packages/comp3431_interfaces/comp3431_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.083s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/python3.8/site-packages/comp3431_interfaces/comp3431_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.083s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/python3.8/site-packages/comp3431_interfaces/comp3431_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.083s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/lib/libcomp3431_interfaces__python.so
+[1.084s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/msg/QRCodeBlock.idl
+[1.084s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/srv/MapInfo.idl
+[1.085s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/action/MoveObjectToRoom.idl
+[1.086s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/msg/QRCodeBlock.msg
+[1.086s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/srv/MapInfo.srv
+[1.086s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/srv/MapInfo_Request.msg
+[1.086s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/srv/MapInfo_Response.msg
+[1.087s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/action/MoveObjectToRoom.action
+[1.087s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/ament_index/resource_index/package_run_dependencies/comp3431_interfaces
+[1.088s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/ament_index/resource_index/parent_prefix_path/comp3431_interfaces
+[1.089s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/environment/ament_prefix_path.sh
+[1.089s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/environment/ament_prefix_path.dsv
+[1.090s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/environment/path.sh
+[1.090s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/environment/path.dsv
+[1.090s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/local_setup.bash
+[1.090s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/local_setup.sh
+[1.091s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/local_setup.zsh
+[1.091s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/local_setup.dsv
+[1.092s] -- Installing: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/package.dsv
+[1.092s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/ament_index/resource_index/packages/comp3431_interfaces
+[1.092s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/comp3431_interfaces__rosidl_generator_cExport.cmake
+[1.093s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/comp3431_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.093s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/comp3431_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.093s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/comp3431_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.093s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/comp3431_interfaces__rosidl_typesupport_cExport.cmake
+[1.094s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/comp3431_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.094s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/comp3431_interfaces__rosidl_generator_cppExport.cmake
+[1.095s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/comp3431_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.095s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/comp3431_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.095s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/comp3431_interfaces__rosidl_typesupport_cppExport.cmake
+[1.096s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/comp3431_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.096s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.099s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.099s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.100s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.101s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.101s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.101s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.102s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/comp3431_interfacesConfig.cmake
+[1.102s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/cmake/comp3431_interfacesConfig-version.cmake
+[1.102s] -- Up-to-date: /home/rsa2021/py_pub_sub/install/comp3431_interfaces/share/comp3431_interfaces/package.xml
+[1.113s] Invoked command in '/home/rsa2021/py_pub_sub/build/comp3431_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/rsa2021/py_pub_sub/install/zbar_ros:/home/rsa2021/py_pub_sub/install/zbar_ros_interfaces:/home/rsa2021/py_pub_sub/install/publisher3431:/home/rsa2021/py_pub_sub/install/map_server:/home/rsa2021/dev_ws/install/py_srvcli:/home/rsa2021/dev_ws/install/py_pubsub:/home/rsa2021/dev_ws/install/learning_tf2_py:/home/rsa2021/dev_ws/install/my_package:/opt/ros/foxy:/home/rsa2021/py_pub_sub/install/image_publisher:/home/rsa2021/py_pub_sub/install/comp3431_interfaces:/home/rsa2021/py_pub_sub/install/comp3431_ass3_worlds:/home/rsa2021/dev_ws/install/tutorial_interfaces:/home/rsa2021/dev_ws/install/turtlesim:/home/rsa2021/dev_ws/install/comp3431_interfaces /usr/bin/cmake --install /home/rsa2021/py_pub_sub/build/comp3431_interfaces

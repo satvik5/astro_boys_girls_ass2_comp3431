@@ -18,7 +18,13 @@ class MapActionServer(Node):
     def execute_callback(self, goal_handle):
         self.get_logger().info('Executing goal for {0} to {1}...'.format(goal_handle.request.object,goal_handle.request.room))
         goal_handle.succeed()
-        
+        f=open("map_info.txt", "r")
+        contents = ''
+        if f.mode == 'r':
+                contents =f.read()
+                self.get_logger().info('{0}'.format(contents))
+
+        ###### GENERATING PDDL FILE 3.3 ########
         result = MOTR.Result()
         #result.test = 'goal successfull'
         return result
