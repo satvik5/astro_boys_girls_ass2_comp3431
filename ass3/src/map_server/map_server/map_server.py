@@ -17,7 +17,7 @@ class MapService(Node):
 
     def set_map_info_callback(self, req, res):
     	
-        self.get_logger().info('Incoming request\na: {0}'.format(req.blocks))
+        self.get_logger().info('Incoming request\na: {0}'.format(req.blocks[0].text))
         file_name = 'map_info.txt'
         f = open(file_name, 'w+')  # open file in append mode
         f.write('{0}'.format(req.blocks))

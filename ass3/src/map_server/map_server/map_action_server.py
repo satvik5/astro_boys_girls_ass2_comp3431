@@ -34,14 +34,12 @@ class MapActionServer(Node):
 def createPDDLProblem(object_, room_):
 	f = open("problem.pddl", "w")
 	f.write("(define (problem moveitemtoroom)") 
-	f.write(" (:domain turtlebot3-domain)")  
+	f.write(" (:domain turtlebot3-domain)")
 	# Write all objects in room - TODO:: 
-	f.write(" (:objects")
-	
-	f.write(" )")
-	
+	f.write(" (:objects")	
+	f.write(" )")	
 	# Initialise starting variables 
-	f.write(" (:init ") 
+	f.write(" (:init ")
 	f.write("  (at turtlebot intial-room)") 
 	f.write("  (hand_empty turtlebot)") 
 					# TODO:: 
