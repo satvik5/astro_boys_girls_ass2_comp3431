@@ -44,7 +44,6 @@ class Subscriber3431_ass2(Node):
         self.global_scan = LaserScan()
         self.global_matrix = np.zeros(shape=(3,3))
         self.cam_info = CameraInfo()
-        
 
     def publish_timer(self,clock):
     	self.sim_time = clock
@@ -96,61 +95,6 @@ class Subscriber3431_ass2(Node):
         
         self.get_logger().info("average {0}".format(average))
         
-        
-        ## 360 points only theta_c and -theta_c
-        ################  METHOD 2
-        #for i in range(-90,91):
-        #
-        #       if self.global_scan.ranges[i] == float("inf"):
-        #              continue;
-        #       thetha = i*self.global_scan.angle_increment
-        #       constant = 1.0
-        #       if (i*0.01749303564429283 > (3*math.pi)/2):
-        #              thetha = (2*math.pi)-(i*self.global_scan.angle_increment)
-        #              constant = -1.0
-        #       x_offset = self.global_scan.ranges[i]*math.cos(thetha)
-        #       y_offset = constant*self.global_scan.ranges[i]*math.sin(thetha)
-        #       z_offset = 0.005
-        #      p = np.reshape(self.cam_info.p,(3,4))
-               
-        #       arr = np.array([x_offset,y_offset,z_offset,1])
-        #       res = np.matmul(p,arr.T)
-        #       # res = [u v 1]
-        #       if (abs(centre[0]-res[0])<min_dist):
-        #              min_dist =abs(centre[0]-res[0])
-        #              angle = i*self.global_scan.angle_increment
-        #              qr_range = self.global_scan.ranges[i]
-        #              tester = res
-        #              tester2 = arr
-        #              index= i
-                      
-
-               
-
-        #self.get_logger().info("min_dist {0} angle {1} qr_range {2} tester {3} tester2 {4} centre {5} index {6}".format(min_dist,angle,qr_range,tester,tester2,centre,index))
-        #theta_avg = (theta_l+theta_r)/2
-        #marker = Marker()
-        #marker.header.frame_id = 'base_scan' #'map'
-        #marker.header.stamp = self.get_clock().now().to_msg()
-        #marker.ns = "basic_shapes_ass2"
-        #marker.id = 0
-        #marker.pose.position.x = average*math.cos(theta_avg*math.pi/180)
-        #marker.pose.position.y = average*math.sin(theta_avg*math.pi/180)
-        #marker.pose.position.z = 0.1
-        #marker.pose.orientation.x = 0.0
-        #marker.pose.orientation.y = 0.0
-        #marker.pose.orientation.z = 0.0
-        #marker.pose.orientation.w = 1.0
-        #marker.scale.x = 0.1
-        #marker.scale.y = 0.1
-        #marker.scale.z = 0.1
-        #marker.color.r = 0.0
-        #marker.color.g = 1.0
-        #marker.color.b = 0.0
-        #marker.color.a = 1.0
-        #self.vis.publish(marker)
-        #self.get_logger().info('{0} {1}'.format(self.sim_time.clock,self.get_clock().now().to_msg()))
-
         t = TransformStamped()
         #t.header.stamp = self.get_clock().now().to_msg()
         theta_avg = (theta_l+theta_r)/2
@@ -166,10 +110,7 @@ class Subscriber3431_ass2(Node):
         t.transform.rotation.w = 1.0
         self.br.sendTransform(t)
         self.publisher_.publish(self.sim_time)
-        
-        
-        # in your publisher
-        #br.lookup_transform('map','qr_offset')
+
 
 	
 

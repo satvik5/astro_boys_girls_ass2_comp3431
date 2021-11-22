@@ -29,6 +29,7 @@ class Subscriber3431(Node):
         self._id = 0
         self.tf_listener = TransformListener(self.tf_buffer, self)
 
+        self.barcodes = {}
 
     def point_listener(self, clock):
         #now = rclpy.time.Time()
