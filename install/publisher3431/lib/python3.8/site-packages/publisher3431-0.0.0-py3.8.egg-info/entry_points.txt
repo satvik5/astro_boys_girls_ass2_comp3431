@@ -1,0 +1,5 @@
+[console_scripts]
+listener = publisher3431.subscriber:main
+listener_ass2 = publisher3431.subscriber_ass2:main
+talker = publisher3431.publisher:main
+
