@@ -30,6 +30,30 @@ class MapActionServer(Node):
         #result.test = 'goal successfull'
         return result
 
+# Create the PDDL problem file - TODO:: list of all rooms & objects 
+def createPDDLProblem(object_, room_):
+	f = open("problem.pddl", "w")
+	f.write("(define (problem moveitemtoroom)") 
+	f.write(" (:domain turtlebot3-domain)")  
+	# Write all objects in room - TODO:: 
+	f.write(" (:objects")
+	
+	f.write(" )")
+	
+	# Initialise starting variables 
+	f.write(" (:init ") 
+	f.write("  (at turtlebot intial-room)") 
+	f.write("  (hand_empty turtlebot)") 
+					# TODO:: 
+	f.write(" )") 
+	
+	# Set goal 
+	f.write(" (:goal ") 
+	f.write(" (in " + object_ + " " + room_) 
+	f.write(" )") 
+	f.close() 
+	
+	
 # Run the Problem Solver and store into solutions.txt 
 def runCommand(cmd): 
 	sub = subprocess.Popen("./ff -o domain.pddl -f sample-problem.pddl", shell=True, stdout=subprocess.PIPE) 
