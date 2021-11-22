@@ -3,7 +3,8 @@ from rclpy.action import ActionServer
 from rclpy.node import Node
 
 from comp3431_interfaces.action import MoveObjectToRoom as MOTR
-
+# for function runCommand
+import subprocess 
 
 class MapActionServer(Node):
 
@@ -29,6 +30,15 @@ class MapActionServer(Node):
         #result.test = 'goal successfull'
         return result
 
+# Run the Problem Solver and store into solutions.txt 
+def runCommand(cmd): 
+	sub = subprocess.Popen("./ff -o domain.pddl -f sample-problem.pddl", shell=True, stdout=subprocess.PIPE) 
+	output, err = sub.communicate() 
+	# Wait for process to terminate 
+	sub_status = sub.wait() 
+	with open('solutions.txt', 'w') as f: 
+	f.write(output) 
+	
 
 def main(args=None):
     rclpy.init(args=args)
