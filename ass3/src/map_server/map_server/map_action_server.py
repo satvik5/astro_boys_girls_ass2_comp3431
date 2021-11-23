@@ -83,6 +83,7 @@ def createPDDLProblem(obj_rm,obj,rm):
 # Run the Problem Solver and store into solutions.txt 
 def runCommand(cmd): 
 	sub = subprocess.Popen("cd ass3/src/FF-X && ./ff -o domain.pddl -f sample-problem.pddl > solutions.txt && cd ../../..", shell=True, stdout=subprocess.PIPE).stdout 
+	
 	#output, err = sub.communicate() 
 	#output = sub.read()
 	#print(output)
@@ -90,8 +91,9 @@ def runCommand(cmd):
 	#sub_status = sub.wait() 
 	#with open('solutions.txt', 'w+') as f: 
 	#	f.write('{0}'.format(str(output))) 
-	
+	## .popen(./plan_parser /ass3/src/FF-X/solutions.txt) 
 	#### 3.5 ########## Can't do C++
+	sub = subprocess.Popen("g++ -o ./parser planner.cpp plan_parser.cpp && ./parser ~/astro_boys_girls_ass2_comp3431/ass3/src/FF-X/solutions.txt > parse.txt", shell=True, stdout=subprocess.PIPE).stdout 
 	
 
 def main(args=None):
