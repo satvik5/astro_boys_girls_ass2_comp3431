@@ -8,13 +8,14 @@ int main(int argc, char *argv[])
         printf("No valid arguments given"); 
     } else { 
         PlanParser p(argv[1]); 
-        // p.PlanParser(argv[1]);
+        std::cout << "-----------Generated Plan-----------"; 
         while (p.done() != true) { 
             std::vector<std::string> str = p.getNextStep(); 
-            // std::cout << str << std::endl; 
             for (int i = 0; i < str.size(); i++) { 
-                std::cout << str[i] << std::endl; 
+                std::cout << str[i] << " "; 
             }
+            std::cout << "\n"; 
         }
+        std::cout << "---------End Generated Plan--------- ";
     }
 }
