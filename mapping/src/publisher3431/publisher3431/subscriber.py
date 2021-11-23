@@ -5,6 +5,7 @@ from math import sqrt
 from geometry_msgs.msg import Point32
 
 from time import sleep
+from std_msgs.msg import String
 from visualization_msgs.msg import Marker
 from tf2_ros import TransformException, ExtrapolationException
 from tf2_ros.buffer import Buffer
@@ -25,6 +26,11 @@ class Subscriber3431(Node):
             'topic_qr',
             self.point_listener,
             10)
+        self.barcode_sub = self.create_subscription(
+            String,
+            'barcode_names',
+            self.barcode_listener,
+            10)
         self.subscription  # prevent unused variable warning
         self.publisher = self.create_publisher(Marker,'vis_marker',0)
         self.tf_buffer = Buffer()
@@ -32,7 +38,11 @@ class Subscriber3431(Node):
         self.tf_listener = TransformListener(self.tf_buffer, self)
         # self.tf_listener.waitForTransform('map', 'qr_offset', Duration(3))
 
+        self.barcode_names = []
         self.barcode_locations = []
+
+    def barcode_listener(self, name):
+        self.barcode_names.append(name)
 
     def point_listener(self, clock):
         now = rclpy.time.Time()
@@ -61,7 +71,9 @@ class Subscriber3431(Node):
                 found_match = True
         if found_match == False:
             self.barcode_locations.append(point)
-        self.get_logger().info(f'QR Code locations: {self.barcode_locations}')
+        print("Detected Codes:")
+        for i in range(len(self.barcode_locations)):
+            self.get_logger().info(f'\t{self.barcode_names[i]} = {self.barcode_locations[i]}')
 
         #self.get_logger().info("Points to be visualized are: {0},{1},{2}".format(point.x,point.y,point.z))
         marker = Marker()

@@ -23,8 +23,8 @@ const double MAX_APPROACH_DIST = 0.50;
 
 const double ROBOT_RADIUS = 0.22;
 
-const double MAX_SPEED = 0.4;
-const double MAX_TURN = 1.4;
+const double MAX_SPEED = 0.2;
+const double MAX_TURN = 1.0;
 
 
 class WallFollower : public rclcpp::Node

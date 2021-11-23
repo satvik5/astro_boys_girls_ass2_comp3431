@@ -5,6 +5,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 import rclpy
+from std_msgs.msg import String
 from tf2_ros import TransformException
 from rclpy.node import Node
 from sensor_msgs.msg import LaserScan
@@ -45,7 +46,7 @@ class Subscriber3431_ass2(Node):
         self.global_matrix = np.zeros(shape=(3,3))
         self.cam_info = CameraInfo()
 
-        self.barcode_names_pub = self.create_publisher(Clock, 'barcode_names', 10)
+        self.barcode_names_pub = self.create_publisher(String, 'barcode_names', 10)
         self.barcode_names = []
 
     def publish_timer(self,clock):
@@ -63,6 +64,9 @@ class Subscriber3431_ass2(Node):
             self.barcode_names.append(bar_code.data)
             self.get_logger().info(f"Deteced new barcode: {bar_code.data}")
             self.get_logger().info(f"Current barcodes found: {self.barcode_names}")
+            msg = String()
+            msg.data = bar_code.data
+            self.barcode_names_pub.publish(msg)
         left = min(bar_code.points[0].x,bar_code.points[1].x,bar_code.points[2].x,bar_code.points[3].x)
         right = max(bar_code.points[0].x,bar_code.points[1].x,bar_code.points[2].x,bar_code.points[3].x)
         theta_c = 61.24
