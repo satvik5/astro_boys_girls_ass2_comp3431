@@ -41,7 +41,7 @@ class MapActionServer(Node):
 
 # Create the PDDL problem file - TODO:: list of all rooms & objects 
 def createPDDLProblem(obj_rm,obj,rm):
-	f = open("problem.pddl", "w+")
+	f = open("ass3/src/FF-X/problem.pddl", "w+")
 	f.write("(define (problem moveitemtoroom)\n") 
 	f.write(" (:domain turtlebot3-domain)\n")
 	# Write all objects in room - TODO:: 
@@ -82,7 +82,7 @@ def createPDDLProblem(obj_rm,obj,rm):
 	
 # Run the Problem Solver and store into solutions.txt 
 def runCommand(cmd): 
-	sub = subprocess.Popen("cd ass3/src/FF-X && ./ff -o domain.pddl -f sample-problem.pddl > solutions.txt && cd ../../..", shell=True, stdout=subprocess.PIPE).stdout 
+	sub = subprocess.Popen("cd ass3/src/FF-X && ./ff -o domain.pddl -f problem.pddl > solutions.txt && cd ../../..", shell=True, stdout=subprocess.PIPE).stdout 
 	
 	#output, err = sub.communicate() 
 	#output = sub.read()
