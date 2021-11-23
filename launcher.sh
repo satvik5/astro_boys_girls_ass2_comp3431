@@ -10,5 +10,6 @@ gnome-terminal --tab --title="Simulation" -- bash -ic "./run_simulation.sh"
 sleep 10
 gnome-terminal --tab --title="Wall Follower" -- bash -ic "./run_movement.sh"
 gnome-terminal --tab --title="QR Reader" -- bash -ic "ros2 run zbar_ros barcode_reader"
-gnome-terminal --tab --title="QR Interpreter" -- bash -ic "ros2 run publisher3431 listener_ass2 use_sim_time:=true"
+#gnome-terminal --tab --title="QR Interpreter" -- bash -ic "ros2 run publisher3431 listener_ass2 use_sim_time:=true"
+gnome-terminal --tab --title="QR Interpreter" -- bash -ic "ros2 run publisher3431 listener_ass2"
 gnome-terminal --tab --title="QR transformer" -- bash -ic "ros2 run publisher3431 listener;"

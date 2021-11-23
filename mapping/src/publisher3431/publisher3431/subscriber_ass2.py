@@ -45,42 +45,43 @@ class Subscriber3431_ass2(Node):
         self.global_matrix = np.zeros(shape=(3,3))
         self.cam_info = CameraInfo()
 
+        self.barcode_names_pub = self.create_publisher(Clock, 'barcode_names', 10)
+        self.barcode_names = []
+
     def publish_timer(self,clock):
     	self.sim_time = clock
 	
     def publish_laser(self,scan):
     	self.global_scan = scan
-    	#self.get_logger().info("{0}".format(self.global_scan))
     def publish_matrix(self,camera_info):
     	n = camera_info.k
     	self.cam_info = camera_info
-    	#self.get_logger().info("matrix {0},".format(camera_info))    	
     	self.global_matrix = np.array([[n[0],n[1],n[2]],[n[3],n[4],n[5]],[n[6],n[7],n[8]]])
-    	#self.get_logger().info("{0}".format(self.cam_info))
 
     def barcode_listener(self, bar_code):
+        if bar_code.data not in self.barcode_names:
+            self.barcode_names.append(bar_code.data)
+            self.get_logger().info(f"Deteced new barcode: {bar_code.data}")
+            self.get_logger().info(f"Current barcodes found: {self.barcode_names}")
         left = min(bar_code.points[0].x,bar_code.points[1].x,bar_code.points[2].x,bar_code.points[3].x)
         right = max(bar_code.points[0].x,bar_code.points[1].x,bar_code.points[2].x,bar_code.points[3].x)
         theta_c = 61.24
         theta_l = ((left/640.0 * theta_c) - theta_c/2) * -1 # index 4
         theta_r = ((right/640.0 * theta_c) - theta_c/2) * -1 # index 355
-        self.get_logger().info("{0} {1}".format(left,right))
-        self.get_logger().info("{0} {1}".format(theta_l,theta_r))
+        # self.get_logger().info("{0} {1}".format(left,right))
+        # self.get_logger().info("{0} {1}".format(theta_l,theta_r))
         average = 0.0
         if (theta_r > 0.0):
                filt = list(filter(lambda x: x != float('inf'), self.global_scan.ranges[int(abs(theta_r))+1:int(abs(theta_l))+1]))
                summer = sum(filt)
                length = len(filt)
-               #self.get_logger().info("{0} {1}".format(length,summer))
                if summer != 0:
                       average = summer/length
 
-               #self.get_logger().info("{0} {1} {2}".format(self.global_scan.ranges[int(abs(theta_l))],self.global_scan.ranges[int(abs(theta_l)+1)],average))
         elif (theta_l<0.0):
                filt = list(filter(lambda x: x != float('inf'), self.global_scan.ranges[359-int(abs(theta_r))+1:359-int(abs(theta_l))+1]))
                summer = sum(filt)
                length = len(filt)
-               #self.get_logger().info("{0} {1}".format(length,summer))
                if summer != 0:
                       average = summer/length
 
@@ -89,14 +90,13 @@ class Subscriber3431_ass2(Node):
                filt2 = list(filter(lambda x: x != float('inf'), self.global_scan.ranges[359 - int(abs(theta_r))+1:359]))
                summer = sum(filt1)+sum(filt2)
                length = len(filt1)+len(filt2)
-               #self.get_logger().info("{0} {1}".format(length,summer))
                if summer != 0:
                       average = summer/length
         
-        self.get_logger().info("average {0}".format(average))
+        # self.get_logger().info("average {0}".format(average))
         
         t = TransformStamped()
-        #t.header.stamp = self.get_clock().now().to_msg()
+        t.header.stamp = self.get_clock().now().to_msg()
         theta_avg = (theta_l+theta_r)/2
         t.header.stamp = self.sim_time.clock
         t.header.frame_id = 'base_scan'
@@ -110,6 +110,8 @@ class Subscriber3431_ass2(Node):
         t.transform.rotation.w = 1.0
         self.br.sendTransform(t)
         self.publisher_.publish(self.sim_time)
+
+        
 
 
 	

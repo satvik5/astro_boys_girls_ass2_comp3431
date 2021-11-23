@@ -65,14 +65,16 @@ void WallFollower::callbackScan(const sensor_msgs::msg::LaserScan::SharedPtr sca
 		turn = 0;
 		drive = 0;
 		oscilCount++;
-	}
-	else if (oscilCount > 20) {
-		
+	} else if (oscilCount > 20 && oscilCount <= 25) {
 		std::cout << "DETECTED STUPIDITY" << std::endl;
-		turn = 0.5;
-		drive = -0.6;
+		turn = 0.6;
+		drive = -0.5;
 		oscilCount++;
-		if (oscilCount > 25) oscilCount = 0;
+	} else if (oscilCount > 25) {
+		turn = 0.0;
+		drive = 1.0;
+		oscilCount++;
+		if(oscilCount > 30) oscilCount = 0;
 	} else if (XMaxSide == -INFINITY) {
 		// No hits beside robot, so turn that direction
 		std::cout << "INFINITY" << std::endl;

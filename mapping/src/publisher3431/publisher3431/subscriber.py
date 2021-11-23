@@ -1,10 +1,12 @@
 import rclpy
 from rclpy.node import Node
 
+from math import sqrt
 from geometry_msgs.msg import Point32
 
+from time import sleep
 from visualization_msgs.msg import Marker
-from tf2_ros import TransformException
+from tf2_ros import TransformException, ExtrapolationException
 from tf2_ros.buffer import Buffer
 from tf2_ros.transform_listener import TransformListener
 from geometry_msgs.msg import TransformStamped
@@ -28,16 +30,18 @@ class Subscriber3431(Node):
         self.tf_buffer = Buffer()
         self._id = 0
         self.tf_listener = TransformListener(self.tf_buffer, self)
+        # self.tf_listener.waitForTransform('map', 'qr_offset', Duration(3))
 
-        self.barcodes = {}
+        self.barcode_locations = []
 
     def point_listener(self, clock):
-        #now = rclpy.time.Time()
+        now = rclpy.time.Time()
         #self.get_logger().info('{0}'.format(now))
         try:
-            trans = self.tf_buffer.lookup_transform('map','qr_offset',clock.clock) #,timeout=Duration(seconds=10.0)
-        except TransformException as ex:
-            self.get_logger().info(f'Could not transform qr_offset to map: {ex}')
+            trans = self.tf_buffer.lookup_transform('map','qr_offset',now) #,timeout=Duration(seconds=10.0)
+        except (TransformException) as ex:
+            self.get_logger().info(f'{ex}')
+            # sleep(0.1)
             return
 
 
@@ -46,6 +50,18 @@ class Subscriber3431(Node):
         point.x = trans.transform.translation.x
         point.y = trans.transform.translation.y
         point.z = trans.transform.translation.z
+
+        found_match = False
+        print(len(self.barcode_locations))
+        for p in self.barcode_locations:
+            print(sqrt((p.x - point.x)**2 + (p.y - point.y)**2))
+            if sqrt((p.x - point.x)**2 + (p.y - point.y)**2) < 5.0:
+                p.x = (p.x + point.x)/2
+                p.y = (p.x + point.y)/2
+                found_match = True
+        if found_match == False:
+            self.barcode_locations.append(point)
+        self.get_logger().info(f'QR Code locations: {self.barcode_locations}')
 
         #self.get_logger().info("Points to be visualized are: {0},{1},{2}".format(point.x,point.y,point.z))
         marker = Marker()
