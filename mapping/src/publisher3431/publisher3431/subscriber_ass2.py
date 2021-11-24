@@ -26,11 +26,7 @@ class Subscriber3431_ass2(Node):
     def __init__(self):
         super().__init__('subscriber3431_ass2')
         self.publisher_ = self.create_publisher(Clock, 'topic_qr', 10)
-        self.subscription = self.create_subscription(
-            Symbol,
-            'barcode',
-            self.barcode_listener,
-            10)
+        self.subscription = self.create_subscription(Symbol,'barcode',self.barcode_listener,10)
         self.vis = self.create_publisher(Marker,'vis_marker',0)
         self.br = TransformBroadcaster(self)
         self.subscription  # prevent unused variable warning

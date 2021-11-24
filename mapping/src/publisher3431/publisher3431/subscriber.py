@@ -12,6 +12,7 @@ from tf2_ros.buffer import Buffer
 from tf2_ros.transform_listener import TransformListener
 from geometry_msgs.msg import TransformStamped
 from rosgraph_msgs.msg import Clock
+from zbar_ros_interfaces.msg import Symbol 
 
 from rclpy.duration import Duration
 
@@ -38,7 +39,6 @@ class Subscriber3431(Node):
     def cmd_listener(self, command):
         if command.data == 'stop':
             print('Publishing the collected data to the mapper service...')
-            
 
     def point_listener(self, clock):
         now = rclpy.time.Time()
