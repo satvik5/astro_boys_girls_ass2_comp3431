@@ -46,12 +46,20 @@ def createPDDLProblem(obj_rm,obj,rm):
 	f.write(" (:domain turtlebot3-domain)\n")
 	# Write all objects in room - TODO:: 
 	objects = []
+	obj_ass = []	
 	rooms = []
-	for i in range(0,len(obj_rm)):
+	for i in range(len(obj_rm)):
+		print(obj_rm[i])
 		dummy = obj_rm[i].split(' ')
-		objects.append(dummy[1])
 		rooms.append(dummy[0])
+		for i in range(len(dummy) - 1):
+			obj_ass.append([dummy[0],dummy[i+1]])
+			objects.append(dummy[i+1])
 	
+	print(objects)
+	print(obj_ass)
+	print(rooms)
+
 	f.write(" (:objects\n")
 	f.write("turtlebot - robot\n")
 	f.write("initial-room - room\n")
@@ -67,8 +75,9 @@ def createPDDLProblem(obj_rm,obj,rm):
 	f.write("  (at turtlebot initial-room)\n") 
 	f.write("  (hand_empty turtlebot)\n") 
 					# TODO:: 
-	for k in range(0,len(obj_rm)):
-		f.write("  (in {0} {1})\n".format(objects[k],rooms[k]))				
+	for k in range(0,len(obj_ass)):
+		dumb = obj_ass[k]
+		f.write(' (in {0} {1})\n'.format(dumb[1],dumb[0]))		
 	f.write(" )\n") 
 	
 	# Set goal 

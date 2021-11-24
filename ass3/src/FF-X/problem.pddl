@@ -3,18 +3,28 @@
  (:objects
 turtlebot - robot
 initial-room - room
+storage-room - room
+study - room
 living-room - room
+dining-room - room
+pantry - room
 kitchen - room
-snickers - item
+orange - item
+coffee - item
+banana - item
+fanta - item
 apple - item
  )
  (:init 
   (at turtlebot initial-room)
   (hand_empty turtlebot)
-  (in snickers living-room)
-  (in apple kitchen)
+ (in orange study)
+ (in coffee dining-room)
+ (in banana dining-room)
+ (in fanta kitchen)
+ (in apple kitchen)
  )
  (:goal 
- (in snickers kitchen)
+ (in fanta living-room)
  )
 )
