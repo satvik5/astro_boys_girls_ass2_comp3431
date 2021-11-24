@@ -5,14 +5,17 @@ from math import dist, sqrt
 from geometry_msgs.msg import Point32
 
 from time import sleep
+from rosidl_parser.definition import Array
 from std_msgs.msg import String
 from visualization_msgs.msg import Marker
 from tf2_ros import TransformException, ExtrapolationException
 from tf2_ros.buffer import Buffer
 from tf2_ros.transform_listener import TransformListener
-from geometry_msgs.msg import TransformStamped
+from geometry_msgs.msg import TransformStamped, Pose
 from rosgraph_msgs.msg import Clock
-from zbar_ros_interfaces.msg import Symbol 
+# from zbar_ros_interfaces.msg import Symbol 
+from comp3431_interfaces.srv import MapInfo
+from comp3431_interfaces.msg import QRCodeBlock
 
 from rclpy.duration import Duration
 
@@ -34,11 +37,27 @@ class Subscriber3431(Node):
         self.barcode_locations = []
 
     def barcode_listener(self, name):
-        self.barcode_names.append(name)
+        self.barcode_names.append(name.data)
 
     def cmd_listener(self, command):
+        self.map_svc = self.create_client(MapInfo, '/set_map_info')
         if command.data == 'stop':
             print('Publishing the collected data to the mapper service...')
+            mi = MapInfo.Request()
+            for i in range(len(self.barcode_locations)):
+                qr = QRCodeBlock()
+                qr.text = self.barcode_names[i]
+                p = Pose()
+                p.position.x = self.barcode_locations[i].x
+                p.position.y = self.barcode_locations[i].y
+                p.position.z = 0.0
+                p.orientation.x = 0.0
+                p.orientation.y = 0.0
+                p.orientation.z = 0.0
+                p.orientation.w = 1.0
+                qr.pose = p
+                mi.blocks.append(qr)
+            self.map_svc.call_async(mi)
 
     def point_listener(self, clock):
         now = rclpy.time.Time()
