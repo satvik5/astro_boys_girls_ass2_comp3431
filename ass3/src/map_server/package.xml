@@ -9,6 +9,8 @@
 
   <depend>rclpy</depend>
   <depend> geometry_msgs</depend>
+    <depend> nav2_msgs</depend>
+
 <exec_depend>comp3431_interfaces</exec_depend>
 	
   <test_depend>ament_copyright</test_depend>
