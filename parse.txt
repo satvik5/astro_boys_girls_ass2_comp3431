@@ -1,6 +1,6 @@
 -----------Generated Plan-----------
-move turtlebot initial-room living-room 
-pick turtlebot living-room snickers 
-move turtlebot living-room kitchen 
-place turtlebot kitchen snickers 
+move turtlebot initial-room kitchen 
+pick turtlebot kitchen fanta 
+move turtlebot kitchen living-room 
+place turtlebot living-room fanta 
 ---------End Generated Plan--------- 
