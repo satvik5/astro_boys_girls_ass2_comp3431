@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.node import Node
 
-from math import sqrt
+from math import dist, sqrt
 from geometry_msgs.msg import Point32
 
 from time import sleep
@@ -21,22 +21,13 @@ class Subscriber3431(Node):
 
     def __init__(self):
         super().__init__('subscriber3431')
-        self.subscription = self.create_subscription(
-            Clock,
-            'topic_qr',
-            self.point_listener,
-            10)
-        self.barcode_sub = self.create_subscription(
-            String,
-            'barcode_names',
-            self.barcode_listener,
-            10)
-        self.subscription  # prevent unused variable warning
+        self.subscription = self.create_subscription(Clock,'topic_qr',self.point_listener,10)
+        self.barcode_sub = self.create_subscription(String,'barcode_names',self.barcode_listener,10)
+        self.cmd_sub = self.create_subscription(String,'cmd',self.cmd_listener,10)
         self.publisher = self.create_publisher(Marker,'vis_marker',0)
         self.tf_buffer = Buffer()
         self._id = 0
         self.tf_listener = TransformListener(self.tf_buffer, self)
-        # self.tf_listener.waitForTransform('map', 'qr_offset', Duration(3))
 
         self.barcode_names = []
         self.barcode_locations = []
@@ -44,11 +35,16 @@ class Subscriber3431(Node):
     def barcode_listener(self, name):
         self.barcode_names.append(name)
 
+    def cmd_listener(self, command):
+        if command.data == 'stop':
+            print('Publishing the collected data to the mapper service...')
+            
+
     def point_listener(self, clock):
         now = rclpy.time.Time()
         #self.get_logger().info('{0}'.format(now))
         try:
-            trans = self.tf_buffer.lookup_transform('map','qr_offset',now) #,timeout=Duration(seconds=10.0)
+            trans = self.tf_buffer.lookup_transform('map','qr_offset', now) #,timeout=Duration(seconds=10.0)
         except (TransformException) as ex:
             self.get_logger().info(f'{ex}')
             # sleep(0.1)
@@ -61,16 +57,25 @@ class Subscriber3431(Node):
         point.y = trans.transform.translation.y
         point.z = trans.transform.translation.z
 
-        found_match = False
-        print(len(self.barcode_locations))
-        for p in self.barcode_locations:
-            print(sqrt((p.x - point.x)**2 + (p.y - point.y)**2))
-            if sqrt((p.x - point.x)**2 + (p.y - point.y)**2) < 5.0:
-                p.x = (p.x + point.x)/2
-                p.y = (p.x + point.y)/2
-                found_match = True
-        if found_match == False:
+        if len(self.barcode_locations) + 1 == len(self.barcode_names):
             self.barcode_locations.append(point)
+        if len(self.barcode_locations) == 0:
+            # print("EMPTY")
+            return
+        # print(self.barcode_locations)
+        # print(point)
+        dist_list = [sqrt((p.x - point.x)**2 + (p.y - point.y)**2) for p in self.barcode_locations]
+        list_min = dist_list.index(min(dist_list))
+        # print(dist_list)
+        # print(list_min)
+        self.barcode_locations[list_min].x = (self.barcode_locations[list_min].x  + point.x)/2
+        self.barcode_locations[list_min].y = (self.barcode_locations[list_min].y + point.y)/2
+        # for p in self.barcode_locations:
+        #     if sqrt((p.x - point.x)**2 + (p.y - point.y)**2) < 5.0:
+        #         p.x = (p.x + point.x)/2
+        #         p.y = (p.x + point.y)/2
+        #         found_match = True
+        
         print("Detected Codes:")
         for i in range(len(self.barcode_locations)):
             self.get_logger().info(f'\t{self.barcode_names[i]} = {self.barcode_locations[i]}')

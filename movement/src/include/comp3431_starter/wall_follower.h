@@ -46,6 +46,7 @@ class WallFollower : public rclcpp::Node
 		enum Side {LEFT, RIGHT};
 		Side side;
 		int oscilCount = 0;
+		int goodMoveCount = 0;
 
 		rclcpp::Subscription<std_msgs::msg::String>::SharedPtr commandSub_;
 		rclcpp::Subscription<sensor_msgs::msg::LaserScan>::SharedPtr scanSub_;

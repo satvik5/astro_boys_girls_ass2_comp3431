@@ -65,28 +65,30 @@ void WallFollower::callbackScan(const sensor_msgs::msg::LaserScan::SharedPtr sca
 		turn = 0;
 		drive = 0;
 		oscilCount++;
-	} else if (oscilCount > 20 && oscilCount <= 25) {
+	} else if (oscilCount > 20 && oscilCount <= 28) {
 		std::cout << "DETECTED STUPIDITY" << std::endl;
 		turn = 0.6;
 		drive = -0.5;
 		oscilCount++;
-	} else if (oscilCount > 25) {
+	} else if (oscilCount > 28) {
 		turn = 0.0;
 		drive = 1.0;
 		oscilCount++;
-		if(oscilCount > 30) oscilCount = 0;
+		if(oscilCount > 37) oscilCount = 0; // 33
 	} else if (XMaxSide == -INFINITY) {
 		// No hits beside robot, so turn that direction
 		std::cout << "INFINITY" << std::endl;
 		turn = 1;
 		drive = 0;
 		oscilCount++;
+		goodMoveCount = 0;
 	} else if (XMinFront <= MIN_APPROACH_DIST) {
 		// Blocked side and front, so turn other direction
 		std::cout << "MINMIN" << std::endl;
 		turn = -1;
 		drive = 0;
 		oscilCount++;
+		goodMoveCount = 0;
 	} else {
 		//RCLCPP_INFO(this->get_logger(), "going straight on!");
 		// turn1 = (radius - XS) / 2*radius  // Clipped to range (0..1)
@@ -112,7 +114,11 @@ void WallFollower::callbackScan(const sensor_msgs::msg::LaserScan::SharedPtr sca
 		drive = drive1 * drive2;
 
 		std::cout << drive << " : " << turn << std::endl;
-		// if (abs(drive) < 0.05 && abs(turn) < 0.05) {drive = 1; turn =0;}
+		if (abs(drive) < 0.01 && abs(turn) < 0.04) {drive = 0.1; turn = 0;}
+		goodMoveCount++;
+		if (goodMoveCount == 10 && oscilCount > 0) {
+			oscilCount--; goodMoveCount = 0;
+		}
 	}
 
 	if (side == RIGHT) {
