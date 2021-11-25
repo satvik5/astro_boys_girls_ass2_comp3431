@@ -128,8 +128,10 @@ class MapActionServer(Node):
 						pose.pose.orientation.w = float(self._json['blocks'][i]['pose']['orientation']['w'])
 						pose.header.frame_id = 'map'
 						pose.header.stamp = self.sim_time.clock
-						
+											
 						ntp.pose = pose
+						#self._action_client.wait_for_server()
+
 						self._action_client.send_goal(ntp)
 						break
 						
