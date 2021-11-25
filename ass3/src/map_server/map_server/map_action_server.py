@@ -119,7 +119,7 @@ class MapActionServer(Node):
 						pose = PoseStamped()
 						print(self._json['blocks'][i]['pose']['position']['x'])
 						print(self._json['blocks'][i]['pose']['position']['y'])
-						pose.pose.position.x = float(self._json['blocks'][i]['pose']['position']['x'])+0.5
+						pose.pose.position.x = float(self._json['blocks'][i]['pose']['position']['x'])
 						pose.pose.position.y = float(self._json['blocks'][i]['pose']['position']['y'])
 						pose.pose.position.z = float(self._json['blocks'][i]['pose']['position']['z'])
 						pose.pose.orientation.x = float(self._json['blocks'][i]['pose']['orientation']['x'])

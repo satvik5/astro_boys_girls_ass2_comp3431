@@ -16,16 +16,16 @@ Cueing down from goal distance:    4 into depth [1]
 
 ff: found legal plan as follows
 
-step    0: MOVE TURTLEBOT INITIAL-ROOM STUDY
-        1: PICK TURTLEBOT STUDY ORANGE
-        2: MOVE TURTLEBOT STUDY STORAGE-ROOM
-        3: PLACE TURTLEBOT STORAGE-ROOM ORANGE
+step    0: MOVE TURTLEBOT INITIAL-ROOM KITCHEN
+        1: PICK TURTLEBOT KITCHEN FANTA
+        2: MOVE TURTLEBOT KITCHEN STORAGE-ROOM
+        3: PLACE TURTLEBOT STORAGE-ROOM FANTA
      
 
 time spent:    0.00 seconds instantiating 119 easy, 0 hard action templates
                0.00 seconds reachability analysis, yielding 56 facts and 119 actions
                0.00 seconds creating final representation with 56 relevant facts
                0.00 seconds building connectivity graph
-               0.00 seconds searching, evaluating 6 states, to a max depth of 1
+               0.00 seconds searching, evaluating 7 states, to a max depth of 1
                0.00 seconds total time
 

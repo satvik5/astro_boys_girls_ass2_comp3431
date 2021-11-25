@@ -25,6 +25,6 @@ apple - item
  (in apple kitchen)
  )
  (:goal 
- (in orange storage-room)
+ (in fanta storage-room)
  )
 )

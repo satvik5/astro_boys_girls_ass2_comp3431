@@ -1,6 +1,6 @@
 -----------Generated Plan-----------
-move turtlebot initial-room study 
-pick turtlebot study orange 
-move turtlebot study storage-room 
-place turtlebot storage-room orange 
+move turtlebot initial-room kitchen 
+pick turtlebot kitchen fanta 
+move turtlebot kitchen storage-room 
+place turtlebot storage-room fanta 
 ---------End Generated Plan--------- 
