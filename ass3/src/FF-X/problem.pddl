@@ -16,8 +16,8 @@ fanta - item
 apple - item
  )
  (:init 
-  (at turtlebot initial-room)
-  (hand_empty turtlebot)
+  (at turtlebot initial-room)
+  (hand_empty turtlebot)
  (in orange study)
  (in coffee dining-room)
  (in banana dining-room)
@@ -25,6 +25,6 @@ apple - item
  (in apple kitchen)
  )
  (:goal 
- (in fanta living-room)
+ (in orange storage-room)
  )
 )

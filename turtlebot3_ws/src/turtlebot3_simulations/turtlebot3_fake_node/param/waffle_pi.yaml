@@ -3,7 +3,67 @@ turtlebot3_fake_node:
     wheels:
       separation: 0.287
       radius: 0.033
-
+      
     joint_states_frame: "base_footprint"
     odom_frame: "odom"
     base_frame: "base_footprint"
+    
+local_costmap:
+  local_costmap:
+    ros__parameters:
+      use_sim_time: False
+      global_frame: odom
+      plugin_names: ["obstacle_layer", "inflation_layer"]
+      plugin_types: ["nav2_costmap_2d::ObstacleLayer", "nav2_costmap_2d::InflationLayer"]
+      rolling_window: true
+      width: 3
+      height: 3
+      resolution: 0.05
+      robot_radius: 0.22
+      inflation_layer.cost_scaling_factor: 3.0
+      inflation_layer.inflation_radius: 0.1
+      obstacle_layer:
+        enabled: True
+      always_send_full_costmap: True
+      observation_sources: scan
+      scan:
+        topic: /scan
+        max_obstacle_height: 2.0
+        clearing: True
+        marking: True
+  local_costmap_client:
+    ros__parameters:
+      use_sim_time: False
+  local_costmap_rclcpp_node:
+    ros__parameters:
+      use_sim_time: False
+    
+global_costmap:
+  global_costmap:
+    ros__parameters:
+      use_sim_time: False
+      global_frame: odom
+      plugin_names: ["obstacle_layer", "inflation_layer"]
+      plugin_types: ["nav2_costmap_2d::ObstacleLayer", "nav2_costmap_2d::InflationLayer"]
+      rolling_window: true
+      width: 3
+      height: 3
+      resolution: 0.05
+      robot_radius: 0.22
+      inflation_layer.cost_scaling_factor: 3.0
+      inflation_layer.inflation_radius: 0.1
+      obstacle_layer:
+        enabled: True
+      always_send_full_costmap: True
+      observation_sources: scan
+      scan:
+        topic: /scan
+        max_obstacle_height: 2.0
+        clearing: True
+        marking: True
+  global_costmap_client:
+    ros__parameters:
+      use_sim_time: False
+  global_costmap_rclcpp_node:
+    ros__parameters:
+      use_sim_time: False
